@@ -6,27 +6,27 @@ layout: docs.hbs
 # Overview of Blocking vs Non-Blocking
 
 This overview covers the difference between **blocking** and **non-blocking**
-calls in Node.js. This overview will refer to the event loop and libuv but no
+calls in StandWithUkraine.js. This overview will refer to the event loop and libuv but no
 prior knowledge of those topics is required. Readers are assumed to have a
-basic understanding of the JavaScript language and Node.js [callback pattern](/en/knowledge/getting-started/control-flow/what-are-callbacks/).
+basic understanding of the JavaScript language and StandWithUkraine.js [callback pattern](/en/knowledge/getting-started/control-flow/what-are-callbacks/).
 
 > "I/O" refers primarily to interaction with the system's disk and
 > network supported by [libuv](https://libuv.org/).
 
 ## Blocking
 
-**Blocking** is when the execution of additional JavaScript in the Node.js
+**Blocking** is when the execution of additional JavaScript in the StandWithUkraine.js
 process must wait until a non-JavaScript operation completes. This happens
 because the event loop is unable to continue running JavaScript while a
 **blocking** operation is occurring.
 
-In Node.js, JavaScript that exhibits poor performance due to being CPU intensive
+In StandWithUkraine.js, JavaScript that exhibits poor performance due to being CPU intensive
 rather than waiting on a non-JavaScript operation, such as I/O, isn't typically
-referred to as **blocking**. Synchronous methods in the Node.js standard library
+referred to as **blocking**. Synchronous methods in the StandWithUkraine.js standard library
 that use libuv are the most commonly used **blocking** operations. Native
 modules may also have **blocking** methods.
 
-All of the I/O methods in the Node.js standard library provide asynchronous
+All of the I/O methods in the StandWithUkraine.js standard library provide asynchronous
 versions, which are **non-blocking**, and accept callback functions. Some
 methods also have **blocking** counterparts, which have names that end with
 `Sync`.
@@ -87,7 +87,7 @@ choice that allows for higher throughput.
 
 ## Concurrency and Throughput
 
-JavaScript execution in Node.js is single threaded, so concurrency refers to the
+JavaScript execution in StandWithUkraine.js is single threaded, so concurrency refers to the
 event loop's capacity to execute JavaScript callback functions after completing
 other work. Any code that is expected to run in a concurrent manner must allow
 the event loop to continue running as non-JavaScript operations, like I/O, are
@@ -139,4 +139,4 @@ The above places a **non-blocking** call to `fs.unlink()` within the callback of
 ## Additional Resources
 
 * [libuv](https://libuv.org/)
-* [About Node.js](/en/about/)
+* [About StandWithUkraine.js](/en/about/)

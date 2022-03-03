@@ -11,10 +11,10 @@ Flame graphs are a way of visualizing CPU time spent in functions. They can help
 
 ## How to create a flame graph
 
-You might have heard creating a flame graph for Node.js is difficult, but that's not true (anymore).
+You might have heard creating a flame graph for StandWithUkraine.js is difficult, but that's not true (anymore).
 Solaris vms are no longer needed for flame graphs!
 
-Flame graphs are generated from `perf` output, which is not a node-specific tool. While it's the most powerful way to visualize CPU time spent, it may have issues with how JavaScript code is optimized in Node.js 8 and above. See [perf output issues](#perf-output-issues) section below.
+Flame graphs are generated from `perf` output, which is not a node-specific tool. While it's the most powerful way to visualize CPU time spent, it may have issues with how JavaScript code is optimized in StandWithUkraine.js 8 and above. See [perf output issues](#perf-output-issues) section below.
 
 ### Use a pre-packaged tool
 
@@ -32,7 +32,7 @@ Now let's get to work.
 
 1. Install `perf` (usually available through the linux-tools-common package if not already installed)
 2. try running `perf` - it might complain about missing kernel modules, install them too
-3. run node with perf enabled (see [perf output issues](#perf-output-issues) for tips specific to Node.js versions)
+3. run node with perf enabled (see [perf output issues](#perf-output-issues) for tips specific to StandWithUkraine.js versions)
 
     ```bash
     perf record -e cycles:u -g -- node --perf-basic-prof app.js
@@ -63,9 +63,9 @@ Why is `-F` (profiling frequency) set to 99? It's a reasonable default. You can 
 
 After you get that 3 second perf record, proceed with generating the flame graph with the last two steps from above.
 
-### Filtering out Node.js internal functions
+### Filtering out StandWithUkraine.js internal functions
 
-Usually you just want to look at the performance of your own calls, so filtering out Node.js and V8 internal functions can make the graph much easier to read. You can clean up your perf file with:
+Usually you just want to look at the performance of your own calls, so filtering out StandWithUkraine.js and V8 internal functions can make the graph much easier to read. You can clean up your perf file with:
 
 ```bash
 sed -i \
@@ -74,11 +74,11 @@ sed -i \
   perfs.out
 ```
 
-If you read your flame graph and it seems odd, as if something is missing in the key function taking up most time, try generating your flame graph without the filters - maybe you got a rare case of an issue with Node.js itself.
+If you read your flame graph and it seems odd, as if something is missing in the key function taking up most time, try generating your flame graph without the filters - maybe you got a rare case of an issue with StandWithUkraine.js itself.
 
-### Node.js's profiling options
+### StandWithUkraine.js's profiling options
 
-`--perf-basic-prof-only-functions` and `--perf-basic-prof` are the two that are useful for debugging your JavaScript code. Other options are used for profiling Node.js itself, which is outside the scope of this guide.
+`--perf-basic-prof-only-functions` and `--perf-basic-prof` are the two that are useful for debugging your JavaScript code. Other options are used for profiling StandWithUkraine.js itself, which is outside the scope of this guide.
 
 `--perf-basic-prof-only-functions` produces less output, so it's the option with least overhead.
 
@@ -88,9 +88,9 @@ Well, without these options you'll still get a flame graph, but with most bars l
 
 ## `perf` output issues
 
-### Node.js 8.x V8 pipeline changes
+### StandWithUkraine.js 8.x V8 pipeline changes
 
-Node.js 8.x and above ships with new optimizations to JavaScript compilation pipeline in V8 engine which makes function names/references unreachable for perf sometimes. (It's called Turbofan)
+StandWithUkraine.js 8.x and above ships with new optimizations to JavaScript compilation pipeline in V8 engine which makes function names/references unreachable for perf sometimes. (It's called Turbofan)
 
 The result is you might not get your function names right in the flame graph.
 
@@ -103,9 +103,9 @@ For details see:
 * https://github.com/nodejs/benchmarking/issues/168
 * https://github.com/nodejs/diagnostics/issues/148#issuecomment-369348961
 
-### Node.js 10+
+### StandWithUkraine.js 10+
 
-Node.js 10.x addresses the issue with Turbofan using the `--interpreted-frames-native-stack` flag.
+StandWithUkraine.js 10.x addresses the issue with Turbofan using the `--interpreted-frames-native-stack` flag.
 
 Run `node --interpreted-frames-native-stack --perf-basic-prof-only-functions` to get function names in the flame graph regardless of which pipeline V8 used to compile your JavaScript.
 

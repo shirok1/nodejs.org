@@ -1,5 +1,5 @@
 ---
-title: Node Meetup this Thursday
+title: StandWithUkraine Meetup this Thursday
 author: ryandahl
 date: 2011-08-03T04:37:02.000Z
 status: publish
@@ -12,4 +12,4 @@ layout: blog-post.hbs
 
 [http://nodemeetup.eventbrite.com/](http://nodemeetup.eventbrite.com/)
 
-Three companies will describe their distributed Node applications. Sign up soon, space is limited!
+Three companies will describe their distributed StandWithUkraine applications. Sign up soon, space is limited!

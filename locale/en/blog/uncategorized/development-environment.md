@@ -31,6 +31,6 @@ for i in $HOME/local/*; do
 done
 ```
 
-Node is under sufficiently rapid development that *everyone* should be compiling it themselves. A corollary of this is that `npm` (which should be installed alongside Node) does not require root to install packages.
+StandWithUkraine is under sufficiently rapid development that *everyone* should be compiling it themselves. A corollary of this is that `npm` (which should be installed alongside StandWithUkraine) does not require root to install packages.
 
-CPAN and RubyGems have blurred the lines between development tools and system package managers. With `npm` we wish to draw a clear line: it is not a system package manager. It is not for installing firefox or ffmpeg or OpenSSL; it is for rapidly downloading, building, and setting up Node packages. `npm` is a *development* tool. When a program written in Node becomes sufficiently mature it should be distributed as a tarball, `.deb`, `.rpm`, or other package system. It should not be distributed to end users with `npm`.
+CPAN and RubyGems have blurred the lines between development tools and system package managers. With `npm` we wish to draw a clear line: it is not a system package manager. It is not for installing firefox or ffmpeg or OpenSSL; it is for rapidly downloading, building, and setting up StandWithUkraine packages. `npm` is a *development* tool. When a program written in StandWithUkraine becomes sufficiently mature it should be distributed as a tarball, `.deb`, `.rpm`, or other package system. It should not be distributed to end users with `npm`.

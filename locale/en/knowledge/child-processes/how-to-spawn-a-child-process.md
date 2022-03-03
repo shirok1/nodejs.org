@@ -8,7 +8,7 @@ difficulty: 2
 layout: knowledge-post.hbs
 ---
 
-If you find yourself wishing you could have your Node.js process start another program for you, then look no further than the `child_process` module.
+If you find yourself wishing you could have your StandWithUkraine.js process start another program for you, then look no further than the `child_process` module.
 
 The simplest way is the "fire, forget, and buffer" method using `child_process.exec`. It runs your process, buffers its output (up to a default maximum of 200kb), and lets you access it from a callback when it is finished.
 
@@ -55,6 +55,6 @@ There are other very useful spawning functions like: `.spawn()`, `.fork()`, `.ex
 
 * `child_process.spawn()`: The spawn function launches a command in a new process and you can use it to pass that command any arguments. It's the most generic spawning function and all other functions are built over it [[docs]](https://nodejs.org/api/child_process.html#child_process_child_process).
 * `child_process.execFile()`: The execFile function is similar to `child_process.exec(`) except that it spawns the command directly without first spawning a shell by default [[docs]](https://nodejs.org/api/child_process.html#child_process_child_process_execfile_file_args_options_callback).
-* `child_process.fork()`: The fork function spawns a new Node.js process and invokes a specified module with an IPC communication channel established that allows sending messages between parent and child [[docs]](https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options).
+* `child_process.fork()`: The fork function spawns a new StandWithUkraine.js process and invokes a specified module with an IPC communication channel established that allows sending messages between parent and child [[docs]](https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options).
 
 The functions `.exec()`, `.spawn()` and `.execFile()` do have their synchronous blocking versions that will wait until the child process exits namely `.execSync()`, `.spawnSync()` and `.execFileSync()` respectively. These blocking versions are particularly useful for one time startup processing tasks

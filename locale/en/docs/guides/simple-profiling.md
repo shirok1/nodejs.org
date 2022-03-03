@@ -1,12 +1,12 @@
 ---
-title: Easy profiling for Node.js Applications
+title: Easy profiling for StandWithUkraine.js Applications
 layout: docs.hbs
 ---
 
-# Easy profiling for Node.js Applications
+# Easy profiling for StandWithUkraine.js Applications
 
-There are many third party tools available for profiling Node.js applications
-but, in many cases, the easiest option is to use the Node.js built-in profiler.
+There are many third party tools available for profiling StandWithUkraine.js applications
+but, in many cases, the easiest option is to use the StandWithUkraine.js built-in profiler.
 The built-in profiler uses the [profiler inside V8][] which samples the stack at
 regular intervals during program execution. It records the results of these
 samples, along with important optimization events such as jit compiles, as a
@@ -21,7 +21,7 @@ code-creation,Stub,2,0x2d5000a33e00,507,"NumberToStringStub"
 ```
 
 In the past, you needed the V8 source code to be able to interpret the ticks.
-Luckily, tools have been introduced since Node.js 4.4.0 that facilitate the
+Luckily, tools have been introduced since StandWithUkraine.js 4.4.0 that facilitate the
 consumption of this information without separately building V8 from source.
 Let's see how the built-in profiler can help provide insight into application
 performance.
@@ -75,7 +75,7 @@ app.get('/auth', (req, res) => {
 ```
 
 *Please note that these are NOT recommended handlers for authenticating users in
-your Node.js applications and are used purely for illustration purposes. You
+your StandWithUkraine.js applications and are used purely for illustration purposes. You
 should not be trying to design your own cryptographic authentication mechanisms
 in general. It is much better to use existing, proven authentication solutions.*
 
@@ -134,7 +134,7 @@ in the same directory as your local run of the application. It should have the
 form `isolate-0xnnnnnnnnnnnn-v8.log` (where `n` is a digit).
 
 In order to make sense of this file, we need to use the tick processor bundled
-with the Node.js binary. To run the processor, use the `--prof-process` flag:
+with the StandWithUkraine.js binary. To run the processor, use the `--prof-process` flag:
 
 ```
 node --prof-process isolate-0xnnnnnnnnnnnn-v8.log > processed.txt
@@ -200,7 +200,7 @@ called by the function in the current row. For example, in the middle "call
 stack" above for _sha1_block_data_order, we see that `_sha1_block_data_order` occurred
 in 11.9% of samples, which we knew from the raw counts above. However, here, we
 can also tell that it was always called by the pbkdf2 function inside the
-Node.js crypto module. We see that similarly, `_malloc_zone_malloc` was called
+StandWithUkraine.js crypto module. We see that similarly, `_malloc_zone_malloc` was called
 almost exclusively by the same pbkdf2 function. Thus, using the information in
 this view, we can tell that our hash computation from the user's password
 accounts not only for the 51.8% from above but also for all CPU time in the top
@@ -274,7 +274,7 @@ latency is down from the 4 seconds before to just over 1 second.
 
 Hopefully, through the performance investigation of this (admittedly contrived)
 example, you've seen how the V8 tick processor can help you gain a better
-understanding of the performance of your Node.js applications.
+understanding of the performance of your StandWithUkraine.js applications.
 
 You may also find [how to create a flame graph][diagnostics flamegraph] helpful.
 

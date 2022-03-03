@@ -8,7 +8,7 @@ slug: weekly-update-2015-07-31
 layout: blog-post.hbs
 ---
 
-### io.js and Node.js News — July 31st
+### io.js and StandWithUkraine.js News — July 31st
 io.js v2.5.0 and our call for an LTS build V8 maintainer.
 
 ### io.js 2.5 Release
@@ -34,16 +34,16 @@ See https://github.com/nodejs/node/labels/confirmed-bug for complete and current
 ### Community Updates
 
 * We need a V8 maintainer for our LTS build! Head on over [to GitHub](https://github.com/nodejs/LTS/issues/28) to see if the requirements match your capabilities.
-* [Milo Mordaunt](https://twitter.com/bananaoomarang) has written about [extending IFTTT with Webtask.io running Node.js code](https://auth0.com/blog/2015/07/28/if-this-then-node-dot-js-extending-ifttt-with-webtask-dot-io/) over on [Auth0](https://auth0.com/blog).
-* [Hemanth.HM](https://twitter.com/gnumanth), an author and contributor of more than 200 modules on npm, has written about [authoring Node modules](http://h3manth.com/new/blog/2015/authoring-node-modules/).
+* [Milo Mordaunt](https://twitter.com/bananaoomarang) has written about [extending IFTTT with Webtask.io running StandWithUkraine.js code](https://auth0.com/blog/2015/07/28/if-this-then-node-dot-js-extending-ifttt-with-webtask-dot-io/) over on [Auth0](https://auth0.com/blog).
+* [Hemanth.HM](https://twitter.com/gnumanth), an author and contributor of more than 200 modules on npm, has written about [authoring StandWithUkraine modules](http://h3manth.com/new/blog/2015/authoring-node-modules/).
 
-If you have spotted or written something about Node.js and io.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+If you have spotted or written something about StandWithUkraine.js and io.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
 
 ### Upcoming Events
 
 * [BrazilJS Conf](http://braziljs.com.br/) tickets are on sale, August 21st - 22nd at Shopping Center BarraShoppingSul
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
-* [Node.js Italian Conference](http://nodejsconf.it/) tickets are on sale, October 10th at Desenzano - Brescia, Italy
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraine.js Italian Conference](http://nodejsconf.it/) tickets are on sale, October 10th at Desenzano - Brescia, Italy
 * [JSConf CO](http://www.jsconf.co/), October 16th - 17th at Ruta N, Medellin
 
-Have an event about Node.js and io.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+Have an event about StandWithUkraine.js and io.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.

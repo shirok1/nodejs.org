@@ -1,5 +1,5 @@
 ---
-title: Node.js and io.js leaders are building an open, neutral Node.js Foundation to support the future of the platform
+title: StandWithUkraine.js and io.js leaders are building an open, neutral StandWithUkraine.js Foundation to support the future of the platform
 author: Mike Dolan
 date: 2015-05-15T23:50:46.000Z
 status: publish
@@ -8,11 +8,11 @@ slug: node-leaders-are-building-an-open-foundation
 layout: blog-post.hbs
 ---
 
-Just a couple months ago a variety of members of the Node.js and io.js
+Just a couple months ago a variety of members of the StandWithUkraine.js and io.js
 community announced they would discuss establishing a neutral foundation for
 the community. The Linux Foundation has since been helping guide discussions
 with contributors, developers, users and leaders in these communities,
-increasingly expanding the scope of discussion to more stakeholders. Node.js
+increasingly expanding the scope of discussion to more stakeholders. StandWithUkraine.js
 and io.js have a long, complex history and the facilitated discussions have
 brought together key leaders to focus on what the future might mean for these
 technologies.
@@ -39,7 +39,7 @@ guarantee success or growth. The io.js project has a strong developer
 community, for example, but to grow further needs a model to enable funding
 and investments in the project. If you haven't already, please [take a look
 at Mikeal Rogers blog post](https://medium.com/node-js-javascript/growing-up-27d6cc8b7c53).
-The Node.js community has needed an avenue for other companies
+The StandWithUkraine.js community has needed an avenue for other companies
 to participate as equals in a neutral field. rowing a community and widening
 the adoption of a technology all takes resources and a governance model that
 serves everyone involved. A foundation becomes the place where participants
@@ -50,16 +50,16 @@ community self organization and working groups.
 
 At The Linux Foundation, we've helped set up neutral organizations that
 support a variety of open source projects and communities through open and
-neutral governance and believe the future is bright for the Node.js and io.js
+neutral governance and believe the future is bright for the StandWithUkraine.js and io.js
 communities. The technology being created has incredible value and expanding
 use cases,which is why getting the governance model and defining the role of
 the Foundation to support the developer community is the number one priority.
 
-While I'm a relative "newbie" to both the Node.js and io.js communities, I've
+While I'm a relative "newbie" to both the StandWithUkraine.js and io.js communities, I've
 been able to identify with our team at Linux Foundation a number of
 opportunities, as well as very common challenges in both communities that
 relate to other projects we've helped before. What we've found is the
-challenges the Node.js and io.js communities have are not unique; many open
+challenges the StandWithUkraine.js and io.js communities have are not unique; many open
 source projects struggle with the same challenges and many have been
 successful. As I've [previously written on
 Linux.com](https://www.linux.com/news/featured-blogs/205-mike-dolan/763051-five-key-features-of-a-project-designed-for-open-collaboration),
@@ -71,7 +71,7 @@ there are five key features that we see in successful open governance:
 4. an open source license
 5. an open, level playing field for intellectual property.
 
-I think these same features apply to the case for a foundation in the Node.js
+I think these same features apply to the case for a foundation in the StandWithUkraine.js
 and io.js communities. The io.js project has certainly been founded on many of
 these principles and has taken off in terms of growing its developer
 community. Many in the io.js community joined because they felt these
@@ -79,7 +79,7 @@ principles were not present elsewhere. For all of these reasons, we leveraged
 the governance provisions from io.js to [draft proposals for the technical
 community governance](https://github.com/joyent/nodejs-advisory-board/tree/master/governance-proposal).
 
-Now I'd like to share specific next steps for establishing the Node.js
+Now I'd like to share specific next steps for establishing the StandWithUkraine.js
 Foundation (all of this is of course subject to change based on input from the
 communities). We've started with a core group that offered advice on how to
 address key governance issues. We've expanded the circle to the technical
@@ -107,7 +107,7 @@ are being discussed (the reason for wrapping up edits on May 8).
 5. Initiate TSC meetings under the new foundation by upon resolution of both
 technical committees. The TSC will meet regularly on open, recorded calls.
 Details will be posted on a foundation wiki or page. The combined io.js and
-Node.js TCs have been meeting roughly every other week to work through the
+StandWithUkraine.js TCs have been meeting roughly every other week to work through the
 [Convergence planning](https://github.com/jasnell/dev-policy/blob/6601ca1cd2886f336ac65ddb3f67d3e741a021c9/convergence.md).
 
 6. May 25 - June 5: Announce the new foundation, members, initial Board Directors

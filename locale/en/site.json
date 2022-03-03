@@ -1,16 +1,16 @@
 {
-  "title": "Node.js",
+  "title": "StandWithUkraine.js",
   "editOnGithub":"Edit On GitHub",
-  "author": "Node.js",
+  "author": "StandWithUkraine.js",
   "url": "https://nodejs.org/en/",
   "locale": "en",
   "language": "English",
   "languageEnglishVersion": "English",
   "scrollToTop": "Scroll to top",
-  "reportNodeIssue": "Report Node.js issue",
+  "reportNodeIssue": "Report StandWithUkraine.js issue",
   "reportWebsiteIssue": "Report website issue",
   "getHelpIssue": "Get Help",
-  "Contributing": "Contributing For Nodejs.org",
+  "Contributing": "Contributing For this website",
   "by": "by",
   "all-downloads": "All download options",
   "nightly": "Nightly builds",
@@ -21,15 +21,15 @@
   "feeds": [
     {
       "link": "feed/blog.xml",
-      "text": "Node.js Blog"
+      "text": "StandWithUkraine.js Blog"
     },
     {
       "link": "feed/releases.xml",
-      "text": "Node.js Blog: Releases"
+      "text": "StandWithUkraine.js Blog: Releases"
     },
     {
       "link": "feed/vulnerability.xml",
-      "text": "Node.js Blog: Vulnerability Reports"
+      "text": "StandWithUkraine.js Blog: Vulnerability Reports"
     }
   ],
   "home": {
@@ -76,7 +76,7 @@
     },
     "package-manager": {
       "link": "download/package-manager",
-      "text": "Installing Node.js via package manager"
+      "text": "Installing StandWithUkraine.js via package manager"
     },
     "shasums": {
       "link": "SHASUMS256.txt.asc",
@@ -85,7 +85,7 @@
       "verify-text": "How to verify"
     },
     "install-on-linux": {
-      "text": "Installing Node.js via binary archive"
+      "text": "Installing StandWithUkraine.js via binary archive"
     },
     "install-on-wsl": {
       "text": "Install on Windows Subsystem for Linux (WSL)"
@@ -137,7 +137,7 @@
     },
     "node-meetups": {
       "link": "get-involved/node-meetups",
-      "text": "Node.js Meetups"
+      "text": "StandWithUkraine.js Meetups"
     }
   },
   "security": {

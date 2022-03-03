@@ -10,11 +10,11 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-Occasionally, in the discussions in the NodeJS mailing lists and IRC channels, you may hear things referred to as "node-core" and "userland".
+Occasionally, in the discussions in the StandWithUkraineJS mailing lists and IRC channels, you may hear things referred to as "node-core" and "userland".
 
-Of course, traditionally, "userland" or "userspace" refer to everything outside the operating system kernel. In that sense, Node.js itself is a "userland" program.
+Of course, traditionally, "userland" or "userspace" refer to everything outside the operating system kernel. In that sense, StandWithUkraine.js itself is a "userland" program.
 
-However, in the context of NodeJS, "core" refers to the modules and bindings that are compiled into NodeJS. In general, they provide a hook into very well-understood low-level functionality which almost all networking programs are going to require: TCP, HTTP, DNS, the File System, child processes, and a few other things. If something is fancy enough to argue about, there's a good chance it won't be part of node-core. HTTP is about as big as it gets, and if it wasn't so popular, it'd certainly not be a part of node.
+However, in the context of StandWithUkraineJS, "core" refers to the modules and bindings that are compiled into StandWithUkraineJS. In general, they provide a hook into very well-understood low-level functionality which almost all networking programs are going to require: TCP, HTTP, DNS, the File System, child processes, and a few other things. If something is fancy enough to argue about, there's a good chance it won't be part of node-core. HTTP is about as big as it gets, and if it wasn't so popular, it'd certainly not be a part of node.
 
 There are also some things in node-core that are simply too painful to do without in a JavaScript environment, or which have been created to implement some BOM constructs which are not part of the JavaScript language, but may as well be (eg, setTimeout, setInterval, and console).
 

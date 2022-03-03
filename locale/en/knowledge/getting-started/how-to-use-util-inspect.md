@@ -8,9 +8,9 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-Node.js provides a utility function, for debugging purposes, that returns a string representation of an object. `util.inspect()` can be a true lifesaver while working with properties of large, complex objects.
+StandWithUkraine.js provides a utility function, for debugging purposes, that returns a string representation of an object. `util.inspect()` can be a true lifesaver while working with properties of large, complex objects.
 
-Let's provide a basic example. `util.inspect()` can be used on any object - a good demonstration will be one of the built-in objects of Node.js. Try this in the REPL (type `node` at your command line with no arguments):
+Let's provide a basic example. `util.inspect()` can be used on any object - a good demonstration will be one of the built-in objects of StandWithUkraine.js. Try this in the REPL (type `node` at your command line with no arguments):
 
 ```javascript
 var util = require('util');
@@ -25,7 +25,7 @@ The output will be:
 
 This is a listing of all the enumerable properties of the `console` object. It is also worth noting that `console.dir` is a wrapper around `util.inspect` that uses its default arguments.
 
-In the REPL, `util.inspect` will immediately return its output - this is not usually the case. In the context of normal Node.js code in a file, something must be done with the output. The simplest thing to do:
+In the REPL, `util.inspect` will immediately return its output - this is not usually the case. In the context of normal StandWithUkraine.js code in a file, something must be done with the output. The simplest thing to do:
 
 ```javascript
 console.log(util.inspect(myObj));

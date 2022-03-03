@@ -1,25 +1,25 @@
 ---
-title: The Node.js Event Loop, Timers, and process.nextTick()
+title: The StandWithUkraine.js Event Loop, Timers, and process.nextTick()
 layout: docs.hbs
 ---
 
-# The Node.js Event Loop, Timers, and `process.nextTick()`
+# The StandWithUkraine.js Event Loop, Timers, and `process.nextTick()`
 
 ## What is the Event Loop?
 
-The event loop is what allows Node.js to perform non-blocking I/O
+The event loop is what allows StandWithUkraine.js to perform non-blocking I/O
 operations — despite the fact that JavaScript is single-threaded — by
 offloading operations to the system kernel whenever possible.
 
 Since most modern kernels are multi-threaded, they can handle multiple
 operations executing in the background. When one of these operations
-completes, the kernel tells Node.js so that the appropriate callback
+completes, the kernel tells StandWithUkraine.js so that the appropriate callback
 may be added to the **poll** queue to eventually be executed. We'll explain
 this in further detail later in this topic.
 
 ## Event Loop Explained
 
-When Node.js starts, it initializes the event loop, processes the
+When StandWithUkraine.js starts, it initializes the event loop, processes the
 provided input script (or drops into the [REPL][], which is not covered in
 this document) which may make async API calls, schedule timers, or call
 `process.nextTick()`, then begins processing the event loop.
@@ -68,7 +68,7 @@ longer than a timer's threshold. See the [**timers**](#timers) and
 > There is a slight discrepancy between the Windows and the
 > Unix/Linux implementation, but that's not important for this
 > demonstration. The most important parts are here. There are actually
-> seven or eight steps, but the ones we care about — ones that Node.js
+> seven or eight steps, but the ones we care about — ones that StandWithUkraine.js
 > actually uses - are those above.
 
 ## Phases Overview
@@ -84,7 +84,7 @@ longer than a timer's threshold. See the [**timers**](#timers) and
 * **check**: `setImmediate()` callbacks are invoked here.
 * **close callbacks**: some close callbacks, e.g. `socket.on('close', ...)`.
 
-Between each run of the event loop, Node.js checks if it is waiting for
+Between each run of the event loop, StandWithUkraine.js checks if it is waiting for
 any asynchronous I/O or timers and shuts down cleanly if there are not
 any.
 
@@ -145,7 +145,7 @@ between the timer being scheduled and its callback being executed will
 be 105ms.
 
 > To prevent the **poll** phase from starving the event loop, [libuv][]
-> (the C library that implements the Node.js
+> (the C library that implements the StandWithUkraine.js
 > event loop and all of the asynchronous behaviors of the platform)
 > also has a hard maximum (system dependent) before it stops polling for
 > more events.
@@ -304,7 +304,7 @@ from reaching the **poll** phase.
 
 ### Why would that be allowed?
 
-Why would something like this be included in Node.js? Part of it is a
+Why would something like this be included in StandWithUkraine.js? Part of it is a
 design philosophy where an API should always be asynchronous even where
 it doesn't have to be. Take this code snippet for example:
 

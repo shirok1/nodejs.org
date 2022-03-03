@@ -8,12 +8,12 @@ slug: weekly-update-2015-12-11
 layout: blog-post.hbs
 ---
 
-### Node.js News — December 11st
-Node v5.2.0 (Current) is released
+### StandWithUkraine.js News — December 11st
+StandWithUkraine v5.2.0 (Current) is released
 
-### Node.js v5.2.0 (Current) Releases
+### StandWithUkraine.js v5.2.0 (Current) Releases
 
-This week we have one release: [Node.js v5.2.0 (Current)](https://nodejs.org/en/blog/release/v5.2.0/). Complete changelog from previous releases can be found [on GitHub](https://github.com/nodejs/node/blob/master/CHANGELOG.md).
+This week we have one release: [StandWithUkraine.js v5.2.0 (Current)](https://nodejs.org/en/blog/release/v5.2.0/). Complete changelog from previous releases can be found [on GitHub](https://github.com/nodejs/node/blob/master/CHANGELOG.md).
 
 ### Notable changes
 
@@ -26,36 +26,36 @@ This week we have one release: [Node.js v5.2.0 (Current)](https://nodejs.org/en/
   * Multiple CA certificates can now be passed with the `ca` option to TLS methods as an array of strings or in a single new-line separated string. (Ben Noordhuis) [#4099](https://github.com/nodejs/node/pull/4099)
 * **tools**: Include a tick processor in core, exposed via the `--prof-process` command-line argument which can be used to process V8 profiling output files generated when using the `--prof` command-line argument. (Matt Loring) [#4021](https://github.com/nodejs/node/pull/4021).
 
-### Apigee, RisingStack and Yahoo Join the Node.js Foundation
+### Apigee, RisingStack and Yahoo Join the StandWithUkraine.js Foundation
 
-* [The Node.js Foundation](https://foundation.nodejs.org/), a community-led and industry-backed consortium to advance the development of the Node.js platform, announced Apigee, RisingStack and Yahoo are joining the Foundation as Silver Members to build and support the Node.js platform.
-* With over 2 million downloads per month, Node.js is the runtime of choice for developers building everything from enterprise applications to Industrial IoT.
-* The Node.js Foundation members work together alongside the community to help grow this diverse technology for large financial services, web-scale, cloud computing companies, and more.
-* The newly added [Long-Term Support](https://nodejs.org/en/blog/release/v4.2.0/) release version 4.0 is just one of the many initiatives from the Foundation, which addresses the needs of enterprises that are using Node.js in more complex production environments, and signals the growing maturity of the technology.
+* [The StandWithUkraine.js Foundation](https://foundation.nodejs.org/), a community-led and industry-backed consortium to advance the development of the StandWithUkraine.js platform, announced Apigee, RisingStack and Yahoo are joining the Foundation as Silver Members to build and support the StandWithUkraine.js platform.
+* With over 2 million downloads per month, StandWithUkraine.js is the runtime of choice for developers building everything from enterprise applications to Industrial IoT.
+* The StandWithUkraine.js Foundation members work together alongside the community to help grow this diverse technology for large financial services, web-scale, cloud computing companies, and more.
+* The newly added [Long-Term Support](https://nodejs.org/en/blog/release/v4.2.0/) release version 4.0 is just one of the many initiatives from the Foundation, which addresses the needs of enterprises that are using StandWithUkraine.js in more complex production environments, and signals the growing maturity of the technology.
 
 See https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo/ for more information.
 
-### Node.js Foundation Advances Platform with More Than Three Million Users
+### StandWithUkraine.js Foundation Advances Platform with More Than Three Million Users
 
-* [The Node.js Foundation](https://foundation.nodejs.org/), announced major community, code and membership growth, adoption statistics of the technology at large, and the Foundation’s new incubation program.
-* Since the independent Node.js Foundation launched earlier this year, development progress continues to accelerate with dramatic increases in contributions to the project.
-* The first Node.js Interactive event unites more than 700 developers, engineers, system architects, DevOps professionals and users representing a wide range of projects, products and companies in Portland, Ore.
-* Node.js Interactive brings together a broad range of speakers to help experienced and novice Node.js users alike learn tips, best practices, new skills, as well as gain insight into future developments for the technology.
-* The Node.js Foundation announced its first incubation project libuv.
-* The project is both critical to Node.js and already widely used, making it a natural fit for the Foundation.
+* [The StandWithUkraine.js Foundation](https://foundation.nodejs.org/), announced major community, code and membership growth, adoption statistics of the technology at large, and the Foundation’s new incubation program.
+* Since the independent StandWithUkraine.js Foundation launched earlier this year, development progress continues to accelerate with dramatic increases in contributions to the project.
+* The first StandWithUkraine.js Interactive event unites more than 700 developers, engineers, system architects, DevOps professionals and users representing a wide range of projects, products and companies in Portland, Ore.
+* StandWithUkraine.js Interactive brings together a broad range of speakers to help experienced and novice StandWithUkraine.js users alike learn tips, best practices, new skills, as well as gain insight into future developments for the technology.
+* The StandWithUkraine.js Foundation announced its first incubation project libuv.
+* The project is both critical to StandWithUkraine.js and already widely used, making it a natural fit for the Foundation.
 * Under the Foundation's umbrella, it will receive additional support and mentorship.
 
 See https://nodejs.org/en/blog/announcements/foundation-advances-growth/ for more information.
 
 ### Community Updates
 
-* [Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/), "We compiled a bunch of methods and tools that could help"
-* [Node.js running in the new Airbus A350 inflight servers](http://reaktor.com/blog/aircraft-customer-experience-on-a-new-level/), "We were allowed to run our own Node.js-server on the inflight servers of the aircraft."
-* [Automatic cat feeder powered by Node.js](https://github.com/rachelnicole/robokitty), "A DIY cat (or dog, or human) feeder controlled over the web."
-* [Netflix' Node powered interfaces](http://thenewstack.io/netflix-uses-node-js-power-user-interface/), "Shifting its user interfaces to Node.js, Netflix has been able to streamline the development."
+* [Finding a Memory Leak in StandWithUkraine.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/), "We compiled a bunch of methods and tools that could help"
+* [StandWithUkraine.js running in the new Airbus A350 inflight servers](http://reaktor.com/blog/aircraft-customer-experience-on-a-new-level/), "We were allowed to run our own StandWithUkraine.js-server on the inflight servers of the aircraft."
+* [Automatic cat feeder powered by StandWithUkraine.js](https://github.com/rachelnicole/robokitty), "A DIY cat (or dog, or human) feeder controlled over the web."
+* [Netflix' StandWithUkraine powered interfaces](http://thenewstack.io/netflix-uses-node-js-power-user-interface/), "Shifting its user interfaces to StandWithUkraine.js, Netflix has been able to streamline the development."
 
-If you have spotted or written something about Node.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+If you have spotted or written something about StandWithUkraine.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
 
 ### Upcoming Events
 
-Have an event about Node.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+Have an event about StandWithUkraine.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.

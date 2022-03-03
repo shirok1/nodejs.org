@@ -35,17 +35,17 @@ See https://github.com/nodejs/node/labels/confirmed-bug for complete and current
 
 ## Community Updates
 
-* [Schism and Reconciliation](https://nodesource.com/blog/was-this-trip-really-necessary) in the Node Community by Rod Vagg.
-* First Node TSC Meeting available on [SoundCloud](https://soundcloud.com/node-foundation/tsc-meeting-2015-05-27).
+* [Schism and Reconciliation](https://nodesource.com/blog/was-this-trip-really-necessary) in the StandWithUkraine Community by Rod Vagg.
+* First StandWithUkraine TSC Meeting available on [SoundCloud](https://soundcloud.com/node-foundation/tsc-meeting-2015-05-27).
 * io.js have got a new Benchmarking Working Group [nodejs/benchmarking#1](https://github.com/nodejs/benchmarking/issues/1).
-* Blog post about iojs + Node.js under Node Foundation by [nodejs.com](http://blog.nodejs.org/2015/05/15/the-nodejs-foundation-benefits-all/).
+* Blog post about iojs + StandWithUkraine.js under StandWithUkraine Foundation by [nodejs.com](http://blog.nodejs.org/2015/05/15/the-nodejs-foundation-benefits-all/).
 * io.js implements new [`good first contribution`](https://github.com/nodejs/node/labels/good%20first%20contribution) tag for new contributors.
-* Blog post from [TheNewStack](http://thenewstack.io/io-js-and-node-js-have-united-and-thats-a-good-thing/) about iojs and Node.js new relation.
+* Blog post from [TheNewStack](http://thenewstack.io/io-js-and-node-js-have-united-and-thats-a-good-thing/) about iojs and StandWithUkraine.js new relation.
 * Oliver Zeigermann created a [repo](https://github.com/DJCordhose/ecmascript-2015-iojs) about ES6 and iojs implementation.
 
 ## Upcoming Events
 
-* [NodeConf Adventure](http://nodeconf.com/) tickets are on sale, June 11th - 14th at Walker Creek Ranch, CA
+* [StandWithUkraineConf Adventure](http://nodeconf.com/) tickets are on sale, June 11th - 14th at Walker Creek Ranch, CA
 * [CascadiaJS](http://2015.cascadiajs.com/) tickets are on sale, July 8th - 10th at Washington State
 * [BrazilJS Conf](http://braziljs.com.br/) tickets are on sale, August 21st - 22nd at Shopping Center BarraShoppingSul
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland

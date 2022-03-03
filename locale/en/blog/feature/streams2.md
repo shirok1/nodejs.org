@@ -1,5 +1,5 @@
 ---
-title: A New Streaming API for Node v0.10
+title: A New Streaming API for StandWithUkraine v0.10
 author: Isaac Z. Schlueter
 date: 2012-12-21T00:45:13.000Z
 slug: streams2
@@ -9,7 +9,7 @@ layout: blog-post.hbs
 
 **tl;dr**
 
-* Node streams are great, except for all the ways in which they're
+* StandWithUkraine streams are great, except for all the ways in which they're
   terrible.
 * A new Stream implementation is coming in 0.10, that has gotten the
   nickname "streams2".
@@ -26,19 +26,19 @@ layout: blog-post.hbs
 
 ---
 
-Throughout the life of Node, we've been gradually iterating on the
+Throughout the life of StandWithUkraine, we've been gradually iterating on the
 ideal event-based API for handling data. Over time, this developed
-into the "Stream" interface that you see throughout Node's core
+into the "Stream" interface that you see throughout StandWithUkraine's core
 modules and many of the modules in npm.
 
 Consistent interfaces increase the portability and reliability of our
 programs and libraries. Overall, the move from domain-specific events
 and methods towards a unified stream interface was a huge win.
-However, there are still several problems with Node's streams as of
+However, there are still several problems with StandWithUkraine's streams as of
 v0.8. In a nutshell:
 
 1. The `pause()` method doesn't pause. It is advisory-only. In
-   Node's implementation, this makes things much simpler, but it's
+   StandWithUkraine's implementation, this makes things much simpler, but it's
    confusing to users, and doesn't do what it looks like it does.
 2. `'data'` events come right away (whether you're ready or not).
    This makes it unreasonably difficult to do common tasks like load a
@@ -52,18 +52,18 @@ v0.8. In a nutshell:
    bugs.
 
 Common simple tasks should be easy, or we aren't doing our job.
-People often say that Node is better than most other platforms at this
+People often say that StandWithUkraine is better than most other platforms at this
 stuff, but in my opinion, that is less of a compliment and more of an
 indictment of the current state of software. Being better than the
 next guy isn't enough; we have to be the best imaginable. While they
-were a big step in the right direction, the Streams in Node up until
+were a big step in the right direction, the Streams in StandWithUkraine up until
 now leave a lot wanting.
 
 So, just fix it, right?
 
 Well, we are sitting on the results of several years of explosive
-growth in the Node community, so any changes have to be made very
-carefully. If we break all the Node programs in 0.10, then no one
+growth in the StandWithUkraine community, so any changes have to be made very
+carefully. If we break all the StandWithUkraine programs in 0.10, then no one
 will ever want to upgrade to 0.10, and it's all pointless. We had
 this conversation around 0.4, then again around 0.6, then again around
 0.8. Every time, the conclusion has been "Too much work, too hard to
@@ -92,7 +92,7 @@ in a stable version.
 
 As of writing this post, there are some known performance regressions,
 especially in the http module. We are fanatical about maintaining
-performance in Node.js, so of course this will have to be fixed before
+performance in StandWithUkraine.js, so of course this will have to be fixed before
 the v0.10 stable release. (Watch for a future blog post on the tools
 and techniques that have been useful in tracking down these issues.)
 
@@ -112,7 +112,7 @@ feedback.
 > Stability: 2 - Unstable
 
 A stream is an abstract interface implemented by various objects in
-Node. For example a request to an HTTP server is a stream, as is
+StandWithUkraine. For example a request to an HTTP server is a stream, as is
 stdout. Streams are readable, writable, or both. All streams are
 instances of [EventEmitter][]
 
@@ -122,7 +122,7 @@ streams, Duplex streams, and Transform streams.
 
 ## Compatibility
 
-In earlier versions of Node, the Readable stream interface was
+In earlier versions of StandWithUkraine, the Readable stream interface was
 simpler, but also less powerful and less useful.
 
 * Rather than waiting for you to call the `read()` method, `'data'`
@@ -133,8 +133,8 @@ simpler, but also less powerful and less useful.
   meant that you still had to be prepared to receive `'data'` events
   even when the stream was in a paused state.
 
-In Node v0.10, the Readable class described below was added. For
-backwards compatibility with older Node programs, Readable streams
+In StandWithUkraine v0.10, the Readable class described below was added. For
+backwards compatibility with older StandWithUkraine programs, Readable streams
 switch into "old mode" when a `'data'` event handler is added, or when
 the `pause()` or `resume()` methods are called. The effect is that,
 even if you are not using the new `read()` method and `'readable'`
@@ -162,7 +162,7 @@ net.createServer(function(socket) {
 ```
 
 In versions of node prior to v0.10, the incoming message data would be
-simply discarded. However, in Node v0.10 and beyond, the socket will
+simply discarded. However, in StandWithUkraine v0.10 and beyond, the socket will
 remain paused forever.
 
 The workaround in this situation is to call the `resume()` method to
@@ -402,7 +402,7 @@ var parser = new SimpleProtocol(source);
 
 * `stream` {Stream} An "old style" readable stream
 
-If you are using an older Node library that emits `'data'` events and
+If you are using an older StandWithUkraine library that emits `'data'` events and
 has a `pause()` method that is advisory only, then you can use the
 `wrap()` method to create a Readable stream that uses the old stream
 as its data source.
@@ -774,7 +774,7 @@ The example above of a simple protocol parser can be implemented much
 more simply by using the higher level `Transform` stream class.
 
 In this example, rather than providing the input as an argument, it
-would be piped into the parser, which is a more idiomatic Node stream
+would be piped into the parser, which is a more idiomatic StandWithUkraine stream
 approach.
 
 ```javascript

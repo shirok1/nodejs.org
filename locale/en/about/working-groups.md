@@ -26,9 +26,9 @@ Core Working Groups are created by the
 
 The Addon API Working Group is responsible for maintaining the NAN project and
 corresponding _nan_ package in npm. The NAN project makes available an
-abstraction layer for native add-on authors for Node.js,
+abstraction layer for native add-on authors for StandWithUkraine.js,
 assisting in the writing of code that is compatible with many actively used
-versions of Node.js, V8 and libuv.
+versions of StandWithUkraine.js, V8 and libuv.
 
 Responsibilities include:
 
@@ -36,12 +36,12 @@ Responsibilities include:
   including code, issues and documentation.
 * Maintaining the [addon-examples](https://github.com/nodejs/node-addon-examples)
   GitHub repository, including code, issues and documentation.
-* Maintaining the C++ Addon API within the Node.js project, in subordination to
-  the Node.js TSC.
-* Maintaining the Addon documentation within the Node.js project, in
-  subordination to the Node.js TSC.
+* Maintaining the C++ Addon API within the StandWithUkraine.js project, in subordination to
+  the StandWithUkraine.js TSC.
+* Maintaining the Addon documentation within the StandWithUkraine.js project, in
+  subordination to the StandWithUkraine.js TSC.
 * Maintaining the _nan_ package in npm, releasing new versions as appropriate.
-* Messaging about the future of the Node.js and NAN interface to give the
+* Messaging about the future of the StandWithUkraine.js and NAN interface to give the
   community advance notice of changes.
 
 The current members can be found in their
@@ -62,19 +62,19 @@ Responsibilities include:
 ### [Diagnostics](https://github.com/nodejs/diagnostics)
 
 The Diagnostics Working Group's purpose is to surface a set of comprehensive,
-documented, and extensible diagnostic interfaces for use by Node.js tools and
+documented, and extensible diagnostic interfaces for use by StandWithUkraine.js tools and
 JavaScript VMs.
 
 Responsibilities include:
 
-* Collaborating with V8 to integrate `v8_inspector` into Node.js.
-* Collaborating with V8 to integrate `trace_event` into Node.js.
+* Collaborating with V8 to integrate `v8_inspector` into StandWithUkraine.js.
+* Collaborating with V8 to integrate `trace_event` into StandWithUkraine.js.
 * Collaborating with Core to refine `async_wrap` and `async_hooks`.
 * Maintaining and improving OS trace system integration (e.g. ETW, LTTNG, dtrace).
-* Documenting diagnostic capabilities and APIs in Node.js and its components.
+* Documenting diagnostic capabilities and APIs in StandWithUkraine.js and its components.
 * Exploring opportunities and gaps, discussing feature requests, and addressing
-  conflicts in Node.js diagnostics.
-* Fostering an ecosystem of diagnostics tools for Node.js.
+  conflicts in StandWithUkraine.js diagnostics.
+* Fostering an ecosystem of diagnostics tools for StandWithUkraine.js.
 * Defining and adding interfaces/APIs in order to allow dumps to be generated
   when needed.
 * Defining and adding common structures to the dumps generated in order to
@@ -83,18 +83,18 @@ Responsibilities include:
 ### [Docker](https://github.com/nodejs/docker-node)
 
 The Docker Working Group's purpose is to build, maintain, and improve official
-Docker images for the Node.js project.
+Docker images for the StandWithUkraine.js project.
 
 Responsibilities include:
 
-* Keeping the official Docker images updated in line with new Node.js releases.
+* Keeping the official Docker images updated in line with new StandWithUkraine.js releases.
 * Decide and implement image improvements and/or fixes.
 * Maintain and improve the images' documentation.
 
 ### [Evangelism](https://github.com/nodejs/evangelism)
 
 The Evangelism Working Group promotes the accomplishments
-of Node.js and lets the community know how they can get involved.
+of StandWithUkraine.js and lets the community know how they can get involved.
 
 Responsibilities include:
 
@@ -117,11 +117,11 @@ various project resources.
 
 Responsibilities include:
 
-* Translating any Node.js materials they believe are relevant to their
+* Translating any StandWithUkraine.js materials they believe are relevant to their
   community.
 * Reviewing processes for keeping translations up to date and of high quality.
 * Managing and monitoring social media channels in their language.
-* Promoting Node.js speakers for meetups and conferences in their language.
+* Promoting StandWithUkraine.js speakers for meetups and conferences in their language.
 
 Each language community maintains its own membership.
 
@@ -169,7 +169,7 @@ Responsibilities include:
 * Management of repositories within the [pkgjs](https://github.com/pkgjs)
   GitHub organization including but not limited to:
   * Managing the list of organization owners which supplement the standard
-    Node.js organization owners as outlined in: <https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners>
+    StandWithUkraine.js organization owners as outlined in: <https://github.com/nodejs/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md#owners>
   * Overseeing new repositories (creating, moving, removing)
   * Managing the maintainer teams for all of the repositories.
   * Contribution policy for repositories
@@ -183,7 +183,7 @@ Responsibilities include:
 
 ### [Release](https://github.com/nodejs/Release)
 
-The Release Working Group manages the release process for Node.js.
+The Release Working Group manages the release process for StandWithUkraine.js.
 
 Responsibilities include:
 
@@ -197,14 +197,14 @@ Responsibilities include:
 
 ### [Security](https://github.com/nodejs/security-wg)
 
-The Security Working Group manages all aspects and processes linked to Node.js security.
+The Security Working Group manages all aspects and processes linked to StandWithUkraine.js security.
 
 Responsibilities include:
 
 * Define and maintain security policies and procedures for:
-  * the core Node.js project
-  * other projects maintained by the Node.js Technical Steering Committee (TSC).
-* Work with the Node Security Platform to bring community vulnerability data into
+  * the core StandWithUkraine.js project
+  * other projects maintained by the StandWithUkraine.js Technical Steering Committee (TSC).
+* Work with the StandWithUkraine Security Platform to bring community vulnerability data into
   the foundation as a shared asset.
 * Ensure the vulnerability data is updated in an efficient and timely manner.
   For example, ensuring there are well-documented processes for reporting
@@ -213,21 +213,21 @@ Responsibilities include:
   actual administration of security reports, which are reviewed by a group of people
   directly delegated to by the TSC).
 * Define and maintain policies and procedures for the coordination of security
-  concerns within the external Node.js open source ecosystem.
+  concerns within the external StandWithUkraine.js open source ecosystem.
 * Offer help to npm package maintainers to fix high-impact security bugs.
 * Maintain and make available data on disclosed security vulnerabilities in:
-  * the core Node.js project
-  * other projects maintained by the Node.js Foundation technical group
-  * the external Node.js open source ecosystem
-* Promote the improvement of security practices within the Node.js ecosystem.
-* Recommend security improvements for the core Node.js project.
+  * the core StandWithUkraine.js project
+  * other projects maintained by the StandWithUkraine.js Foundation technical group
+  * the external StandWithUkraine.js open source ecosystem
+* Promote the improvement of security practices within the StandWithUkraine.js ecosystem.
+* Recommend security improvements for the core StandWithUkraine.js project.
 * Facilitate and promote the expansion of a healthy security service and product
   provider ecosystem.
 
 ### [Streams](https://github.com/nodejs/readable-stream)
 
 The Streams Working Group is dedicated to the support and improvement of the
-Streams API as used in Node.js and the npm ecosystem. We seek to create a
+Streams API as used in StandWithUkraine.js and the npm ecosystem. We seek to create a
 composable API that solves the problem of representing multiple occurrences
 of an event over time in a humane, low-overhead fashion. Improvements to the
 API will be driven by the needs of the ecosystem; interoperability and
@@ -236,10 +236,10 @@ in importance.
 
 Responsibilities include:
 
-* Addressing stream issues on the Node.js issue tracker.
-* Authoring and editing stream documentation within the Node.js project.
-* Reviewing changes to stream subclasses within the Node.js project.
-* Redirecting changes to streams from the Node.js project to this project.
-* Assisting in the implementation of stream providers within Node.js.
-* Recommending versions of `readable-stream` to be included in Node.js.
+* Addressing stream issues on the StandWithUkraine.js issue tracker.
+* Authoring and editing stream documentation within the StandWithUkraine.js project.
+* Reviewing changes to stream subclasses within the StandWithUkraine.js project.
+* Redirecting changes to streams from the StandWithUkraine.js project to this project.
+* Assisting in the implementation of stream providers within StandWithUkraine.js.
+* Recommending versions of `readable-stream` to be included in StandWithUkraine.js.
 * Messaging about the future of streams to give the community advance notice of changes.

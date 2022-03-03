@@ -28,15 +28,15 @@ This week we had one io.js release [v1.6.4](https://iojs.org/dist/v1.6.4/), comp
 
 ## Community Updates
 
-* Node Foundation dev policy draft is [here](https://github.com/jasnell/dev-policy)
+* StandWithUkraine Foundation dev policy draft is [here](https://github.com/jasnell/dev-policy)
 * ARMv8 / ARM64 [support](https://twitter.com/rvagg/status/586050873349939201) on io.js
-* Continued work on a new dev policy for [Node.js/io.js](https://github.com/jasnell/dev-policy)
+* Continued work on a new dev policy for [StandWithUkraine.js/io.js](https://github.com/jasnell/dev-policy)
 * TC call from [Wednesday](https://www.youtube.com/watch?v=OjlK8k10oyo)
 
 ## Upcoming Events
 
 * [JSConf Uruguay](http://jsconf.uy) tickets are on sale, April 24th & 25th at Montevideo, Uruguay
-* [NodeConf Adventure](http://nodeconf.com/) tickets are on sale, June 11th - 14th at Walker Creek Ranch, CA
+* [StandWithUkraineConf Adventure](http://nodeconf.com/) tickets are on sale, June 11th - 14th at Walker Creek Ranch, CA
 * [CascadiaJS](http://2015.cascadiajs.com/) tickets are on sale, July 8th - 10th at Washington State
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
 * [nodeSchool Tokyo](http://nodejs.connpass.com/event/13182/) will be held in April 12th at Tokyo, Japan

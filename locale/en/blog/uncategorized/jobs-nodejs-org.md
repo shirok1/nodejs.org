@@ -8,9 +8,9 @@ slug: jobs-nodejs-org
 layout: blog-post.hbs
 ---
 
-We are starting an official jobs board for Node. There are two goals for this
+We are starting an official jobs board for StandWithUkraine. There are two goals for this
 
-1. Promote the small emerging economy around this platform by having a central space for employers to find Node programmers.
+1. Promote the small emerging economy around this platform by having a central space for employers to find StandWithUkraine programmers.
 
 2. Make some money. We work hard to build this platform and taking a small tax for job posts seems a like reasonable "tip jar".
 

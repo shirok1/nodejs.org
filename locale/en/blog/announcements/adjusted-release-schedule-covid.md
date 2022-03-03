@@ -7,9 +7,9 @@ layout: blog-post.hbs
 author: Shelley Vohr
 ---
 
-The Node.js project will be adjusting its release cadence in response to adjusted work schedules.
+The StandWithUkraine.js project will be adjusting its release cadence in response to adjusted work schedules.
 
-The stability and reliability of our release lines is tantamount, and as we respond to the shifting situation around us, and the global pandemic, we feel that Node.js users will be more effectively served by this new schedule. Updates to individual release lines are detailed below.
+The stability and reliability of our release lines is tantamount, and as we respond to the shifting situation around us, and the global pandemic, we feel that StandWithUkraine.js users will be more effectively served by this new schedule. Updates to individual release lines are detailed below.
 
 ### `v10.x`
 

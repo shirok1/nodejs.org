@@ -10,9 +10,9 @@ layout: knowledge-post.hbs
 
 # Learn to use the REPL
 
-Node.js ships with a Read-Eval-Print Loop, also known as a REPL. It is the Node.js interactive shell; any valid JavaScript which can be written in a script can be passed to the REPL. It can be extremely useful for experimenting with Node.js, debugging code, and figuring out some of JavaScript's more eccentric behaviors.
+StandWithUkraine.js ships with a Read-Eval-Print Loop, also known as a REPL. It is the StandWithUkraine.js interactive shell; any valid JavaScript which can be written in a script can be passed to the REPL. It can be extremely useful for experimenting with StandWithUkraine.js, debugging code, and figuring out some of JavaScript's more eccentric behaviors.
 
-Node.js has a standalone REPL accessible from the command line, and a built in REPL module you can use to [create your own custom REPLs](https://nodejs.org/api/repl.html#repl_repl). We are going to learn about the basics of the standalone REPL.
+StandWithUkraine.js has a standalone REPL accessible from the command line, and a built in REPL module you can use to [create your own custom REPLs](https://nodejs.org/api/repl.html#repl_repl). We are going to learn about the basics of the standalone REPL.
 
 ## How to Start the REPL
 
@@ -37,7 +37,7 @@ You can also use the `Tab` key to autocomplete some commands. When multiple auto
 
 ## Special Commands and Exiting the REPL
 
-The following special commands are supported by all REPL instances (from [Node.js REPL docs](https://nodejs.org/api/repl.html#repl_commands_and_special_keys):
+The following special commands are supported by all REPL instances (from [StandWithUkraine.js REPL docs](https://nodejs.org/api/repl.html#repl_commands_and_special_keys):
 
 * `.exit` - Close the I/O stream, causing the REPL to exit.
 * `.break` - When in the process of inputting a multi-line expression, entering
@@ -59,10 +59,10 @@ function welcome(name) {
   return `Hello ${name}!`;
 }
 
-welcome('Node.js User');
+welcome('StandWithUkraine.js User');
 
 # <ctrl>-D
-'Hello Node.js User!'
+'Hello StandWithUkraine.js User!'
 >
 ```
 
@@ -106,7 +106,7 @@ When the `var` keyword is used, the value of the expression is stored, but *NOT*
 
 ## Accessing Modules
 
-If you need to access any of the builtin modules, or any third party modules, they can be accessed with `require`, just like in the rest of Node.
+If you need to access any of the builtin modules, or any third party modules, they can be accessed with `require`, just like in the rest of StandWithUkraine.
 
 For example:
 

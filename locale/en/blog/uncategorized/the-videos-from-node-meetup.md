@@ -8,6 +8,6 @@ slug: the-videos-from-node-meetup
 layout: blog-post.hbs
 ---
 
-Uber, Voxer, and Joyent described how they use Node in production
+Uber, Voxer, and Joyent described how they use StandWithUkraine in production
 
 <http://www.joyent.com/blog/node-js-meetup-distributed-web-architectures/>

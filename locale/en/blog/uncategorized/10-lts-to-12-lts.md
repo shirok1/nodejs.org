@@ -1,21 +1,21 @@
 ---
 date: 2019-10-20T12:00:00.000Z
 category: Uncategorized
-title: The Difference Between Node.js 10 LTS and Node.js 12 LTS
+title: The Difference Between StandWithUkraine.js 10 LTS and StandWithUkraine.js 12 LTS
 slug: the-difference-between-node-js-10-lts-and-node-js-12-lts
 layout: blog-post.hbs
 author: Tierney Cyren
 ---
 
-With the transition of Node.js 12 from Current into LTS, a suite of new features are now available inside Node.js LTS release lines!
+With the transition of StandWithUkraine.js 12 from Current into LTS, a suite of new features are now available inside StandWithUkraine.js LTS release lines!
 
 In each release's changelog, we capture notable changes. But going through over two dozen individual release notes to find those can be a bit daunting.
 
-As such, I've pulled together **all release notes** from every release from Node.js 11.0.0 to 12.12.0 and included an even higher level "Best of the Best: Most Notable Changes" section that allows you to see what some of the biggest changes are between Node.js v10.x LTS at launch and Node.js v12.x LTS at launch.
+As such, I've pulled together **all release notes** from every release from StandWithUkraine.js 11.0.0 to 12.12.0 and included an even higher level "Best of the Best: Most Notable Changes" section that allows you to see what some of the biggest changes are between StandWithUkraine.js v10.x LTS at launch and StandWithUkraine.js v12.x LTS at launch.
 
 ## Best of the Best: Most Notable Changes
 
-This section is a highlight of the most notable changes, as selected from all "[Notable Changes](#notable-changes)" from every release since Node.js v10 went LTS.
+This section is a highlight of the most notable changes, as selected from all "[Notable Changes](#notable-changes)" from every release since StandWithUkraine.js v10 went LTS.
 
 * **assert**:
   * Legacy mode deprecation (`DEP0089`) is revoked (Colin Ihrig) [#28892](https://github.com/nodejs/node/pull/28892)
@@ -25,15 +25,15 @@ This section is a highlight of the most notable changes, as selected from all "[
   * Added brotli support (Anna Henningsen and Zach Vacura) [#24938](https://github.com/nodejs/node/pull/24938)
 * **deps**:
   * libuv
-    * Now shipping libuv 1.32.0, and all previous updates since the latest version of libuv that shipped in Node.js v10 LTS.
+    * Now shipping libuv 1.32.0, and all previous updates since the latest version of libuv that shipped in StandWithUkraine.js v10 LTS.
   * npm
-    * Now shipping npm 6.12.0, and all previous updates since the latest version of npm that shipped in Node.js v10 LTS.
+    * Now shipping npm 6.12.0, and all previous updates since the latest version of npm that shipped in StandWithUkraine.js v10 LTS.
     * For more details, see the [npm releases' changelog](https://github.com/npm/cli/releases).
   * OpenSSL
-    * Now shipping OpenSSL 1.1.1d, and all previous updates since the latest version of OpenSSL that shipped in Node.js v10 LTS.
+    * Now shipping OpenSSL 1.1.1d, and all previous updates since the latest version of OpenSSL that shipped in StandWithUkraine.js v10 LTS.
     * For more details, see the [OpenSSL releases' changelog](https://www.openssl.org/news/changelog.html)
   * V8
-    * Now shipping V8 7.7.299.13, and all previous updates since the latest version of V8 that shipped in Node.js v10 LTS.
+    * Now shipping V8 7.7.299.13, and all previous updates since the latest version of V8 that shipped in StandWithUkraine.js v10 LTS.
     * For more details, see the [release posts on the V8 blog](https://v8.dev/blog).
   * ICU
     * Now requiring minimum ICU 63 [#25852](https://github.com/nodejs/node/pull/25852)
@@ -54,7 +54,7 @@ This section is a highlight of the most notable changes, as selected from all "[
   * implement `os.type()` using `uv_os_uname()` (cjihrig) [#25659](https://github.com/nodejs/node/pull/25659)
 * **policy**:
   * Experimental support for module integrity checks through a manifest file is implemented now. [nodejs/node#23834](https://github.com/nodejs/node/pull/23834)
-  * Added `--policy-integrity=sri` CLI option to mitigate policy tampering. If a policy integrity is specified and the policy does not have that integrity, Node.js will error prior to running any code (Bradley Farias) [#28734](https://github.com/nodejs/node/pull/28734).
+  * Added `--policy-integrity=sri` CLI option to mitigate policy tampering. If a policy integrity is specified and the policy does not have that integrity, StandWithUkraine.js will error prior to running any code (Bradley Farias) [#28734](https://github.com/nodejs/node/pull/28734).
 * **process**:
   * Add source-map support to stack traces by using `--enable-source-maps`[#29564](https://github.com/nodejs/node/pull/29564)
   * A new method, `process.resourceUsage()` was added. It returns resource usage for the current process, such as CPU time [#28018](https://github.com/nodejs/node/pull/28018).
@@ -86,11 +86,11 @@ Additionally, additions to collaborators and TSC:
 
 ## Notable Changes
 
-The "Notable Changes" section is something that's included in every set of release notes for Node.js. It's intended to specifically highlight anything that's above and beyond typical fixes, tweaks, docs, and test additions – something that many developers would benefit from knowing shipped.
+The "Notable Changes" section is something that's included in every set of release notes for StandWithUkraine.js. It's intended to specifically highlight anything that's above and beyond typical fixes, tweaks, docs, and test additions – something that many developers would benefit from knowing shipped.
 
-Here, we've collected notable changes for every release since Node.js v10 went LTS.
+Here, we've collected notable changes for every release since StandWithUkraine.js v10 went LTS.
 
-### Notable Changes in Node.js 11.0.0
+### Notable Changes in StandWithUkraine.js 11.0.0
 
 * Build
   * FreeBSD 10 is no longer supported. [#22617](https://github.com/nodejs/node/pull/22617)
@@ -107,7 +107,7 @@ Here, we've collected notable changes for every release since Node.js v10 went L
 * `http`
   * The `http`, `https`, and `tls` modules now use the WHATWG URL parser by default. [#20270](https://github.com/nodejs/node/pull/20270)
 * General
-  * Use of `process.binding()` has been deprecated. Userland code using `process.binding()` should re-evaluate that use and begin migrating. If there are no supported API alternatives, please open an issue in the Node.js GitHub repository so that a suitable alternative may be discussed.
+  * Use of `process.binding()` has been deprecated. Userland code using `process.binding()` should re-evaluate that use and begin migrating. If there are no supported API alternatives, please open an issue in the StandWithUkraine.js GitHub repository so that a suitable alternative may be discussed.
   * An experimental implementation of `queueMicrotask()` has been added. [#22951](https://github.com/nodejs/node/pull/22951)
 * Internal
   * Windows performance-counter support has been removed. [#22485](https://github.com/nodejs/node/pull/22485)
@@ -120,7 +120,7 @@ Here, we've collected notable changes for every release since Node.js v10 went L
   * `util.inspect()` output size is limited to 128 MB by default. [#22756](https://github.com/nodejs/node/pull/22756)
   * A runtime warning will be emitted when `NODE_DEBUG` is set for either `http` or `http2`. [#21914](https://github.com/nodejs/node/pull/21914)
 
-### Notable Changes in Node.js 11.1.0
+### Notable Changes in StandWithUkraine.js 11.1.0
 
 * **deps**
   * Updated ICU to 63.1. [#23715](https://github.com/nodejs/node/pull/23715)
@@ -129,7 +129,7 @@ Here, we've collected notable changes for every release since Node.js v10 went L
 * **timers**
   * Fixed an issue that could cause timers to enter an infinite loop. [#23870](https://github.com/nodejs/node/pull/23870)
 
-### Notable Changes in Node.js 11.2.0
+### Notable Changes in StandWithUkraine.js 11.2.0
 
 * **deps**:
   * A new experimental HTTP parser (`llhttp`) is now supported. https://github.com/nodejs/node/pull/24059
@@ -148,13 +148,13 @@ Here, we've collected notable changes for every release since Node.js v10 went L
   * [psmarshall](https://github.com/psmarshall) - Peter Marshall. https://github.com/nodejs/node/pull/24170
   * [shisama](https://github.com/shisama) - Masashi Hirano. https://github.com/nodejs/node/pull/24136
 
-### Notable Changes in Node.js 11.3.0 (Security Release)
+### Notable Changes in StandWithUkraine.js 11.3.0 (Security Release)
 
 Fixes for the following CVEs are included in this release:
 
-* Node.js: Denial of Service with large HTTP headers (CVE-2018-12121)
-* Node.js: Slowloris HTTP Denial of Service (CVE-2018-12122 / Node.js)
-* Node.js: Hostname spoofing in URL parser for javascript protocol (CVE-2018-12123)
+* StandWithUkraine.js: Denial of Service with large HTTP headers (CVE-2018-12121)
+* StandWithUkraine.js: Slowloris HTTP Denial of Service (CVE-2018-12122 / StandWithUkraine.js)
+* StandWithUkraine.js: Hostname spoofing in URL parser for javascript protocol (CVE-2018-12123)
 * OpenSSL: Timing vulnerability in DSA signature generation (CVE-2018-0734)
 * OpenSSL: Timing vulnerability in ECDSA signature generation (CVE-2019-0735)
 
@@ -164,7 +164,7 @@ Fixes for the following CVEs are included in this release:
   * A timeout of 40 seconds now applies to servers receiving HTTP headers. This value can be adjusted with `server.headersTimeout`. Where headers are not completely received within this period, the socket is destroyed on the next received chunk. In conjunction with `server.setTimeout()`, this aids in protecting against excessive resource retention and possible Denial of Service. Reported by Jan Maybach ([liebdich.com](https://liebdich.com)). (CVE-2018-12122 / Matteo Collina)
 * **url**: Fix a bug that would allow a hostname being spoofed when parsing URLs with `url.parse()` with the `'javascript:'` protocol. Reported by [Martin Bajanik](https://twitter.com/_bayotop) ([Kentico](https://kenticocloud.com/)). (CVE-2018-12123 / Matteo Collina)
 
-### Notable Changes in Node.js 11.4.0
+### Notable Changes in StandWithUkraine.js 11.4.0
 
 * **console,util**:
   * `console` functions now handle symbols as defined in the spec. https://github.com/nodejs/node/pull/23708
@@ -188,14 +188,14 @@ Fixes for the following CVEs are included in this release:
 * **Added new collaborator**:
   * [antsmartian](https://github.com/antsmartian) - Anto Aravinth. https://github.com/nodejs/node/pull/24655
 
-### Notable Changes in Node.js 11.5.0
+### Notable Changes in StandWithUkraine.js 11.5.0
 
 * **tls**:
   * support "BEGIN TRUSTED CERTIFICATE" for ca: (Sam Roberts) [#24733](https://github.com/nodejs/node/pull/24733)
 * **util**:
   * add inspection getter option (Ruben Bridgewater) [#24852](https://github.com/nodejs/node/pull/24852)
 
-### Notable Changes in Node.js 11.6.0
+### Notable Changes in StandWithUkraine.js 11.6.0
 
 * **cli**:
   * add --max-http-header-size flag (cjihrig) [#24811](https://github.com/nodejs/node/pull/24811)
@@ -209,7 +209,7 @@ Fixes for the following CVEs are included in this release:
 * **http**:
   * add maxHeaderSize property (cjihrig) [#24860](https://github.com/nodejs/node/pull/24860)
 
-### Notable Changes in Node.js 11.7.0
+### Notable Changes in StandWithUkraine.js 11.7.0
 
 * **compression / zlib**:
   * Added brotli support (Anna Henningsen and Zach Vacura) [#24938](https://github.com/nodejs/node/pull/24938)
@@ -228,7 +228,7 @@ Fixes for the following CVEs are included in this release:
 * **worker**:
   * Expose workers by default and remove `--experimental-worker` flag (Anna Henningsen) [#25361](https://github.com/nodejs/node/pull/25361)
 
-### Notable Changes in Node.js 11.8.0
+### Notable Changes in StandWithUkraine.js 11.8.0
 
 * **events**:
   * For unhandled `error` events with an argument that is not an `Error` object, the resulting exeption will have more information about the argument. [nodejs/node#25621](https://github.com/nodejs/node/pull/25621)
@@ -244,16 +244,16 @@ Fixes for the following CVEs are included in this release:
   * `tls.connect()` takes a `timeout` option analogous to the `net.connect()` one. [nodejs/node#25517](https://github.com/nodejs/node/pull/25517)
 * **worker**:
   * `process.umask()` is available as a read-only function inside Worker threads now [nodejs/node#25526](https://github.com/nodejs/node/pull/25526)
-  * An `execArgv` option that supports a subset of Node.js command line options is supported now. [nodejs/node#25467](https://github.com/nodejs/node/pull/25467)
+  * An `execArgv` option that supports a subset of StandWithUkraine.js command line options is supported now. [nodejs/node#25467](https://github.com/nodejs/node/pull/25467)
 
-### Notable Changes in Node.js 11.9.0
+### Notable Changes in StandWithUkraine.js 11.9.0
 
 * **deps**:
   * OpenSSL has been updated to 1.1.1a, which is API/ABI compatible with the
     previous OpenSSL 1.1.0j. Note that while OpenSSL 1.1.1a supports TLS1.3,
-    Node.js still does not. [#25381](https://github.com/nodejs/node/pull/25582))
+    StandWithUkraine.js still does not. [#25381](https://github.com/nodejs/node/pull/25582))
 
-### Notable Changes in Node.js 11.10.0
+### Notable Changes in StandWithUkraine.js 11.10.0
 
 * **deps**
   * Updated libuv to 1.26.0. [#26037](https://github.com/nodejs/node/pull/26037)
@@ -269,15 +269,15 @@ Fixes for the following CVEs are included in this release:
 * **tls**
   * Introduced client "session" event. [#25831](https://github.com/nodejs/node/pull/25831)
 
-### Notable Changes in Node.js 11.10.1 (Security Release)
+### Notable Changes in StandWithUkraine.js 11.10.1 (Security Release)
 
 A fix for the following CVE is included in this release:
 
-* Node.js: Slowloris HTTP Denial of Service with keep-alive (CVE-2019-5737)
+* StandWithUkraine.js: Slowloris HTTP Denial of Service with keep-alive (CVE-2019-5737)
 
 * **http**: Further prevention of "Slowloris" attacks on HTTP and HTTPS connections by consistently applying the receive timeout set by `server.headersTimeout` to connections in keep-alive mode. Reported by Marco Pracucci ([Voxnest](https://voxnest.com)). (CVE-2019-5737 / Matteo Collina)
 
-### Notable Changes in Node.js 11.11.0
+### Notable Changes in StandWithUkraine.js 11.11.0
 
 * **n-api**:
   * Implement date object (Jarrod Connolly) [#25917](https://github.com/nodejs/node/pull/25917)
@@ -287,7 +287,7 @@ A fix for the following CVE is included in this release:
   * Improve integration with native addons (Anna Henningsen) [#26175](https://github.com/nodejs/node/pull/26175)
   * MessagePort.prototype.onmessage takes arguments closer to the Web specification now (Anna Henningsen) [#26082](https://github.com/nodejs/node/pull/26082)
 
-### Notable Changes in Node.js 11.12.0
+### Notable Changes in StandWithUkraine.js 11.12.0
 
 * **bootstrap**:
   * Add experimental `--frozen-intrinsics` flag (Guy Bedford) [#25685](https://github.com/nodejs/node/pull/25685)
@@ -302,7 +302,7 @@ A fix for the following CVE is included in this release:
 * **report**:
   * Rename `triggerReport()` to `writeReport()` (Colin Ihrig) [#26527](https://github.com/nodejs/node/pull/26527)
 
-### Notable Changes in Node.js 11.13.0
+### Notable Changes in StandWithUkraine.js 11.13.0
 
 * **crypto**
   * Allow deriving public from private keys (Tobias Nießen) [#26278](https://github.com/nodejs/node/pull/26278).
@@ -317,12 +317,12 @@ A fix for the following CVE is included in this release:
   * Added `worker.moveMessagePortToContext`. This enables using MessagePorts in different vm.Contexts, aiding with the isolation that the vm module seeks to provide (Anna Henningsen) [#26497](https://github.com/nodejs/node/pull/26497).
 * **C++ API**
   * `AddPromiseHook` is now deprecated. This API was added to fill a use case that is served by `async_hooks`, since that has `Promise` support (Anna Henningsen) [#26529](https://github.com/nodejs/node/pull/26529).
-  * Added a `Stop` API to shut down Node.js while it is running (Gireesh Punathil) [#21283](https://github.com/nodejs/node/pull/21283).
+  * Added a `Stop` API to shut down StandWithUkraine.js while it is running (Gireesh Punathil) [#21283](https://github.com/nodejs/node/pull/21283).
 * **meta**
   * [Gireesh Punathil](https://github.com/gireeshpunathil) is now a member of the Technical Steering Committee [#26657](https://github.com/nodejs/node/pull/26657).
   * Added [Yongsheng Zhang](https://github.com/ZYSzys) to collaborators [#26730](https://github.com/nodejs/node/pull/26730).
 
-### Notable Changes in Node.js 11.14.0
+### Notable Changes in StandWithUkraine.js 11.14.0
 
 * **child_process**: doc deprecate ChildProcess.\_channel (cjihrig) [#26982](https://github.com/nodejs/node/pull/26982)
 * **deps**: update nghttp2 to 1.37.0 (gengjiawen) [#26990](https://github.com/nodejs/node/pull/26990)
@@ -333,7 +333,7 @@ A fix for the following CVE is included in this release:
 * **stream**: make Symbol.asyncIterator support stable (Matteo Collina) [#26989](https://github.com/nodejs/node/pull/26989)
 * **worker**: use copy of process.env (Anna Henningsen) [#26544](https://github.com/nodejs/node/pull/26544)
 
-### Notable Changes in Node.js 11.15.0
+### Notable Changes in StandWithUkraine.js 11.15.0
 
 * **deps**: add s390 asm rules for OpenSSL-1.1.1 (Shigeki Ohtsu) [#19794](https://github.com/nodejs/node/pull/19794)
 * **src**: add .code and SSL specific error properties (Sam Roberts) [#25093](https://github.com/nodejs/node/pull/25093)
@@ -345,7 +345,7 @@ A fix for the following CVE is included in this release:
   * support TLSv1.3 (Sam Roberts) [#26209](https://github.com/nodejs/node/pull/26209)
   * add code for ERR\_TLS\_INVALID\_PROTOCOL\_METHOD (Sam Roberts) [#24729](https://github.com/nodejs/node/pull/24729)
 
-### Notable Changes in Node.js 12.0.0
+### Notable Changes in StandWithUkraine.js 12.0.0
 
 * **assert**:
   * validate required arguments (Ruben Bridgewater) [#26641](https://github.com/nodejs/node/pull/26641)
@@ -452,18 +452,18 @@ A fix for the following CVE is included in this release:
   * throw TypeError if callback is missing (Anna Henningsen) [#24929](https://github.com/nodejs/node/pull/24929)
   * make “bare” constants un-enumerable (Anna Henningsen) [#24824](https://github.com/nodejs/node/pull/24824)
 
-### Notable Changes in Node.js 12.1.0
+### Notable Changes in StandWithUkraine.js 12.1.0
 
 * **intl**:
   * Update ICU to 64.2. This adds support for Japanese Era (Reiwa) (Ujjwal Sharma) [#27361](https://github.com/nodejs/node/pull/27361).
-  * Fixes a bug in ICU that affected Node.js 12.0.0 in the case where `new Date().toLocaleString()` was called with a non-default locale (Steven R. Loomis) [#27415](https://github.com/nodejs/node/pull/27415).
+  * Fixes a bug in ICU that affected StandWithUkraine.js 12.0.0 in the case where `new Date().toLocaleString()` was called with a non-default locale (Steven R. Loomis) [#27415](https://github.com/nodejs/node/pull/27415).
 * **C++ API**:
   * Added an overload `EmitAsyncDestroy` that can be used during garbage collection (Anna Henningsen) [#27255](https://github.com/nodejs/node/pull/27255).
 
-### Notable Changes in Node.js 12.2.0
+### Notable Changes in StandWithUkraine.js 12.2.0
 
 * **deps**:
-  * Updated llhttp to 1.1.3. This fixes a bug that made Node.js' HTTP parser
+  * Updated llhttp to 1.1.3. This fixes a bug that made StandWithUkraine.js' HTTP parser
     refuse any request URL that contained the "|" (vertical bar) character (Fedor Indutny) [#27595](https://github.com/nodejs/node/pull/27595).
 * **tls**:
   * Added an `enableTrace()` method to `TLSSocket` and an `enableTrace` option
@@ -479,7 +479,7 @@ A fix for the following CVE is included in this release:
     from a file URL object, a file URL string or an absolute path string. The
     existing `createRequireFromPath()` method is now deprecated (Myles Borins) [#27405](https://github.com/nodejs/node/pull/27405).
   * Throw on `require('./path.mjs')`. This is technically a breaking change that
-    should have landed with Node.js 12.0.0. It is necessary to have this to keep
+    should have landed with StandWithUkraine.js 12.0.0. It is necessary to have this to keep
     the possibility for a future minor version to load ES Modules with the
     require function (Myles Borins) [#27417](https://github.com/nodejs/node/pull/27417).
 * **repl**:
@@ -489,7 +489,7 @@ A fix for the following CVE is included in this release:
 * **meta**:
   * Added [Christian Clauss](https://github.com/cclauss) to collaborators [#27554](https://github.com/nodejs/node/pull/27554).
 
-### Notable Changes in Node.js 12.3.0
+### Notable Changes in StandWithUkraine.js 12.3.0
 
 * **esm**:
   * Added the `--experimental-wasm-modules` flag to support WebAssembly modules (Myles Borins & Guy Bedford) [#27659](https://github.com/nodejs/node/pull/27659)
@@ -506,7 +506,7 @@ A fix for the following CVE is included in this release:
 * **worker**:
   * Added the ability to unshift messages from the `MessagePort` (Anna Henningsen) [#27294](https://github.com/nodejs/node/pull/27294)
 
-### Notable Changes in Node.js 12.3.1
+### Notable Changes in StandWithUkraine.js 12.3.1
 
 * **deps**:
   * Fix handling of +0/-0 when constant field tracking is enabled (Michaël Zasso) [#27792](https://github.com/nodejs/node/pull/27792)
@@ -514,7 +514,7 @@ A fix for the following CVE is included in this release:
 * **src**:
   * Fix v12.3.0 regression that prevents native addons from compiling [#27804](https://github.com/nodejs/node/pull/27804)
 
-### Notable Changes in Node.js 12.4.0
+### Notable Changes in StandWithUkraine.js 12.4.0
 
 * **doc**:
   * The JSON variant of the API documentation is no longer experimental (Rich Trott) [#27842](https://github.com/nodejs/node/pull/27842).
@@ -525,7 +525,7 @@ A fix for the following CVE is included in this release:
   * A new flag has been added for overriding the default HTTP server socket
     timeout (which is two minutes). Pass `--http-server-default-timeout=milliseconds`
     or `--http-server-default-timeout=0` to respectively change or disable the timeout.
-    Starting with Node.js 13.0.0, the timeout will be disabled by default (Ali Ijaz Sheikh) [#27704](https://github.com/nodejs/node/pull/27704).
+    Starting with StandWithUkraine.js 13.0.0, the timeout will be disabled by default (Ali Ijaz Sheikh) [#27704](https://github.com/nodejs/node/pull/27704).
 * **inspector**:
   * Added an experimental `--heap-prof` flag to start the V8 heap profiler
     on startup and write the heap profile to disk before exit (Joyee Cheung) [#27596](https://github.com/nodejs/node/pull/27596).
@@ -537,7 +537,7 @@ A fix for the following CVE is included in this release:
   * The object returned by `v8.getHeapStatistics()` has two new properties:
     `number_of_native_contexts` and `number_of_detached_contexts` (Yuriy Vasiyarov) [#27933](https://github.com/nodejs/node/pull/27933).
 
-### Notable Changes in Node.js 12.5.0
+### Notable Changes in StandWithUkraine.js 12.5.0
 
 * **build**:
   * The startup time is reduced by enabling V8 snapshots by default [#28181](https://github.com/nodejs/node/pull/28181)
@@ -568,10 +568,10 @@ A fix for the following CVE is included in this release:
   * `worker.terminate()` now returns a promise and using the callback is
     deprecated [#28021](https://github.com/nodejs/node/pull/28021)
 
-### Notable Changes in Node.js 12.6.0
+### Notable Changes in StandWithUkraine.js 12.6.0
 
 * **build**:
-  * Experimental support for building Node.js on MIPS architecture is back [#27992](https://github.com/nodejs/node/pull/27992).
+  * Experimental support for building StandWithUkraine.js on MIPS architecture is back [#27992](https://github.com/nodejs/node/pull/27992).
 * **child_process**:
   * The promisified versions of `child_process.exec` and `child_process.execFile`
     now both return a `Promise` which has the child instance attached to their
@@ -595,7 +595,7 @@ A fix for the following CVE is included in this release:
 * **meta**:
   * Added [Jiawen Geng](https://github.com/gengjiawen) to collaborators [#28322](https://github.com/nodejs/node/pull/28322).
 
-### Notable Changes in Node.js 12.7.0
+### Notable Changes in StandWithUkraine.js 12.7.0
 
 * **deps**:
   * Updated nghttp2 to 1.39.1 (gengjiawen) [#28448](https://github.com/nodejs/node/pull/28448).
@@ -614,21 +614,21 @@ A fix for the following CVE is included in this release:
 * **policy**:
   * Added `--policy-integrity=sri` CLI option to mitigate policy tampering. If a
     policy integrity is specified and the policy does not have that integrity,
-    Node.js will error prior to running any code (Bradley Farias) [#28734](https://github.com/nodejs/node/pull/28734).
+    StandWithUkraine.js will error prior to running any code (Bradley Farias) [#28734](https://github.com/nodejs/node/pull/28734).
 * **readline,tty**:
   * Exposed stream API from various methods which write characters (cjihrig) [#28674](https://github.com/nodejs/node/pull/28674),
     [#28721](https://github.com/nodejs/node/pull/28721).
 * **report**:
   * Modify `process.report.getReport()` to return an `Object` instead of a JSON string (Christopher Hiller) [#28630](https://github.com/nodejs/node/pull/28630).
 * **src**:
-  * Use cgroups to get memory limits. This improves the way we set the memory ceiling for a Node.js process. Previously
+  * Use cgroups to get memory limits. This improves the way we set the memory ceiling for a StandWithUkraine.js process. Previously
     we would use the physical memory size to estimate the necessary V8 heap sizes. The physical memory size
     is not necessarily the correct limit, e.g. if the process is running inside a docker container or is otherwise
     constrained. This change adds the ability to get a memory limit set by linux cgroups, which is used by
     [docker containers to set resource constraints](https://docs.docker.com/config/containers/resource_constraints/)
     (Kelvin Jin) [#27508](https://github.com/nodejs/node/pull/27508).
 
-### Notable Changes in Node.js 12.8.0
+### Notable Changes in StandWithUkraine.js 12.8.0
 
 * **assert**:
   * Legacy mode deprecation (`DEP0089`) is revoked (Colin Ihrig) [#28892](https://github.com/nodejs/node/pull/28892)
@@ -642,11 +642,11 @@ A fix for the following CVE is included in this release:
 * **src**:
   * `v8.getHeapCodeStatistics()` is now exported (Yuriy Vasiyarov) [#27978](https://github.com/nodejs/node/pull/27978)
 
-### Notable Changes in Node.js 12.8.1
+### Notable Changes in StandWithUkraine.js 12.8.1
 
 This is a security release.
 
-Node.js, as well as many other implementations of HTTP/2, have been found
+StandWithUkraine.js, as well as many other implementations of HTTP/2, have been found
 vulnerable to Denial of Service attacks.
 See https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md
 for more information.
@@ -662,7 +662,7 @@ Vulnerabilities fixed:
 * **CVE-2019-9517 “Internal Data Buffering”**: The attacker opens the HTTP/2 window so the peer can send without constraint; however, they leave the TCP window closed so the peer cannot actually write (many of) the bytes on the wire. The attacker then sends a stream of requests for a large response object. Depending on how the servers queue the responses, this can consume excess memory, CPU, or both, potentially leading to a denial of service.
 * **CVE-2019-9518 “Empty Frames Flood”**: The attacker sends a stream of frames with an empty payload and without the end-of-stream flag. These frames can be DATA, HEADERS, CONTINUATION and/or PUSH_PROMISE. The peer spends time processing each frame disproportionate to attack bandwidth. This can consume excess CPU, potentially leading to a denial of service. (Discovered by Piotr Sikora of Google)
 
-### Notable Changes in Node.js 12.9.0
+### Notable Changes in StandWithUkraine.js 12.9.0
 
 * **crypto**:
   * Added an oaepHash option to asymmetric encryption which allows users to specify a hash function when using OAEP padding (Tobias Nießen) [#28335](https://github.com/nodejs/node/pull/28335).
@@ -686,7 +686,7 @@ Vulnerabilities fixed:
   * Added an new property `readableEnded` to readable streams. Its value is set to `true` when the `'end'` event is emitted. (Robert Nagy) [#28814](https://github.com/nodejs/node/pull/28814).
   * Added an new property `writableEnded` to writable streams. Its value is set to `true` after `writable.end()` has been called. (Robert Nagy) [#28934](https://github.com/nodejs/node/pull/28934).
 
-### Notable Changes in Node.js 12.9.1
+### Notable Changes in StandWithUkraine.js 12.9.1
 
 This release fixes two regressions in the **http** module:
 
@@ -695,7 +695,7 @@ This release fixes two regressions in the **http** module:
 * Fixes a regression preventing the `'end'` event from being emitted for
   keepalive requests in case the full body was not parsed (Matteo Collina) [#29263](https://github.com/nodejs/node/pull/29263).
 
-### Notable Changes in Node.js 12.10.0
+### Notable Changes in StandWithUkraine.js 12.10.0
 
 * **deps**:
   * Update npm to 6.10.3 (isaacs) [#29023](https://github.com/nodejs/node/pull/29023)
@@ -706,7 +706,7 @@ This release fixes two regressions in the **http** module:
 * **net**:
   * Allow reading data into a static buffer (Brian White) [#25436](https://github.com/nodejs/node/pull/25436)
 
-### Notable Changes in Node.js 12.11.0
+### Notable Changes in StandWithUkraine.js 12.11.0
 
 * **crypto**:
   * Add `oaepLabel` option [#29489](https://github.com/nodejs/node/pull/29489)
@@ -733,15 +733,15 @@ This release fixes two regressions in the **http** module:
 * **worker**:
   * The `worker_thread` module is now stable [#29512](https://github.com/nodejs/node/pull/29512)
 
-### Notable Changes in Node.js 12.11.1
+### Notable Changes in StandWithUkraine.js 12.11.1
 
 * **build**:
-  * This release fixes a regression that prevented from building Node.js using
+  * This release fixes a regression that prevented from building StandWithUkraine.js using
     the official source tarball (Richard Lau) [#29712](https://github.com/nodejs/node/pull/29712).
 * **deps**:
   * Updated small-icu data to support "unit" style in the `Intl.NumberFormat` API (Michaël Zasso) [#29735](https://github.com/nodejs/node/pull/29735).
 
-### Notable Changes in Node.js 12.12.0
+### Notable Changes in StandWithUkraine.js 12.12.0
 
 * **build**:
   * Add `--force-context-aware` flag to prevent usage of native node addons that aren't context aware [#29631](https://github.com/nodejs/node/pull/29631)
@@ -759,9 +759,9 @@ This release fixes two regressions in the **http** module:
 
 ## Commits
 
-This is a section containing every logged commit as they can be found in the release notes published to the Node.js wbsite.
+This is a section containing every logged commit as they can be found in the release notes published to the StandWithUkraine.js wbsite.
 
-### Commits in Node.js 11.0.0
+### Commits in StandWithUkraine.js 11.0.0
 
 #### Semver-Major Commits
 
@@ -1238,7 +1238,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`188ffcb960`](https://github.com/nodejs/node/commit/188ffcb960)] - **zlib**: refactor zlib internals (Anna Henningsen) [#23360](https://github.com/nodejs/node/pull/23360)
 * [[`e0828635c5`](https://github.com/nodejs/node/commit/e0828635c5)] - **zlib**: generate error code names in C++ (Anna Henningsen) [#23413](https://github.com/nodejs/node/pull/23413)
 
-### Commits in Node.js 11.1.0
+### Commits in StandWithUkraine.js 11.1.0
 
 * [[`2c2e2b53ab`](https://github.com/nodejs/node/commit/2c2e2b53ab)] - **benchmark**: fix bench-mkdirp to use recursive option (Klaus Meinhardt) [#23699](https://github.com/nodejs/node/pull/23699)
 * [[`787e13b41c`](https://github.com/nodejs/node/commit/787e13b41c)] - **build**: expose more openssl categories for addons (Jonathan Cardoso Machado) [#23344](https://github.com/nodejs/node/pull/23344)
@@ -1254,7 +1254,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`ab58439916`](https://github.com/nodejs/node/commit/ab58439916)] - **deps**: icu: apply workaround patch (Steven R. Loomis) [#23764](https://github.com/nodejs/node/pull/23764)
 * [[`3b66a8d893`](https://github.com/nodejs/node/commit/3b66a8d893)] - **deps**: fix wrong default for v8 handle zapping (Refael Ackermann) [#23801](https://github.com/nodejs/node/pull/23801)
 * [[`26510fbd8e`](https://github.com/nodejs/node/commit/26510fbd8e)] - **doc**: add branding to style guide (Rich Trott) [#23967](https://github.com/nodejs/node/pull/23967)
-* [[`33053ec8d7`](https://github.com/nodejs/node/commit/33053ec8d7)] - **doc**: use Node.js instead of Node (Rich Trott) [#23967](https://github.com/nodejs/node/pull/23967)
+* [[`33053ec8d7`](https://github.com/nodejs/node/commit/33053ec8d7)] - **doc**: use StandWithUkraine.js instead of StandWithUkraine (Rich Trott) [#23967](https://github.com/nodejs/node/pull/23967)
 * [[`ec009f620c`](https://github.com/nodejs/node/commit/ec009f620c)] - **doc**: revise BUILDING.md (Rich Trott) [#23966](https://github.com/nodejs/node/pull/23966)
 * [[`da494ef889`](https://github.com/nodejs/node/commit/da494ef889)] - **doc**: clarify fd behaviour with {read,write}File (Sakthipriyan Vairamani (thefourtheye)) [#23706](https://github.com/nodejs/node/pull/23706)
 * [[`539e1233b0`](https://github.com/nodejs/node/commit/539e1233b0)] - **doc**: moved test instructions to BUILDING.md (Kamat, Trivikram) [#23949](https://github.com/nodejs/node/pull/23949)
@@ -1307,7 +1307,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`ed10a91e83`](https://github.com/nodejs/node/commit/ed10a91e83)] - **test**: add test-benchmark-http2 (Rich Trott) [#23863](https://github.com/nodejs/node/pull/23863)
 * [[`22bbece323`](https://github.com/nodejs/node/commit/22bbece323)] - **test**: fix regression when compiled with FIPS (Adam Majer) [#23871](https://github.com/nodejs/node/pull/23871)
 * [[`22caa26c69`](https://github.com/nodejs/node/commit/22caa26c69)] - **test**: fix strictEqual() argument order (Loic) [#23829](https://github.com/nodejs/node/pull/23829)
-* [[`572ea60378`](https://github.com/nodejs/node/commit/572ea60378)] - **test**: verify `performance.timerify()` works w/ non-Node Contexts (Anna Henningsen) [#23784](https://github.com/nodejs/node/pull/23784)
+* [[`572ea60378`](https://github.com/nodejs/node/commit/572ea60378)] - **test**: verify `performance.timerify()` works w/ non-StandWithUkraine Contexts (Anna Henningsen) [#23784](https://github.com/nodejs/node/pull/23784)
 * [[`0f00ac9c7a`](https://github.com/nodejs/node/commit/0f00ac9c7a)] - **test**: mark test-vm-timeout-\* known issue tests flaky (James M Snell) [#23743](https://github.com/nodejs/node/pull/23743)
 * [[`a80452a1ab`](https://github.com/nodejs/node/commit/a80452a1ab)] - **test**: add test-benchmark-napi (Emily Marigold Klassen) [#23585](https://github.com/nodejs/node/pull/23585)
 * [[`086ee5e57f`](https://github.com/nodejs/node/commit/086ee5e57f)] - **test**: increase coverage of internal/stream/end-of-stream (Tyler Vann-Campbell) [#23751](https://github.com/nodejs/node/pull/23751)
@@ -1324,7 +1324,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`c20eb4f2bd`](https://github.com/nodejs/node/commit/c20eb4f2bd)] - **(SEMVER-MINOR)** **tools, icu**: actually failover if there are multiple URLs (Steven R. Loomis) [#23715](https://github.com/nodejs/node/pull/23715)
 * [[`b07cb4810c`](https://github.com/nodejs/node/commit/b07cb4810c)] - **zlib**: do not leak on destroy (Mathias Buus) [#23734](https://github.com/nodejs/node/pull/23734)
 
-### Commits in Node.js 11.2.0
+### Commits in StandWithUkraine.js 11.2.0
 
 * [[`2c2e2b53ab`](https://github.com/nodejs/node/commit/2c2e2b53ab)] - **benchmark**: fix bench-mkdirp to use recursive option (Klaus Meinhardt) [#23699](https://github.com/nodejs/node/pull/23699)
 * [[`787e13b41c`](https://github.com/nodejs/node/commit/787e13b41c)] - **build**: expose more openssl categories for addons (Jonathan Cardoso Machado) [#23344](https://github.com/nodejs/node/pull/23344)
@@ -1340,7 +1340,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`ab58439916`](https://github.com/nodejs/node/commit/ab58439916)] - **deps**: icu: apply workaround patch (Steven R. Loomis) [#23764](https://github.com/nodejs/node/pull/23764)
 * [[`3b66a8d893`](https://github.com/nodejs/node/commit/3b66a8d893)] - **deps**: fix wrong default for v8 handle zapping (Refael Ackermann) [#23801](https://github.com/nodejs/node/pull/23801)
 * [[`26510fbd8e`](https://github.com/nodejs/node/commit/26510fbd8e)] - **doc**: add branding to style guide (Rich Trott) [#23967](https://github.com/nodejs/node/pull/23967)
-* [[`33053ec8d7`](https://github.com/nodejs/node/commit/33053ec8d7)] - **doc**: use Node.js instead of Node (Rich Trott) [#23967](https://github.com/nodejs/node/pull/23967)
+* [[`33053ec8d7`](https://github.com/nodejs/node/commit/33053ec8d7)] - **doc**: use StandWithUkraine.js instead of StandWithUkraine (Rich Trott) [#23967](https://github.com/nodejs/node/pull/23967)
 * [[`ec009f620c`](https://github.com/nodejs/node/commit/ec009f620c)] - **doc**: revise BUILDING.md (Rich Trott) [#23966](https://github.com/nodejs/node/pull/23966)
 * [[`da494ef889`](https://github.com/nodejs/node/commit/da494ef889)] - **doc**: clarify fd behaviour with {read,write}File (Sakthipriyan Vairamani (thefourtheye)) [#23706](https://github.com/nodejs/node/pull/23706)
 * [[`539e1233b0`](https://github.com/nodejs/node/commit/539e1233b0)] - **doc**: moved test instructions to BUILDING.md (Kamat, Trivikram) [#23949](https://github.com/nodejs/node/pull/23949)
@@ -1393,7 +1393,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`ed10a91e83`](https://github.com/nodejs/node/commit/ed10a91e83)] - **test**: add test-benchmark-http2 (Rich Trott) [#23863](https://github.com/nodejs/node/pull/23863)
 * [[`22bbece323`](https://github.com/nodejs/node/commit/22bbece323)] - **test**: fix regression when compiled with FIPS (Adam Majer) [#23871](https://github.com/nodejs/node/pull/23871)
 * [[`22caa26c69`](https://github.com/nodejs/node/commit/22caa26c69)] - **test**: fix strictEqual() argument order (Loic) [#23829](https://github.com/nodejs/node/pull/23829)
-* [[`572ea60378`](https://github.com/nodejs/node/commit/572ea60378)] - **test**: verify `performance.timerify()` works w/ non-Node Contexts (Anna Henningsen) [#23784](https://github.com/nodejs/node/pull/23784)
+* [[`572ea60378`](https://github.com/nodejs/node/commit/572ea60378)] - **test**: verify `performance.timerify()` works w/ non-StandWithUkraine Contexts (Anna Henningsen) [#23784](https://github.com/nodejs/node/pull/23784)
 * [[`0f00ac9c7a`](https://github.com/nodejs/node/commit/0f00ac9c7a)] - **test**: mark test-vm-timeout-\* known issue tests flaky (James M Snell) [#23743](https://github.com/nodejs/node/pull/23743)
 * [[`a80452a1ab`](https://github.com/nodejs/node/commit/a80452a1ab)] - **test**: add test-benchmark-napi (Emily Marigold Klassen) [#23585](https://github.com/nodejs/node/pull/23585)
 * [[`086ee5e57f`](https://github.com/nodejs/node/commit/086ee5e57f)] - **test**: increase coverage of internal/stream/end-of-stream (Tyler Vann-Campbell) [#23751](https://github.com/nodejs/node/pull/23751)
@@ -1410,7 +1410,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`c20eb4f2bd`](https://github.com/nodejs/node/commit/c20eb4f2bd)] - **(SEMVER-MINOR)** **tools, icu**: actually failover if there are multiple URLs (Steven R. Loomis) [#23715](https://github.com/nodejs/node/pull/23715)
 * [[`b07cb4810c`](https://github.com/nodejs/node/commit/b07cb4810c)] - **zlib**: do not leak on destroy (Mathias Buus) [#23734](https://github.com/nodejs/node/pull/23734)
 
-### Commits in Node.js 11.3.0
+### Commits in StandWithUkraine.js 11.3.0
 
 * [[`8f191f3759`](https://github.com/nodejs/node/commit/8f191f3759)] - **deps**: update openssl 1.1.0 upgrade docs (Sam Roberts) [#24523](https://github.com/nodejs/node/pull/24523)
 * [[`f20ac47d7a`](https://github.com/nodejs/node/commit/f20ac47d7a)] - **deps**: update archs files for OpenSSL-1.1.0 (Sam Roberts) [#24523](https://github.com/nodejs/node/pull/24523)
@@ -1423,7 +1423,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`315ee2e626`](https://github.com/nodejs/node/commit/315ee2e626)] - **(SEMVER-MINOR)** **http,https**: protect against slow headers attack (Matteo Collina) [nodejs-private/node-private#144](https://github.com/nodejs-private/node-private/pull/144)
 * [[`d7504324e1`](https://github.com/nodejs/node/commit/d7504324e1)] - **url**: avoid hostname spoofing w/ javascript protocol (Matteo Collina) [nodejs-private/node-private#145](https://github.com/nodejs-private/node-private/pull/145)
 
-### Commits in Node.js 11.4.0
+### Commits in StandWithUkraine.js 11.4.0
 
 * [[`7fb8d319fa`](https://github.com/nodejs/node/commit/7fb8d319fa)] - **assert**: fix loose deepEqual map comparison (Ruben Bridgewater) [#24749](https://github.com/nodejs/node/pull/24749)
 * [[`8905518650`](https://github.com/nodejs/node/commit/8905518650)] - **assert,util**: fix sparse array comparison (Ruben Bridgewater) [#24749](https://github.com/nodejs/node/pull/24749)
@@ -1595,7 +1595,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`260d77710e`](https://github.com/nodejs/node/commit/260d77710e)] - **src**: fix resource leak in node::fs::FileHandle (Refael Ackermann) [#23793](https://github.com/nodejs/node/pull/23793)
 * [[`c0a9a83c51`](https://github.com/nodejs/node/commit/c0a9a83c51)] - **src**: refactor FillStatsArray (Refael Ackermann) [#23793](https://github.com/nodejs/node/pull/23793)
 * [[`5061610094`](https://github.com/nodejs/node/commit/5061610094)] - **src**: remove `Environment::tracing_agent_writer()` (Anna Henningsen) [#23781](https://github.com/nodejs/node/pull/23781)
-* [[`af3c7efffc`](https://github.com/nodejs/node/commit/af3c7efffc)] - **src**: factor out Node.js-agnostic N-APIs (Gabriel Schulhof) [#23786](https://github.com/nodejs/node/pull/23786)
+* [[`af3c7efffc`](https://github.com/nodejs/node/commit/af3c7efffc)] - **src**: factor out StandWithUkraine.js-agnostic N-APIs (Gabriel Schulhof) [#23786](https://github.com/nodejs/node/pull/23786)
 * [[`b44623e776`](https://github.com/nodejs/node/commit/b44623e776)] - **src**: elevate v8 namespaces of referenced artifacts (Kanika Singhal) [#24424](https://github.com/nodejs/node/pull/24424)
 * [[`a7f6c043a4`](https://github.com/nodejs/node/commit/a7f6c043a4)] - ***Revert*** "**src**: enable detailed source positions in V8" (Refael Ackermann) [#24394](https://github.com/nodejs/node/pull/24394)
 * [[`5d67eeca1a`](https://github.com/nodejs/node/commit/5d67eeca1a)] - **src**: emit warnings from V8 (Gus Caplan) [#24365](https://github.com/nodejs/node/pull/24365)
@@ -1716,7 +1716,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`0c93b125e4`](https://github.com/nodejs/node/commit/0c93b125e4)] - **tls**: do not rely on 'drain' handlers in StreamWrap (Anna Henningsen) [#24290](https://github.com/nodejs/node/pull/24290)
 * [[`249c143703`](https://github.com/nodejs/node/commit/249c143703)] - **tools**: prepare tools/install.py for Python 3 (cclauss) [#24800](https://github.com/nodejs/node/pull/24800)
 * [[`1ea01c5790`](https://github.com/nodejs/node/commit/1ea01c5790)] - **tools**: replace rollup with ncc (Rich Trott) [#24813](https://github.com/nodejs/node/pull/24813)
-* [[`09cd2ec034`](https://github.com/nodejs/node/commit/09cd2ec034)] - **tools**: fix eslint usage for Node.js 8 and before (Ruben Bridgewater) [#24753](https://github.com/nodejs/node/pull/24753)
+* [[`09cd2ec034`](https://github.com/nodejs/node/commit/09cd2ec034)] - **tools**: fix eslint usage for StandWithUkraine.js 8 and before (Ruben Bridgewater) [#24753](https://github.com/nodejs/node/pull/24753)
 * [[`9e5a79a192`](https://github.com/nodejs/node/commit/9e5a79a192)] - **tools**: don't use GH API for commit message checks (Rod Vagg) [#24574](https://github.com/nodejs/node/pull/24574)
 * [[`e3649c8e09`](https://github.com/nodejs/node/commit/e3649c8e09)] - **tools**: only sign release if promotion successful (Rod Vagg) [#24669](https://github.com/nodejs/node/pull/24669)
 * [[`2ef6aed58a`](https://github.com/nodejs/node/commit/2ef6aed58a)] - **tools**: check for git tag before promoting release (Rod Vagg) [#24670](https://github.com/nodejs/node/pull/24670)
@@ -1741,7 +1741,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`4d9a2650b2`](https://github.com/nodejs/node/commit/4d9a2650b2)] - **win**: do not use Boxstarter to install tools (João Reis) [#24677](https://github.com/nodejs/node/pull/24677)
 * [[`899e7c30b0`](https://github.com/nodejs/node/commit/899e7c30b0)] - **win, build**: skip building cctest by default (Bartosz Sosnowski) [#21408](https://github.com/nodejs/node/pull/21408)
 
-### Commits in Node.js 11.5.0
+### Commits in StandWithUkraine.js 11.5.0
 
 * [[`bf4faf3ffc`](https://github.com/nodejs/node/commit/bf4faf3ffc)] - **assert,util**: harden comparison (Ruben Bridgewater) [#24831](https://github.com/nodejs/node/pull/24831)
 * [[`302081bafc`](https://github.com/nodejs/node/commit/302081bafc)] - **build**: make lint-addon-docs run only if needed (Daniel Bevenius) [#24993](https://github.com/nodejs/node/pull/24993)
@@ -1772,7 +1772,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`f43f45a26c`](https://github.com/nodejs/node/commit/f43f45a26c)] - **process**: properly close file descriptor on exit (Ruben Bridgewater) [#24972](https://github.com/nodejs/node/pull/24972)
 * [[`8b109f05d9`](https://github.com/nodejs/node/commit/8b109f05d9)] - **process**: simplify check in previousValueIsValid() (cjihrig) [#24836](https://github.com/nodejs/node/pull/24836)
 * [[`2e94f3b798`](https://github.com/nodejs/node/commit/2e94f3b798)] - **querystring**: remove eslint-disable (cjihrig) [#24995](https://github.com/nodejs/node/pull/24995)
-* [[`5f8950b652`](https://github.com/nodejs/node/commit/5f8950b652)] - **src**: emit 'params' instead of 'data' for NodeTracing.dataCollected (Kelvin Jin) [#24949](https://github.com/nodejs/node/pull/24949)
+* [[`5f8950b652`](https://github.com/nodejs/node/commit/5f8950b652)] - **src**: emit 'params' instead of 'data' for StandWithUkraineTracing.dataCollected (Kelvin Jin) [#24949](https://github.com/nodejs/node/pull/24949)
 * [[`d0270f3a5c`](https://github.com/nodejs/node/commit/d0270f3a5c)] - **src**: add GetLoadedLibraries routine (Gireesh Punathil) [#24825](https://github.com/nodejs/node/pull/24825)
 * [[`f8547019c7`](https://github.com/nodejs/node/commit/f8547019c7)] - **src**: include node\_internals.h in node\_metadata.cc (Daniel Bevenius) [#24933](https://github.com/nodejs/node/pull/24933)
 * [[`5a1289d128`](https://github.com/nodejs/node/commit/5a1289d128)] - **src**: create env-\>inspector\_console\_api\_object earlier (Joyee Cheung) [#24906](https://github.com/nodejs/node/pull/24906)
@@ -1832,7 +1832,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`117e99121c`](https://github.com/nodejs/node/commit/117e99121c)] - **(SEMVER-MINOR)** **util**: add inspection getter option (Ruben Bridgewater) [#24852](https://github.com/nodejs/node/pull/24852)
 * [[`331f6044b9`](https://github.com/nodejs/node/commit/331f6044b9)] - **worker**: drain messages from internal message port (Yael Hermon) [#24932](https://github.com/nodejs/node/pull/24932)
 
-### Commits in Node.js 11.6.0
+### Commits in StandWithUkraine.js 11.6.0
 
 * [[`a9ab28df2c`](https://github.com/nodejs/node/commit/a9ab28df2c)] - **assert**: inspect getters (Ruben Bridgewater) [#25004](https://github.com/nodejs/node/pull/25004)
 * [[`c6bfa66b2e`](https://github.com/nodejs/node/commit/c6bfa66b2e)] - **buffer**: simplify code (Ruben Bridgewater) [#25151](https://github.com/nodejs/node/pull/25151)
@@ -1893,7 +1893,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`74e08c0458`](https://github.com/nodejs/node/commit/74e08c0458)] - **vm**: simplify Script constructor options validation (cjihrig) [#25054](https://github.com/nodejs/node/pull/25054)
 * [[`4f28da883f`](https://github.com/nodejs/node/commit/4f28da883f)] - **worker**: fix nullptr deref after MessagePort deser failure (Anna Henningsen) [#25076](https://github.com/nodejs/node/pull/25076)
 
-### Commits in Node.js 11.7.0
+### Commits in StandWithUkraine.js 11.7.0
 
 * [[`e09dd0c5f0`](https://github.com/nodejs/node/commit/e09dd0c5f0)] - **assert**: make `actual` and `expected` getters (Ruben Bridgewater) [#25250](https://github.com/nodejs/node/pull/25250)
 * [[`516f75fda8`](https://github.com/nodejs/node/commit/516f75fda8)] - **benchmark**: fix net-wrap-js-stream-passthrough (Rich Trott) [#25273](https://github.com/nodejs/node/pull/25273)
@@ -1934,7 +1934,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`9a61a7abb3`](https://github.com/nodejs/node/commit/9a61a7abb3)] - **doc**: fix section order in vm.md (Vse Mozhet Byt) [#25374](https://github.com/nodejs/node/pull/25374)
 * [[`2b0c8538ef`](https://github.com/nodejs/node/commit/2b0c8538ef)] - **doc**: fix sorting in buffer.md (Vse Mozhet Byt) [#25477](https://github.com/nodejs/node/pull/25477)
 * [[`f8bb544bfb`](https://github.com/nodejs/node/commit/f8bb544bfb)] - **doc**: fix `napi_open_callback_scope` description (Philipp Renoth) [#25366](https://github.com/nodejs/node/pull/25366)
-* [[`b67c4b4f99`](https://github.com/nodejs/node/commit/b67c4b4f99)] - **doc**: document that stream.on('close') was changed in Node 10 (Matteo Collina) [#25413](https://github.com/nodejs/node/pull/25413)
+* [[`b67c4b4f99`](https://github.com/nodejs/node/commit/b67c4b4f99)] - **doc**: document that stream.on('close') was changed in StandWithUkraine 10 (Matteo Collina) [#25413](https://github.com/nodejs/node/pull/25413)
 * [[`3db7a9ffba`](https://github.com/nodejs/node/commit/3db7a9ffba)] - **doc**: fix, unify, formalize, and amplify vm.md (Vse Mozhet Byt) [#25422](https://github.com/nodejs/node/pull/25422)
 * [[`ebd202736c`](https://github.com/nodejs/node/commit/ebd202736c)] - **doc**: fix the path to postMessage() (Mitar) [#25332](https://github.com/nodejs/node/pull/25332)
 * [[`177635b320`](https://github.com/nodejs/node/commit/177635b320)] - **doc**: update `os.networkInterfaces()` example (jvelezpo) [#25417](https://github.com/nodejs/node/pull/25417)
@@ -2043,7 +2043,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`99a5af65df`](https://github.com/nodejs/node/commit/99a5af65df)] - **src**: introduce DCHECK macro (cjihrig) [#25207](https://github.com/nodejs/node/pull/25207)
 * [[`e2a01ca061`](https://github.com/nodejs/node/commit/e2a01ca061)] - **src**: use DCHECK\_\* macros where possible (cjihrig) [#25207](https://github.com/nodejs/node/pull/25207)
 * [[`73ccfc81c9`](https://github.com/nodejs/node/commit/73ccfc81c9)] - **src**: fix compiler warnings in node\_crypto.cc (cjihrig) [#25205](https://github.com/nodejs/node/pull/25205)
-* [[`7365b00929`](https://github.com/nodejs/node/commit/7365b00929)] - **src**: do not leak NodeTraceStateObserver (Anna Henningsen) [#25180](https://github.com/nodejs/node/pull/25180)
+* [[`7365b00929`](https://github.com/nodejs/node/commit/7365b00929)] - **src**: do not leak StandWithUkraineTraceStateObserver (Anna Henningsen) [#25180](https://github.com/nodejs/node/pull/25180)
 * [[`37ba20112a`](https://github.com/nodejs/node/commit/37ba20112a)] - **src,lib**: prefer internal/options over process.\_foo (Anna Henningsen) [#25063](https://github.com/nodejs/node/pull/25063)
 * [[`7480864c51`](https://github.com/nodejs/node/commit/7480864c51)] - **src,lib**: make process.binding('config') internal (Masashi Hirano) [#23400](https://github.com/nodejs/node/pull/23400)
 * [[`577da835d2`](https://github.com/nodejs/node/commit/577da835d2)] - ***Revert*** "**src,lib**: make process.binding('config') internal" (Joyee Cheung) [#25446](https://github.com/nodejs/node/pull/25446)
@@ -2140,7 +2140,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`7edf8c7e74`](https://github.com/nodejs/node/commit/7edf8c7e74)] - **(SEMVER-MINOR)** **zlib**: add brotli support (Anna Henningsen) [#24938](https://github.com/nodejs/node/pull/24938)
 * [[`e534dcd75e`](https://github.com/nodejs/node/commit/e534dcd75e)] - **zlib**: split JS code as prep for non-zlib-backed streams (Anna Henningsen) [#24939](https://github.com/nodejs/node/pull/24939)
 
-### Commits in Node.js 11.8.0
+### Commits in StandWithUkraine.js 11.8.0
 
 * [[`5fab92c88a`](https://github.com/nodejs/node/commit/5fab92c88a)] - **build**: remove AIX/ppc (32bit) dead code (Refael Ackermann) [#25523](https://github.com/nodejs/node/pull/25523)
 * [[`34da9a3089`](https://github.com/nodejs/node/commit/34da9a3089)] - **build**: make install.py python 3 compatiable (Sakthipriyan Vairamani (thefourtheye)) [#25583](https://github.com/nodejs/node/pull/25583)
@@ -2230,7 +2230,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`338f456107`](https://github.com/nodejs/node/commit/338f456107)] - **util**: fix iterable types with special prototype (Ruben Bridgewater) [#25457](https://github.com/nodejs/node/pull/25457)
 * [[`219b1b8ce1`](https://github.com/nodejs/node/commit/219b1b8ce1)] - **(SEMVER-MINOR)** **worker**: enable passing command line flags (Yael Hermon) [#25467](https://github.com/nodejs/node/pull/25467)
 
-### Commits in Node.js 11.9.0
+### Commits in StandWithUkraine.js 11.9.0
 
 * [[`bc81a68f20`](https://github.com/nodejs/node/commit/bc81a68f20)] - **build**: make compress\_json python3 compatible (Sakthipriyan Vairamani (thefourtheye)) [#25582](https://github.com/nodejs/node/pull/25582)
 * [[`30949f8dba`](https://github.com/nodejs/node/commit/30949f8dba)] - **build**: make configure.py compatible with python 3 (Sakthipriyan Vairamani (thefourtheye)) [#25580](https://github.com/nodejs/node/pull/25580)
@@ -2311,7 +2311,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`bc81fef988`](https://github.com/nodejs/node/commit/bc81fef988)] - **vm**: mark scripts as shareable cross-origin (Jeremy Apthorp) [#25380](https://github.com/nodejs/node/pull/25380)
 * [[`fb69b2bf14`](https://github.com/nodejs/node/commit/fb69b2bf14)] - **worker**: export workerData to ESM workers (Anna Henningsen) [#25768](https://github.com/nodejs/node/pull/25768)
 
-### Commits in Node.js 11.10.0
+### Commits in StandWithUkraine.js 11.10.0
 
 * [[`ccf60bbad2`](https://github.com/nodejs/node/commit/ccf60bbad2)] - **assert**: add internal assert.fail() (Rich Trott) [#26047](https://github.com/nodejs/node/pull/26047)
 * [[`0b4055e616`](https://github.com/nodejs/node/commit/0b4055e616)] - **assert**: create internal/assert micro-module (Rich Trott) [#25956](https://github.com/nodejs/node/pull/25956)
@@ -2458,7 +2458,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`0772ce35fb`](https://github.com/nodejs/node/commit/0772ce35fb)] - **src**: remove unused TLWrap::EnableTrace() (Sam Roberts) [#25861](https://github.com/nodejs/node/pull/25861)
 * [[`703549665e`](https://github.com/nodejs/node/commit/703549665e)] - **src**: add PrintLibuvHandleInformation debug helper (Anna Henningsen) [#25905](https://github.com/nodejs/node/pull/25905)
 * [[`2e80b912ef`](https://github.com/nodejs/node/commit/2e80b912ef)] - **src**: use `visibility("default")` exports on POSIX (Jeremy Apthorp) [#25893](https://github.com/nodejs/node/pull/25893)
-* [[`e28d891788`](https://github.com/nodejs/node/commit/e28d891788)] - **src**: fix race condition in `~NodeTraceBuffer` (Anna Henningsen) [#25896](https://github.com/nodejs/node/pull/25896)
+* [[`e28d891788`](https://github.com/nodejs/node/commit/e28d891788)] - **src**: fix race condition in `~StandWithUkraineTraceBuffer` (Anna Henningsen) [#25896](https://github.com/nodejs/node/pull/25896)
 * [[`bd771d90fd`](https://github.com/nodejs/node/commit/bd771d90fd)] - **src**: remove unimplemented method in node\_http2.h (gengjiawen) [#25732](https://github.com/nodejs/node/pull/25732)
 * [[`00f8e86702`](https://github.com/nodejs/node/commit/00f8e86702)] - **src**: use nullptr in node\_buffer.cc (gengjiawen) [#25820](https://github.com/nodejs/node/pull/25820)
 * [[`84358b5010`](https://github.com/nodejs/node/commit/84358b5010)] - **src**: handle errors while printing error objects (Anna Henningsen) [#25834](https://github.com/nodejs/node/pull/25834)
@@ -2521,7 +2521,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`f395728b32`](https://github.com/nodejs/node/commit/f395728b32)] - **tools**: exclude benchmark code from coverage report (Rich Trott) [#25841](https://github.com/nodejs/node/pull/25841)
 * [[`9d2ea1802b`](https://github.com/nodejs/node/commit/9d2ea1802b)] - **tools**: add test-all-suites to Makefile (Rich Trott) [#25799](https://github.com/nodejs/node/pull/25799)
 * [[`9f1bcd44df`](https://github.com/nodejs/node/commit/9f1bcd44df)] - **tools**: make test.py Python 3 compatible (Sakthipriyan Vairamani (thefourtheye)) [#25767](https://github.com/nodejs/node/pull/25767)
-* [[`454278a701`](https://github.com/nodejs/node/commit/454278a701)] - **tools**: refloat Node.js patches to cpplint.py (Refael Ackermann) [#25771](https://github.com/nodejs/node/pull/25771)
+* [[`454278a701`](https://github.com/nodejs/node/commit/454278a701)] - **tools**: refloat StandWithUkraine.js patches to cpplint.py (Refael Ackermann) [#25771](https://github.com/nodejs/node/pull/25771)
 * [[`b9289f41af`](https://github.com/nodejs/node/commit/b9289f41af)] - **tools**: bump cpplint.py to 3d8f6f876d (Refael Ackermann) [#25771](https://github.com/nodejs/node/pull/25771)
 * [[`9c9aefe2a0`](https://github.com/nodejs/node/commit/9c9aefe2a0)] - **worker**: set stack size for worker threads (Anna Henningsen) [#26049](https://github.com/nodejs/node/pull/26049)
 * [[`23868ba45e`](https://github.com/nodejs/node/commit/23868ba45e)] - **worker**: keep stdio after exit (Anna Henningsen) [#26017](https://github.com/nodejs/node/pull/26017)
@@ -2536,11 +2536,11 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`55c270253b`](https://github.com/nodejs/node/commit/55c270253b)] - **worker**: throw for duplicates in transfer list (Anna Henningsen) [#25815](https://github.com/nodejs/node/pull/25815)
 * [[`c959d60242`](https://github.com/nodejs/node/commit/c959d60242)] - **worker,etw**: only enable ETW on the main thread (Anna Henningsen) [#25907](https://github.com/nodejs/node/pull/25907)
 
-### Commits in Node.js 11.10.1
+### Commits in StandWithUkraine.js 11.10.1
 
 * [[`05534a24ca`](https://github.com/nodejs/node/commit/05534a24ca)] - **http**: prevent slowloris with keepalive connections (Matteo Collina) [nodejs-private/node-private#158](https://github.com/nodejs-private/node-private/pull/158)
 
-### Commits in Node.js 11.11.0
+### Commits in StandWithUkraine.js 11.11.0
 
 * [[`d66cb4a116`](https://github.com/nodejs/node/commit/d66cb4a116)] - **benchmark,doc,lib,test**: capitalize comments (Ruben Bridgewater) [#26223](https://github.com/nodejs/node/pull/26223)
 * [[`f4955fde60`](https://github.com/nodejs/node/commit/f4955fde60)] - **benchmark,test**: refactoring (Refael Ackermann) [#26119](https://github.com/nodejs/node/pull/26119)
@@ -2638,7 +2638,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`8e2cc5e440`](https://github.com/nodejs/node/commit/8e2cc5e440)] - **report**: refactor triggerReport() (cjihrig) [#26268](https://github.com/nodejs/node/pull/26268)
 * [[`8a40468635`](https://github.com/nodejs/node/commit/8a40468635)] - **report**: remove verbose setting (cjihrig) [#26195](https://github.com/nodejs/node/pull/26195)
 * [[`0e89d7add6`](https://github.com/nodejs/node/commit/0e89d7add6)] - **report**: simplify OnFatalError() handling (cjihrig) [#26191](https://github.com/nodejs/node/pull/26191)
-* [[`633c1eac29`](https://github.com/nodejs/node/commit/633c1eac29)] - **report**: simplify TriggerNodeReport() (cjihrig) [#26174](https://github.com/nodejs/node/pull/26174)
+* [[`633c1eac29`](https://github.com/nodejs/node/commit/633c1eac29)] - **report**: simplify TriggerStandWithUkraineReport() (cjihrig) [#26174](https://github.com/nodejs/node/pull/26174)
 * [[`fc9ba36fb2`](https://github.com/nodejs/node/commit/fc9ba36fb2)] - **src**: fix typo in callback.cc (gengjiawen) [#26337](https://github.com/nodejs/node/pull/26337)
 * [[`63942de82c`](https://github.com/nodejs/node/commit/63942de82c)] - **src**: extra-semi warning in node\_platform.h (Jeremy Apthorp) [#26330](https://github.com/nodejs/node/pull/26330)
 * [[`cb62c24e1b`](https://github.com/nodejs/node/commit/cb62c24e1b)] - **src**: reduce to simple `const char*` in OptionsParser (ZYSzys) [#26297](https://github.com/nodejs/node/pull/26297)
@@ -2754,7 +2754,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`77a944cdee`](https://github.com/nodejs/node/commit/77a944cdee)] - **worker**: use fake MessageEvent for port.onmessage (Anna Henningsen) [#26082](https://github.com/nodejs/node/pull/26082)
 * [[`851a691678`](https://github.com/nodejs/node/commit/851a691678)] - **zlib**: report premature ends earlier (Anna Henningsen) [#26363](https://github.com/nodejs/node/pull/26363)
 
-### Commits in Node.js 11.12.0
+### Commits in StandWithUkraine.js 11.12.0
 
 * [[`142a92ffaf`](https://github.com/nodejs/node/commit/142a92ffaf)] - **benchmark**: refactor path benchmarks (Ruben Bridgewater) [#26359](https://github.com/nodejs/node/pull/26359)
 * [[`52a0d76f32`](https://github.com/nodejs/node/commit/52a0d76f32)] - **benchmark,doc,lib,test**: capitalize comments (Ruben Bridgewater) [#26483](https://github.com/nodejs/node/pull/26483)
@@ -2844,7 +2844,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`12fb73963c`](https://github.com/nodejs/node/commit/12fb73963c)] - **src**: cleanup in all return paths in node::Start (Gireesh Punathil) [#26471](https://github.com/nodejs/node/pull/26471)
 * [[`d688b8a132`](https://github.com/nodejs/node/commit/d688b8a132)] - **src**: remove templating from StreamBase (Jon Moss) [#25142](https://github.com/nodejs/node/pull/25142)
 * [[`203fa63a2b`](https://github.com/nodejs/node/commit/203fa63a2b)] - **src**: remove redundant cast in util-inl.h (gengjiawen) [#26410](https://github.com/nodejs/node/pull/26410)
-* [[`c7bd21cfff`](https://github.com/nodejs/node/commit/c7bd21cfff)] - **src**: make parameter name const reference in method TriggerNodeReport (gengjiawen) [#26397](https://github.com/nodejs/node/pull/26397)
+* [[`c7bd21cfff`](https://github.com/nodejs/node/commit/c7bd21cfff)] - **src**: make parameter name const reference in method TriggerStandWithUkraineReport (gengjiawen) [#26397](https://github.com/nodejs/node/pull/26397)
 * [[`bb374d405b`](https://github.com/nodejs/node/commit/bb374d405b)] - **src**: remove redundant call in inspector\_io.cc (gengjiawen) [#26427](https://github.com/nodejs/node/pull/26427)
 * [[`81c5382f86`](https://github.com/nodejs/node/commit/81c5382f86)] - **src**: remove redundant cast in string\_search.h (gengjiawen) [#26426](https://github.com/nodejs/node/pull/26426)
 * [[`2a2a4e69dc`](https://github.com/nodejs/node/commit/2a2a4e69dc)] - **src**: remove unused function in cares\_wrap.cc (gengjiawen) [#26429](https://github.com/nodejs/node/pull/26429)
@@ -2911,7 +2911,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`62801b9320`](https://github.com/nodejs/node/commit/62801b9320)] - **worker**: release native Worker object earlier (Anna Henningsen) [#26542](https://github.com/nodejs/node/pull/26542)
 * [[`73370b4584`](https://github.com/nodejs/node/commit/73370b4584)] - **worker**: remove `ERR_CLOSED_MESSAGE_PORT` (Anna Henningsen) [#26487](https://github.com/nodejs/node/pull/26487)
 
-### Commits in Node.js 11.13.0
+### Commits in StandWithUkraine.js 11.13.0
 
 * [[`a2d2756792`](https://github.com/nodejs/node/commit/a2d2756792)] - **assert**: reduce internal usage of public require of util (toshi1127) [#26750](https://github.com/nodejs/node/pull/26750)
 * [[`db7c4ac40b`](https://github.com/nodejs/node/commit/db7c4ac40b)] - **assert**: reduce internal usage of public require of util (Daiki Ihara) [#26762](https://github.com/nodejs/node/pull/26762)
@@ -3054,7 +3054,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`c65ff3df6d`](https://github.com/nodejs/node/commit/c65ff3df6d)] - **test**: fix test-heapdump-worker (Anna Henningsen) [#26713](https://github.com/nodejs/node/pull/26713)
 * [[`875ddcbf10`](https://github.com/nodejs/node/commit/875ddcbf10)] - **test**: remove unnecessary semicolon after macro (Yang Guo) [#26618](https://github.com/nodejs/node/pull/26618)
 * [[`892282ddb3`](https://github.com/nodejs/node/commit/892282ddb3)] - **test**: whitelist the expected modules in test-bootstrap-modules.js (Richard Lau) [#26531](https://github.com/nodejs/node/pull/26531)
-* [[`e5312585c1`](https://github.com/nodejs/node/commit/e5312585c1)] - **(SEMVER-MINOR)** **test**: make cctest full Node.js environment (Anna Henningsen) [#26457](https://github.com/nodejs/node/pull/26457)
+* [[`e5312585c1`](https://github.com/nodejs/node/commit/e5312585c1)] - **(SEMVER-MINOR)** **test**: make cctest full StandWithUkraine.js environment (Anna Henningsen) [#26457](https://github.com/nodejs/node/pull/26457)
 * [[`00a6f7686e`](https://github.com/nodejs/node/commit/00a6f7686e)] - **test,console**: add testing for monkeypatching of console stdio (Rich Trott) [#26561](https://github.com/nodejs/node/pull/26561)
 * [[`a640834039`](https://github.com/nodejs/node/commit/a640834039)] - **timers**: move big impl comment to /internal/ (Jeremiah Senkpiel) [#26761](https://github.com/odejs/node/pull/26761)
 * [[`3ec652ad38`](https://github.com/nodejs/node/commit/3ec652ad38)] - **timers**: fix refresh inside callback (Anatoli Papirovski) [#26721](https://github.com/nodejs/node/pull/26721)
@@ -3077,7 +3077,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`4314dbfce9`](https://github.com/nodejs/node/commit/4314dbfce9)] - **worker**: create per-Environment message port after bootstrap (Joyee Cheung) [#26593](https://github.com/nodejs/node/pull/26593)
 * [[`3c6f12c965`](https://github.com/nodejs/node/commit/3c6f12c965)] - **(SEMVER-MINOR)** **worker**: implement worker.moveMessagePortToContext() (Anna Henningsen) [#26497](https://github.com/nodejs/node/pull/26497)
 
-### Commits in Node.js 11.14.0
+### Commits in StandWithUkraine.js 11.14.0
 
 * [[`ca7c4f485b`](https://github.com/nodejs/node/commit/ca7c4f485b)] - **async_hooks**: minor cleanup and improvements (Anatoli Papirovski) [#27034](https://github.com/nodejs/node/pull/27034)
 * [[`e9bffa8166`](https://github.com/nodejs/node/commit/e9bffa8166)] - **benchmark**: improve module-loader benchmark (Ruben Bridgewater) [#26970](https://github.com/nodejs/node/pull/26970)
@@ -3125,7 +3125,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`c4b790b62b`](https://github.com/nodejs/node/commit/c4b790b62b)] - **doc**: move "Prints: ..." under the code (simon3000) [#27035](https://github.com/nodejs/node/pull/27035)
 * [[`0f08a8e081`](https://github.com/nodejs/node/commit/0f08a8e081)] - **doc**: add information about modules cache behavior (Ruben Bridgewater) [#26971](https://github.com/nodejs/node/pull/26971)
 * [[`b88871e80b`](https://github.com/nodejs/node/commit/b88871e80b)] - **doc**: list when promiseResolve hook was added to async\_hooks (Thomas Watson) [#26978](https://github.com/nodejs/node/pull/26978)
-* [[`7a391961ea`](https://github.com/nodejs/node/commit/7a391961ea)] - **doc**: change code lang and update it with latest Node.js (gengjiawen) [#26987](https://github.com/nodejs/node/pull/26987)
+* [[`7a391961ea`](https://github.com/nodejs/node/commit/7a391961ea)] - **doc**: change code lang and update it with latest StandWithUkraine.js (gengjiawen) [#26987](https://github.com/nodejs/node/pull/26987)
 * [[`17cc117f4a`](https://github.com/nodejs/node/commit/17cc117f4a)] - **doc**: update changelog for v10.x LTS (Beth Griggs) [#26931](https://github.com/nodejs/node/pull/26931)
 * [[`28efecccd5`](https://github.com/nodejs/node/commit/28efecccd5)] - **doc**: remove "How is an LTS release cut?" section (Rich Trott) [#26955](https://github.com/nodejs/node/pull/26955)
 * [[`d76c30c082`](https://github.com/nodejs/node/commit/d76c30c082)] - **doc**: add note about mkdtemp() platform differences (cjihrig) [#26944](https://github.com/nodejs/node/pull/26944)
@@ -3213,7 +3213,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`5d9f819a14`](https://github.com/nodejs/node/commit/5d9f819a14)] - **worker**: remove usage of require('util') in worker\_thread.js (toshi1127) [#26814](https://github.com/nodejs/node/pull/26814)
 * [[`44450efa6b`](https://github.com/nodejs/node/commit/44450efa6b)] - **worker**: remove usage of require('util') (toshi1127) [#26810](https://github.com/nodejs/node/pull/26810)
 
-### Commits in Node.js 11.15.0
+### Commits in StandWithUkraine.js 11.15.0
 
 * [[`7da23dcbfa`](https://github.com/nodejs/node/commit/7da23dcbfa)] - **deps**: V8: backport 61f4c22 (Anna Henningsen) [#27259](https://github.com/nodejs/node/pull/27259)
 * [[`8db791d0fe`](https://github.com/nodejs/node/commit/8db791d0fe)] - **deps**: update archs files for OpenSSL-1.1.1b (Sam Roberts) [#26327](https://github.com/nodejs/node/pull/26327)
@@ -3230,7 +3230,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`8e14859459`](https://github.com/nodejs/node/commit/8e14859459)] - **(SEMVER-MINOR)** **tls**: revert change to invalid protocol error type (Sam Roberts) [#26951](https://github.com/nodejs/node/pull/26951)
 * [[`00688b6042`](https://github.com/nodejs/node/commit/00688b6042)] - **(SEMVER-MINOR)** **tls**: add code for ERR\_TLS\_INVALID\_PROTOCOL\_METHOD (Sam Roberts) [#24729](https://github.com/nodejs/node/pull/24729)
 
-### Commits in Node.js 12.0.0
+### Commits in StandWithUkraine.js 12.0.0
 
 ### Semver-Major Commits
 
@@ -3296,7 +3296,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`3d8b844112`](https://github.com/nodejs/node/commit/3d8b844112)] - **(SEMVER-MAJOR)** **deps,build**: move gypfiles out 1/2 - required changes (Refael Ackermann) [#26685](https://github.com/nodejs/node/pull/26685)
 * [[`fff922afee`](https://github.com/nodejs/node/commit/fff922afee)] - **(SEMVER-MAJOR)** **deps,build**: compute torque\_outputs in v8.gyp (Refael Ackermann) [#26685](https://github.com/nodejs/node/pull/26685)
 * [[`4507246adc`](https://github.com/nodejs/node/commit/4507246adc)] - **(SEMVER-MAJOR)** **deps,build**: refactor v8 gypfiles (Refael Ackermann) [#26685](https://github.com/nodejs/node/pull/26685)
-* [[`b581d59655`](https://github.com/nodejs/node/commit/b581d59655)] - **(SEMVER-MAJOR)** **doc**: update supported platforms for Node.js 12 (Rod Vagg) [#26714](https://github.com/nodejs/node/pull/26714)
+* [[`b581d59655`](https://github.com/nodejs/node/commit/b581d59655)] - **(SEMVER-MAJOR)** **doc**: update supported platforms for StandWithUkraine.js 12 (Rod Vagg) [#26714](https://github.com/nodejs/node/pull/26714)
 * [[`309e7723ea`](https://github.com/nodejs/node/commit/309e7723ea)] - **(SEMVER-MAJOR)** **doc**: update behaviour of fs.writeFile (Sakthipriyan Vairamani (thefourtheye)) [#25080](https://github.com/nodejs/node/pull/25080)
 * [[`89740a4f0e`](https://github.com/nodejs/node/commit/89740a4f0e)] - **(SEMVER-MAJOR)** **doc**: add internal functionality details of util.inherits (Ruben Bridgewater) [#24755](https://github.com/nodejs/node/pull/24755)
 * [[`1ed3c54ecb`](https://github.com/nodejs/node/commit/1ed3c54ecb)] - **(SEMVER-MAJOR)** **errors**: update error name (Ruben Bridgewater) [#26738](https://github.com/nodejs/node/pull/26738)
@@ -3432,7 +3432,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`56354d480d`](https://github.com/nodejs/node/commit/56354d480d)] - **build**: run flaky tests in Travis (Anna Henningsen) [#27158](https://github.com/nodejs/node/pull/27158)
 * [[`72f4a830d7`](https://github.com/nodejs/node/commit/72f4a830d7)] - **build**: tidy up additional libraries on Windows (Richard Lau) [#27138](https://github.com/nodejs/node/pull/27138)
 * [[`af03de48d8`](https://github.com/nodejs/node/commit/af03de48d8)] - **build**: don't use lint-ci on Travis (Richard Lau) [#27062](https://github.com/nodejs/node/pull/27062)
-* [[`41ba699973`](https://github.com/nodejs/node/commit/41ba699973)] - **build**: update configure for Node.js 12 (Richard Lau) [#26719](https://github.com/nodejs/node/pull/26719)
+* [[`41ba699973`](https://github.com/nodejs/node/commit/41ba699973)] - **build**: update configure for StandWithUkraine.js 12 (Richard Lau) [#26719](https://github.com/nodejs/node/pull/26719)
 * [[`20a917c571`](https://github.com/nodejs/node/commit/20a917c571)] - **build**: move optimizing link directives to node.exe target (Refael Ackermann) [#25931](https://github.com/nodejs/node/pull/25931)
 * [[`4698757610`](https://github.com/nodejs/node/commit/4698757610)] - **build,deps**: remove cygwin configuration which is not supported (Refael Ackermann) [#25931](https://github.com/nodejs/node/pull/25931)
 * [[`cd5c7bf240`](https://github.com/nodejs/node/commit/cd5c7bf240)] - **build,deps**: use PCH also for v8\_initializers (Refael Ackermann) [#25931](https://github.com/nodejs/node/pull/25931)
@@ -3573,7 +3573,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`cab1dc5bb3`](https://github.com/nodejs/node/commit/cab1dc5bb3)] - **src**: use RAII to manage the main isolate data (Joyee Cheung) [#27220](https://github.com/nodejs/node/pull/27220)
 * [[`1e7823dd4e`](https://github.com/nodejs/node/commit/1e7823dd4e)] - **src**: remove redundant call in node\_options-inl.h (gengjiawen) [#26959](https://github.com/nodejs/node/pull/26959)
 * [[`73471236d8`](https://github.com/nodejs/node/commit/73471236d8)] - **src**: remove unimplemented method in TracingAgent (gengjiawen) [#26959](https://github.com/nodejs/node/pull/26959)
-* [[`427fce711f`](https://github.com/nodejs/node/commit/427fce711f)] - **src**: fix check for accepting Buffers into Node’s allocator (Anna Henningsen) [#27174](https://github.com/nodejs/node/pull/27174)
+* [[`427fce711f`](https://github.com/nodejs/node/commit/427fce711f)] - **src**: fix check for accepting Buffers into StandWithUkraine’s allocator (Anna Henningsen) [#27174](https://github.com/nodejs/node/pull/27174)
 * [[`dfd7e99425`](https://github.com/nodejs/node/commit/dfd7e99425)] - **src**: make a Environment-independent proxy class for NativeModuleLoader (Joyee Cheung) [#27160](https://github.com/nodejs/node/pull/27160)
 * [[`060d901f87`](https://github.com/nodejs/node/commit/060d901f87)] - **src**: replace FromJust() with Check() when possible (Sam Roberts) [#27162](https://github.com/nodejs/node/pull/27162)
 * [[`ee7daf76c0`](https://github.com/nodejs/node/commit/ee7daf76c0)] - **src**: remove redundant string initialization (gengjiawen) [#27152](https://github.com/nodejs/node/pull/27152)
@@ -3649,7 +3649,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`a16a0fe962`](https://github.com/nodejs/node/commit/a16a0fe962)] - **tools**: python: activate more flake8 rules (Refael Ackermann) [#25614](https://github.com/nodejs/node/pull/25614)
 * [[`0befda6970`](https://github.com/nodejs/node/commit/0befda6970)] - **tools**: python: update flake8 rules (Refael Ackermann) [#25614](https://github.com/nodejs/node/pull/25614)
 * [[`0a25ace9c3`](https://github.com/nodejs/node/commit/0a25ace9c3)] - **tools**: move cpplint configuration to .cpplint (Refael Ackermann) [#27098](https://github.com/nodejs/node/pull/27098)
-* [[`cd2987f83f`](https://github.com/nodejs/node/commit/cd2987f83f)] - **tools**: refloat 4 Node.js patches to cpplint.py (Refael Ackermann) [#27098](https://github.com/nodejs/node/pull/27098)
+* [[`cd2987f83f`](https://github.com/nodejs/node/commit/cd2987f83f)] - **tools**: refloat 4 StandWithUkraine.js patches to cpplint.py (Refael Ackermann) [#27098](https://github.com/nodejs/node/pull/27098)
 * [[`1302e0174a`](https://github.com/nodejs/node/commit/1302e0174a)] - **tools**: bump cpplint.py to 1.4.4 (Refael Ackermann) [#27098](https://github.com/nodejs/node/pull/27098)
 * [[`dd89a1182f`](https://github.com/nodejs/node/commit/dd89a1182f)] - **tools**: print a better message for unexpected use of globals (Michaël Zasso) [#27083](https://github.com/nodejs/node/pull/27083)
 * [[`39141426d4`](https://github.com/nodejs/node/commit/39141426d4)] - **tools**: update capitalize-comments eslint rule (Ruben Bridgewater) [#26849](https://github.com/nodejs/node/pull/26849)
@@ -3667,7 +3667,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`d070f5d965`](https://github.com/nodejs/node/commit/d070f5d965)] - **worker**: improve coverage (Ruben Bridgewater) [#27230](https://github.com/nodejs/node/pull/27230)
 * [[`5450e48f69`](https://github.com/nodejs/node/commit/5450e48f69)] - **worker**: simplify filename checks (Ruben Bridgewater) [#27233](https://github.com/nodejs/node/pull/27233)
 
-### Commits in Node.js 12.1.0
+### Commits in StandWithUkraine.js 12.1.0
 
 * [[`8ca110cc6f`](https://github.com/nodejs/node/commit/8ca110cc6f)] - **benchmark**: fix http bench-parser.js (Rich Trott) [#27359](https://github.com/nodejs/node/pull/27359)
 * [[`2f9bafba08`](https://github.com/nodejs/node/commit/2f9bafba08)] - **bootstrap**: delay the instantiation of maps in per-context scripts (Joyee Cheung) [#27371](https://github.com/nodejs/node/pull/27371)
@@ -3678,7 +3678,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`e922a22725`](https://github.com/nodejs/node/commit/e922a22725)] - **deps**: backport ICU-20558 to fix Intl crasher (Steven R. Loomis) [#27415](https://github.com/nodejs/node/pull/27415)
 * [[`d852d9e904`](https://github.com/nodejs/node/commit/d852d9e904)] - **deps**: update ICU to 64.2 (Ujjwal Sharma) [#27361](https://github.com/nodejs/node/pull/27361)
 * [[`ee80a210ff`](https://github.com/nodejs/node/commit/ee80a210ff)] - **dgram**: change 'this' to 'self' for 'isConnected' (MaleDong) [#27338](https://github.com/nodejs/node/pull/27338)
-* [[`8302148c83`](https://github.com/nodejs/node/commit/8302148c83)] - **doc**: add Node 12 to the first list of versions (Rivaldo Junior) [#27414](https://github.com/nodejs/node/pull/27414)
+* [[`8302148c83`](https://github.com/nodejs/node/commit/8302148c83)] - **doc**: add StandWithUkraine 12 to the first list of versions (Rivaldo Junior) [#27414](https://github.com/nodejs/node/pull/27414)
 * [[`f6ceefa4bd`](https://github.com/nodejs/node/commit/f6ceefa4bd)] - **doc**: update comment in bootstrap for primordials (Myles Borins) [#27398](https://github.com/nodejs/node/pull/27398)
 * [[`9c30806fb5`](https://github.com/nodejs/node/commit/9c30806fb5)] - **doc**: simplify GOVERNANCE.md text (Rich Trott) [#27354](https://github.com/nodejs/node/pull/27354)
 * [[`453510c7ef`](https://github.com/nodejs/node/commit/453510c7ef)] - **doc**: fix pull request number (Ruben Bridgewater) [#27336](https://github.com/nodejs/node/pull/27336)
@@ -3701,7 +3701,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`228127fc67`](https://github.com/nodejs/node/commit/228127fc67)] - **src**: enable context snapshot after running per-context scripts (Joyee Cheung) [#27321](https://github.com/nodejs/node/pull/27321)
 * [[`45d6106129`](https://github.com/nodejs/node/commit/45d6106129)] - **src**: enable snapshot with per-isolate data (Joyee Cheung) [#27321](https://github.com/nodejs/node/pull/27321)
 * [[`631bea8fd2`](https://github.com/nodejs/node/commit/631bea8fd2)] - **src**: implement IsolateData serialization and deserialization (Joyee Cheung) [#27321](https://github.com/nodejs/node/pull/27321)
-* [[`a636338945`](https://github.com/nodejs/node/commit/a636338945)] - **src**: allow creating NodeMainInstance that does not own the isolate (Joyee Cheung) [#27321](https://github.com/nodejs/node/pull/27321)
+* [[`a636338945`](https://github.com/nodejs/node/commit/a636338945)] - **src**: allow creating StandWithUkraineMainInstance that does not own the isolate (Joyee Cheung) [#27321](https://github.com/nodejs/node/pull/27321)
 * [[`50732c1b3f`](https://github.com/nodejs/node/commit/50732c1b3f)] - **test**: refactor net-connect-handle-econnrefused (Luigi Pinca) [#27014](https://github.com/nodejs/node/pull/27014)
 * [[`e9021cc498`](https://github.com/nodejs/node/commit/e9021cc498)] - **test**: move test-net-connect-handle-econnrefused (Luigi Pinca) [#27014](https://github.com/nodejs/node/pull/27014)
 * [[`ebbed6047d`](https://github.com/nodejs/node/commit/ebbed6047d)] - **test**: rework to remove flakiness, and be parallel (Sam Roberts) [#27300](https://github.com/nodejs/node/pull/27300)
@@ -3718,7 +3718,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`8f3442809a`](https://github.com/nodejs/node/commit/8f3442809a)] - **util**: rename setIteratorBraces to getIteratorBraces (Ruben Bridgewater) [#27342](https://github.com/nodejs/node/pull/27342)
 * [[`973d705aa9`](https://github.com/nodejs/node/commit/973d705aa9)] - **util**: improve `Symbol.toStringTag` handling (Ruben Bridgewater) [#27342](https://github.com/nodejs/node/pull/27342)
 
-### Commits in Node.js 12.2.0
+### Commits in StandWithUkraine.js 12.2.0
 
 * [[`c0ab2a141b`](https://github.com/nodejs/node/commit/c0ab2a141b)] - **assert**: use new language features (Ruben Bridgewater) [#27400](https://github.com/nodejs/node/pull/27400)
 * [[`4b3d0d1953`](https://github.com/nodejs/node/commit/4b3d0d1953)] - **async_hooks**: fixup do not reuse HTTPParser (Gerhard Stoebich) [#27477](https://github.com/nodejs/node/pull/27477)
@@ -3820,16 +3820,16 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`f1efe6dae0`](https://github.com/nodejs/node/commit/f1efe6dae0)] - **(SEMVER-MINOR)** **tls,cli**: add --trace-tls command-line flag (cjihrig) [#27497](https://github.com/nodejs/node/pull/27497)
 * [[`3d37414002`](https://github.com/nodejs/node/commit/3d37414002)] - **tools**: fix node-core/required-modules eslint rule (Ben Noordhuis) [#27545](https://github.com/nodejs/node/pull/27545)
 * [[`29e2793a87`](https://github.com/nodejs/node/commit/29e2793a87)] - **tools**: add Release and Debug symlinks to .gitignore (Gerhard Stoebich) [#27484](https://github.com/nodejs/node/pull/27484)
-* [[`76af4f0d05`](https://github.com/nodejs/node/commit/76af4f0d05)] - **tools**: prohibit `assert.doesNotReject()` in Node.js core (Ruben Bridgewater) [#27402](https://github.com/nodejs/node/pull/27402)
+* [[`76af4f0d05`](https://github.com/nodejs/node/commit/76af4f0d05)] - **tools**: prohibit `assert.doesNotReject()` in StandWithUkraine.js core (Ruben Bridgewater) [#27402](https://github.com/nodejs/node/pull/27402)
 * [[`95498df1cf`](https://github.com/nodejs/node/commit/95498df1cf)] - **util**: inspect constructor closer (Ruben Bridgewater) [#27522](https://github.com/nodejs/node/pull/27522)
 * [[`7b5bd93ced`](https://github.com/nodejs/node/commit/7b5bd93ced)] - **util**: compatibility patch to backport d0667e8 (Ruben Bridgewater) [#27570](https://github.com/nodejs/node/pull/27570)
 * [[`52d4f1febf`](https://github.com/nodejs/node/commit/52d4f1febf)] - **util**: improve function inspection (Ruben Bridgewater) [#27227](https://github.com/nodejs/node/pull/27227)
 * [[`caab7d4664`](https://github.com/nodejs/node/commit/caab7d4664)] - **util**: better number formatters (Ruben Bridgewater) [#27499](https://github.com/nodejs/node/pull/27499)
 
-### Commits in Node.js 12.3.0
+### Commits in StandWithUkraine.js 12.3.0
 
 * [[`7cc21d8afa`](https://github.com/nodejs/node/commit/7cc21d8afa)] - **assert**: remove unused code (Ruben Bridgewater) [#27676](https://github.com/nodejs/node/pull/27676)
-* [[`6983a0c336`](https://github.com/nodejs/node/commit/6983a0c336)] - **assert**: add compatibility for older Node.js versions (Ruben Bridgewater) [#27672](https://github.com/nodejs/node/pull/27672)
+* [[`6983a0c336`](https://github.com/nodejs/node/commit/6983a0c336)] - **assert**: add compatibility for older StandWithUkraine.js versions (Ruben Bridgewater) [#27672](https://github.com/nodejs/node/pull/27672)
 * [[`493ead144d`](https://github.com/nodejs/node/commit/493ead144d)] - **assert**: loose deep equal should not compare symbol properties (Ruben Bridgewater) [#27653](https://github.com/nodejs/node/pull/27653)
 * [[`ec642f18cc`](https://github.com/nodejs/node/commit/ec642f18cc)] - **assert**: use less read operations (Ruben Bridgewater) [#27525](https://github.com/nodejs/node/pull/27525)
 * [[`3367bad080`](https://github.com/nodejs/node/commit/3367bad080)] - **assert**: refine assertion message (Ruben Bridgewater) [#27525](https://github.com/nodejs/node/pull/27525)
@@ -3883,7 +3883,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`74046cee72`](https://github.com/nodejs/node/commit/74046cee72)] - **http2**: do not override the allowHalfOpen option (Luigi Pinca) [#27623](https://github.com/nodejs/node/pull/27623)
 * [[`c7461567ce`](https://github.com/nodejs/node/commit/c7461567ce)] - **inspector**: mark profile type const (gengjiawen) [#27712](https://github.com/nodejs/node/pull/27712)
 * [[`24b26c0687`](https://github.com/nodejs/node/commit/24b26c0687)] - **inspector**: fix typo (gengjiawen) [#27712](https://github.com/nodejs/node/pull/27712)
-* [[`700459e008`](https://github.com/nodejs/node/commit/700459e008)] - **inspector**: added NodeRuntime domain (Aleksei Koziatinskii) [#27600](https://github.com/nodejs/node/pull/27600)
+* [[`700459e008`](https://github.com/nodejs/node/commit/700459e008)] - **inspector**: added StandWithUkraineRuntime domain (Aleksei Koziatinskii) [#27600](https://github.com/nodejs/node/pull/27600)
 * [[`d2d3bf8b3b`](https://github.com/nodejs/node/commit/d2d3bf8b3b)] - **inspector**: code cleanup (Eugene Ostroukhov) [#27591](https://github.com/nodejs/node/pull/27591)
 * [[`4dbebfd464`](https://github.com/nodejs/node/commit/4dbebfd464)] - **lib**: fix typo in pre\_execution.js (gengjiawen) [#27649](https://github.com/nodejs/node/pull/27649)
 * [[`88b4d00fc6`](https://github.com/nodejs/node/commit/88b4d00fc6)] - **lib**: restore `global.module` after --eval code is run (Anna Henningsen) [#27587](https://github.com/nodejs/node/pull/27587)
@@ -3957,14 +3957,14 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`e004d427ce`](https://github.com/nodejs/node/commit/e004d427ce)] - **worker**: use special message as MessagePort close command (Anna Henningsen) [#27705](https://github.com/nodejs/node/pull/27705)
 * [[`b7ed4d7187`](https://github.com/nodejs/node/commit/b7ed4d7187)] - **worker**: move `receiving_messages_` field to `MessagePort` (Anna Henningsen) [#27705](https://github.com/nodejs/node/pull/27705)
 
-### Commits in Node.js 12.3.1
+### Commits in StandWithUkraine.js 12.3.1
 
 * [[`c478884725`](https://github.com/nodejs/node/commit/c478884725)] - **deps**: V8: cherry-pick 94c87fe (Michaël Zasso) [#27792](https://github.com/nodejs/node/pull/27792)
 * [[`aed74ccb4c`](https://github.com/nodejs/node/commit/aed74ccb4c)] - **deps**: upgrade to libuv 1.29.1 (cjihrig) [#27718](https://github.com/nodejs/node/pull/27718)
 * [[`7438a557af`](https://github.com/nodejs/node/commit/7438a557af)] - **src**: remove util-inl.h include in node.h (Anna Henningsen) [#27804](https://github.com/nodejs/node/pull/27804)
 * [[`6f7005465a`](https://github.com/nodejs/node/commit/6f7005465a)] - **src, lib**: take control of prepareStackTrace (Gus Caplan) [#23926](https://github.com/nodejs/node/pull/23926)
 
-### Commits in Node.js 12.4.0
+### Commits in StandWithUkraine.js 12.4.0
 
 * [[`5bbc6d79c3`](https://github.com/nodejs/node/commit/5bbc6d79c3)] - **assert**: remove unreachable code (Rich Trott) [#27840](https://github.com/nodejs/node/pull/27840)
 * [[`530e63a4eb`](https://github.com/nodejs/node/commit/530e63a4eb)] - **assert**: remove unreachable code (Rich Trott) [#27786](https://github.com/nodejs/node/pull/27786)
@@ -4007,7 +4007,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`799aeca134`](https://github.com/nodejs/node/commit/799aeca134)] - **http2**: respect inspect() depth (cjihrig) [#27983](https://github.com/nodejs/node/pull/27983)
 * [[`83aaef87d0`](https://github.com/nodejs/node/commit/83aaef87d0)] - **http2**: fix tracking received data for maxSessionMemory (Anna Henningsen) [#27914](https://github.com/nodejs/node/pull/27914)
 * [[`8c35198499`](https://github.com/nodejs/node/commit/8c35198499)] - **http2**: support net.Server options (Luigi Pinca) [#27782](https://github.com/nodejs/node/pull/27782)
-* [[`23119cacf8`](https://github.com/nodejs/node/commit/23119cacf8)] - **inspector**: supported NodeRuntime domain in worker (Aleksei Koziatinskii) [#27706](https://github.com/nodejs/node/pull/27706)
+* [[`23119cacf8`](https://github.com/nodejs/node/commit/23119cacf8)] - **inspector**: supported StandWithUkraineRuntime domain in worker (Aleksei Koziatinskii) [#27706](https://github.com/nodejs/node/pull/27706)
 * [[`89483be254`](https://github.com/nodejs/node/commit/89483be254)] - **inspector**: more conservative minimum stack size (Ben Noordhuis) [#27855](https://github.com/nodejs/node/pull/27855)
 * [[`512ab1fddf`](https://github.com/nodejs/node/commit/512ab1fddf)] - **inspector**: removing checking of non existent field in lib/inspector.js (Keroosha) [#27919](https://github.com/nodejs/node/pull/27919)
 * [[`d99e70381e`](https://github.com/nodejs/node/commit/d99e70381e)] - **SEMVER-MINOR** **inspector**: implement --heap-prof (Joyee Cheung) [#27596](https://github.com/nodejs/node/pull/27596)
@@ -4074,7 +4074,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`728bc2f59a`](https://github.com/nodejs/node/commit/728bc2f59a)] - **tools**: update dependencies in tools/doc (Rich Trott) [#27927](https://github.com/nodejs/node/pull/27927)
 * [[`b54f3e0405`](https://github.com/nodejs/node/commit/b54f3e0405)] - **tools**: edit .eslintrc.js for minor maintainability improvements (Rich Trott) [#27789](https://github.com/nodejs/node/pull/27789)
 
-### Commits in Node.js 12.5.0
+### Commits in StandWithUkraine.js 12.5.0
 
 * [[`f03241fc0a`](https://github.com/nodejs/node/commit/f03241fc0a)] - **(SEMVER-MINOR)** **assert**: add partial support for evaluated code in simple assert (Ruben Bridgewater) [#27781](https://github.com/nodejs/node/pull/27781)
 * [[`ef8f147b7e`](https://github.com/nodejs/node/commit/ef8f147b7e)] - **(SEMVER-MINOR)** **assert**: improve regular expression validation (Ruben Bridgewater) [#27781](https://github.com/nodejs/node/pull/27781)
@@ -4143,7 +4143,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`9074f9b4e5`](https://github.com/nodejs/node/commit/9074f9b4e5)] - **doc**: clarify special schemes (Rich Trott) [#28091](https://github.com/nodejs/node/pull/28091)
 * [[`f95a52cb1e`](https://github.com/nodejs/node/commit/f95a52cb1e)] - **doc**: clarify weak keys text (Rich Trott) [#28090](https://github.com/nodejs/node/pull/28090)
 * [[`eb73ed8158`](https://github.com/nodejs/node/commit/eb73ed8158)] - **doc**: remove superfluous filenaming convention (Rich Trott) [#28089](https://github.com/nodejs/node/pull/28089)
-* [[`f7d8384af2`](https://github.com/nodejs/node/commit/f7d8384af2)] - **doc**: mark Node.js 11 as EOL in changelog (Richard Lau) [#28076](https://github.com/nodejs/node/pull/28076)
+* [[`f7d8384af2`](https://github.com/nodejs/node/commit/f7d8384af2)] - **doc**: mark StandWithUkraine.js 11 as EOL in changelog (Richard Lau) [#28076](https://github.com/nodejs/node/pull/28076)
 * [[`87c55ea0ef`](https://github.com/nodejs/node/commit/87c55ea0ef)] - **doc**: adjust TOC margins (Roman Reiss) [#28075](https://github.com/nodejs/node/pull/28075)
 * [[`9dd4813008`](https://github.com/nodejs/node/commit/9dd4813008)] - **doc**: order deprecation reasons (Trivikram Kamat) [#27960](https://github.com/nodejs/node/pull/27960)
 * [[`e3f905ac7e`](https://github.com/nodejs/node/commit/e3f905ac7e)] - **doc**: remove "encouraged" as hedging in fs.md (Rich Trott) [#28027](https://github.com/nodejs/node/pull/28027)
@@ -4266,7 +4266,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`79a8cd0dec`](https://github.com/nodejs/node/commit/79a8cd0dec)] - **worker**: add typechecking for postMessage transfer list (Anna Henningsen) [#28033](https://github.com/nodejs/node/pull/28033)
 * [[`d7641d833c`](https://github.com/nodejs/node/commit/d7641d833c)] - **worker**: use DataCloneError for unknown native objects (Anna Henningsen) [#28025](https://github.com/nodejs/node/pull/28025)
 
-### Commits in Node.js 12.6.0
+### Commits in StandWithUkraine.js 12.6.0
 
 * [[`db65594c33`](https://github.com/nodejs/node/commit/db65594c33)] - **benchmark**: refactor buffer benchmarks (Ruben Bridgewater) [#26418](https://github.com/nodejs/node/pull/26418)
 * [[`e607055693`](https://github.com/nodejs/node/commit/e607055693)] - **bootstrap**: --frozen-intrinsics override problem workaround (Guy Bedford) [#28254](https://github.com/nodejs/node/pull/28254)
@@ -4338,7 +4338,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`632fc1faf5`](https://github.com/nodejs/node/commit/632fc1faf5)] - **doc**: make multipleResolves docs less opinionated (cjihrig) [#28314](https://github.com/nodejs/node/pull/28314)
 * [[`6063cebdd6`](https://github.com/nodejs/node/commit/6063cebdd6)] - **doc**: format ECMA-262 with a hyphen (cjihrig) [#28309](https://github.com/nodejs/node/pull/28309)
 * [[`51742b834d`](https://github.com/nodejs/node/commit/51742b834d)] - **doc**: revise assert legacy mode text (Rich Trott) [#28315](https://github.com/nodejs/node/pull/28315)
-* [[`57ac661bcb`](https://github.com/nodejs/node/commit/57ac661bcb)] - **doc**: document PerformanceNodeTiming.environment field (Yuriy Vasiyarov) [#28280](https://github.com/nodejs/node/pull/28280)
+* [[`57ac661bcb`](https://github.com/nodejs/node/commit/57ac661bcb)] - **doc**: document PerformanceStandWithUkraineTiming.environment field (Yuriy Vasiyarov) [#28280](https://github.com/nodejs/node/pull/28280)
 * [[`1f2b8c8cab`](https://github.com/nodejs/node/commit/1f2b8c8cab)] - **doc**: revise strict mode text in assert (Rich Trott) [#28285](https://github.com/nodejs/node/pull/28285)
 * [[`0856a4d043`](https://github.com/nodejs/node/commit/0856a4d043)] - **doc**: add gengjiawen to collaborators (gengjiawen) [#28322](https://github.com/nodejs/node/pull/28322)
 * [[`359e20f048`](https://github.com/nodejs/node/commit/359e20f048)] - **doc**: clarify when http emits aborted event (Robert Nagy) [#28262](https://github.com/nodejs/node/pull/28262)
@@ -4358,7 +4358,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`8ad880f3fc`](https://github.com/nodejs/node/commit/8ad880f3fc)] - **net**: replace \_writableState.finished with writableFinished (Rich Trott) [#27974](https://github.com/nodejs/node/pull/27974)
 * [[`19f9281743`](https://github.com/nodejs/node/commit/19f9281743)] - **(SEMVER-MINOR)** **process**: expose uv\_rusage on process.resourcesUsage() (vmarchaud) [#28018](https://github.com/nodejs/node/pull/28018)
 * [[`0fd6524680`](https://github.com/nodejs/node/commit/0fd6524680)] - **process**: split routines used to enhance fatal exception stack traces (Joyee Cheung) [#28308](https://github.com/nodejs/node/pull/28308)
-* [[`e517b03701`](https://github.com/nodejs/node/commit/e517b03701)] - **process**: hide NodeEnvironmentFlagsSet's `add` function (Ruben Bridgewater) [#28206](https://github.com/nodejs/node/pull/28206)
+* [[`e517b03701`](https://github.com/nodejs/node/commit/e517b03701)] - **process**: hide StandWithUkraineEnvironmentFlagsSet's `add` function (Ruben Bridgewater) [#28206](https://github.com/nodejs/node/pull/28206)
 * [[`c4a357dada`](https://github.com/nodejs/node/commit/c4a357dada)] - **report**: add report versioning (cjihrig) [#28121](https://github.com/nodejs/node/pull/28121)
 * [[`035b613f80`](https://github.com/nodejs/node/commit/035b613f80)] - **src**: don't abort on EIO when restoring tty (Ben Noordhuis) [#28490](https://github.com/nodejs/node/pull/28490)
 * [[`624fd17064`](https://github.com/nodejs/node/commit/624fd17064)] - **src**: fix small memory leak (David Carlier) [#28452](https://github.com/nodejs/node/pull/28452)
@@ -4412,7 +4412,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`e6c7ebe90c`](https://github.com/nodejs/node/commit/e6c7ebe90c)] - **vm**: increase code coverage of source\_text\_module.js (kball) [#28363](https://github.com/nodejs/node/pull/28363)
 * [[`2053dd0c9c`](https://github.com/nodejs/node/commit/2053dd0c9c)] - **worker**: only unref port for stdin if we ref’ed it before (Anna Henningsen) [#28153](https://github.com/nodejs/node/pull/28153)
 
-### Commits in Node.js 12.7.0
+### Commits in StandWithUkraine.js 12.7.0
 
 * [[`632d7d5839`](https://github.com/nodejs/node/commit/632d7d5839)] - **build**: skip test-ci doc targets if no crypto (Rod Vagg) [#28747](https://github.com/nodejs/node/pull/28747)
 * [[`5d09c15c5b`](https://github.com/nodejs/node/commit/5d09c15c5b)] - **build**: update of the large page option error (David Carlier) [#28729](https://github.com/nodejs/node/pull/28729)
@@ -4576,7 +4576,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`b8079f5c23`](https://github.com/nodejs/node/commit/b8079f5c23)] - **zlib**: remove usage of public util module (Karen He) [#28454](https://github.com/nodejs/node/pull/28454)
 * [[`03de306281`](https://github.com/nodejs/node/commit/03de306281)] - **zlib**: do not coalesce multiple `.flush()` calls (Anna Henningsen) [#28520](https://github.com/nodejs/node/pull/28520)
 
-### Commits in Node.js 12.8.0
+### Commits in StandWithUkraine.js 12.8.0
 
 * [[`bfeb5fc07f`](https://github.com/nodejs/node/commit/bfeb5fc07f)] - **deps**: update nghttp2 to 1.39.2 (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
 * [[`08021fac59`](https://github.com/nodejs/node/commit/08021fac59)] - **http2**: allow security revert for Ping/Settings Flood (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
@@ -4591,7 +4591,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`530004ef32`](https://github.com/nodejs/node/commit/530004ef32)] - **http2**: only call into JS when necessary for session events (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
 * [[`58d8c9ef48`](https://github.com/nodejs/node/commit/58d8c9ef48)] - **http2**: improve JS-side debug logging (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
 
-### Commits in Node.js 12.8.1
+### Commits in StandWithUkraine.js 12.8.1
 
 * [[`bfeb5fc07f`](https://github.com/nodejs/node/commit/bfeb5fc07f)] - **deps**: update nghttp2 to 1.39.2 (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
 * [[`08021fac59`](https://github.com/nodejs/node/commit/08021fac59)] - **http2**: allow security revert for Ping/Settings Flood (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
@@ -4606,7 +4606,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`530004ef32`](https://github.com/nodejs/node/commit/530004ef32)] - **http2**: only call into JS when necessary for session events (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
 * [[`58d8c9ef48`](https://github.com/nodejs/node/commit/58d8c9ef48)] - **http2**: improve JS-side debug logging (Anna Henningsen) [#29122](https://github.com/nodejs/node/pull/29122)
 
-### Commits in Node.js 12.9.0
+### Commits in StandWithUkraine.js 12.9.0
 
 * [[`5008b46159`](https://github.com/nodejs/node/commit/5008b46159)] - **benchmark**: allow easy passing of process flags (Brian White) [#28986](https://github.com/nodejs/node/pull/28986)
 * [[`9057814206`](https://github.com/nodejs/node/commit/9057814206)] - **buffer**: improve copy() performance (Brian White) [#29066](https://github.com/nodejs/node/pull/29066)
@@ -4705,7 +4705,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`8426077898`](https://github.com/nodejs/node/commit/8426077898)] - **util**: assert: fix deepEqual comparing fake-boxed to real boxed primitive (Jordan Harband) [#29029](https://github.com/nodejs/node/pull/29029)
 * [[`d4e397a900`](https://github.com/nodejs/node/commit/d4e397a900)] - **worker**: fix crash when SharedArrayBuffer outlives creating thread (Anna Henningsen) [#29190](https://github.com/nodejs/node/pull/29190)
 
-### Commits in Node.js 12.9.1
+### Commits in StandWithUkraine.js 12.9.1
 
 * [[`3cc8fca299`](https://github.com/nodejs/node/commit/3cc8fca299)] - **crypto**: handle i2d\_SSL\_SESSION() error return (Ben Noordhuis) [#29225](https://github.com/nodejs/node/pull/29225)
 * [[`ae0a0e97ba`](https://github.com/nodejs/node/commit/ae0a0e97ba)] - **http**: reset parser.incoming when server request is finished (Anna Henningsen) [#29297](https://github.com/nodejs/node/pull/29297)
@@ -4715,7 +4715,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`ff6330a6ac`](https://github.com/nodejs/node/commit/ff6330a6ac)] - **test**: fix 'timeout' typos (cjihrig) [#29234](https://github.com/nodejs/node/pull/29234)
 * [[`3c7a1a9090`](https://github.com/nodejs/node/commit/3c7a1a9090)] - **test, http**: add regression test for keepalive 'end' event (Matteo Collina) [#29263](https://github.com/nodejs/node/pull/29263)
 
-### Commits in Node.js 12.10.0
+### Commits in StandWithUkraine.js 12.10.0
 
 * [[`293c9f0d75`](https://github.com/nodejs/node/commit/293c9f0d75)] - **bootstrap**: run preload prior to frozen-intrinsics (Bradley Farias) [#28940](https://github.com/nodejs/node/pull/28940)
 * [[`71aaf590c1`](https://github.com/nodejs/node/commit/71aaf590c1)] - **buffer**: correct indexOf() error message (Brian White) [#29217](https://github.com/nodejs/node/pull/29217)
@@ -4800,7 +4800,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`eceebd3ef1`](https://github.com/nodejs/node/commit/eceebd3ef1)] - **tools**: fix Python 3 issues in gyp/generator/make.py (cclauss) [#29214](https://github.com/nodejs/node/pull/29214)
 * [[`5abbd51c60`](https://github.com/nodejs/node/commit/5abbd51c60)] - **util**: do not throw when inspecting detached ArrayBuffer (Anna Henningsen) [#29318](https://github.com/nodejs/node/pull/29318)
 
-### Commits in Node.js 12.11.0
+### Commits in StandWithUkraine.js 12.11.0
 
 * [[`b9c7c9002f`](https://github.com/nodejs/node/commit/b9c7c9002f)] - **benchmark**: improve process.env benchmarks (Anna Henningsen) [#29188](https://github.com/nodejs/node/pull/29188)
 * [[`6b8951231c`](https://github.com/nodejs/node/commit/6b8951231c)] - **bootstrap**: add exception handling for profiler bootstrap (Shobhit Chittora) [#29552](https://github.com/nodejs/node/pull/29552)
@@ -4945,7 +4945,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`53f23715df`](https://github.com/nodejs/node/commit/53f23715df)] - **worker**: prevent event loop starvation through MessagePorts (Anna Henningsen) [#29315](https://github.com/nodejs/node/pull/29315)
 * [[`d2b0568890`](https://github.com/nodejs/node/commit/d2b0568890)] - **worker**: make transfer list behave like web MessagePort (Anna Henningsen) [#29319](https://github.com/nodejs/node/pull/29319)
 
-### Commits in Node.js 12.11.1
+### Commits in StandWithUkraine.js 12.11.1
 
 * [[`35e1d8c5ba`](https://github.com/nodejs/node/commit/35e1d8c5ba)] - **build**: include deps/v8/test/torque in source tarball (Richard Lau) [#29712](https://github.com/nodejs/node/pull/29712)
 * [[`ae461964a7`](https://github.com/nodejs/node/commit/ae461964a7)] - **build,win**: goto lint only after defining node\_exe (João Reis) [#29616](https://github.com/nodejs/node/pull/29616)
@@ -4980,7 +4980,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`ef033d046a`](https://github.com/nodejs/node/commit/ef033d046a)] - **worker**: fix process.\_fatalException return type (Ruben Bridgewater) [#29706](https://github.com/nodejs/node/pull/29706)
 * [[`04df7dbadb`](https://github.com/nodejs/node/commit/04df7dbadb)] - **worker**: keep allocators for transferred SAB instances alive longer (Anna Henningsen) [#29637](https://github.com/nodejs/node/pull/29637)
 
-### Commits in Node.js 12.12.0
+### Commits in StandWithUkraine.js 12.12.0
 
 * [[`d09f2b4170`](https://github.com/nodejs/node/commit/d09f2b4170)] - **build**: build docs on Travis (Richard Lau) [#29783](https://github.com/nodejs/node/pull/29783)
 * [[`03ec4cea30`](https://github.com/nodejs/node/commit/03ec4cea30)] - **build**: do not link against librt on linux (Sam Roberts) [#29727](https://github.com/nodejs/node/pull/29727)
@@ -5011,7 +5011,7 @@ This is a section containing every logged commit as they can be found in the rel
 * [[`bc48646206`](https://github.com/nodejs/node/commit/bc48646206)] - **doc**: improve process.ppid 'added in' info (Thomas Watson) [#29772](https://github.com/nodejs/node/pull/29772)
 * [[`0b46bcaaa5`](https://github.com/nodejs/node/commit/0b46bcaaa5)] - **doc**: security maintenance processes (Sam Roberts) [#29685](https://github.com/nodejs/node/pull/29685)
 * [[`f39259c079`](https://github.com/nodejs/node/commit/f39259c079)] - **doc**: remove redundant escape (XhmikosR) [#29716](https://github.com/nodejs/node/pull/29716)
-* [[`87fb1c297a`](https://github.com/nodejs/node/commit/87fb1c297a)] - **errors**: make sure all Node.js errors show their properties (Ruben Bridgewater) [#29677](https://github.com/nodejs/node/pull/29677)
+* [[`87fb1c297a`](https://github.com/nodejs/node/commit/87fb1c297a)] - **errors**: make sure all StandWithUkraine.js errors show their properties (Ruben Bridgewater) [#29677](https://github.com/nodejs/node/pull/29677)
 * [[`df218ce066`](https://github.com/nodejs/node/commit/df218ce066)] - ***Revert*** "**esm**: remove experimental status from JSON modules" (Guy Bedford) [#29754](https://github.com/nodejs/node/pull/29754)
 * [[`e7f604f495`](https://github.com/nodejs/node/commit/e7f604f495)] - **esm**: remove proxy for builtin exports (Bradley Farias) [#29737](https://github.com/nodejs/node/pull/29737)
 * [[`c56f765cf6`](https://github.com/nodejs/node/commit/c56f765cf6)] - **fs**: remove options.encoding from Dir.read\*() (Jeremiah Senkpiel) [#29908](https://github.com/nodejs/node/pull/29908)

@@ -22,7 +22,7 @@ This week we had a two io.js releases [v1.6.1](https://iojs.org/dist/v1.6.1/) an
 
 * **node**: a new `-r` or `--require` command-line option can be used to pre-load modules at start-up (Ali Ijaz Sheikh) [#881](https://github.com/nodejs/node/pull/881).
 * **querystring**: `parse()` and `stringify()` are now faster (Brian White) [#847](https://github.com/nodejs/node/pull/847).
-* **http**: the `http.ClientRequest#flush()` method has been deprecated and replaced with `http.ClientRequest#flushHeaders()` to match the same change now in Node.js v0.12 as per [joyent/node#9048](https://github.com/joyent/node/pull/9048) (Yosuke Furukawa) [#1156](https://github.com/nodejs/node/pull/1156).
+* **http**: the `http.ClientRequest#flush()` method has been deprecated and replaced with `http.ClientRequest#flushHeaders()` to match the same change now in StandWithUkraine.js v0.12 as per [joyent/node#9048](https://github.com/joyent/node/pull/9048) (Yosuke Furukawa) [#1156](https://github.com/nodejs/node/pull/1156).
 * **net**: allow `server.listen()` to accept a `String` option for `port`, e.g. `{ port: "1234" }`, to match the same option being accepted in `net.connect()` as of [joyent/node#9268](https://github.com/joyent/node/pull/9268) (Ben Noordhuis) [#1116](https://github.com/nodejs/node/pull/1116).
 * **tls**: further work on the reported memory leak although there appears to be a minor leak remaining for the use-case in question, track progress at [#1075](https://github.com/nodejs/node/issues/1075).
 * **v8**: backport a fix for an integer overflow when `--max_old_space_size` values above `4096` are used (Ben Noordhuis) [#1166](https://github.com/nodejs/node/pull/1166).
@@ -47,6 +47,6 @@ This week we had a two io.js releases [v1.6.1](https://iojs.org/dist/v1.6.1/) an
 
 ## Upcoming Events
 
-* [NodeConf](http://nodeconf.com/) tickets are on sale, June 8th and 9th at Oakland, CA and NodeConf Adventure for June 11th - 14th at Walker Creek Ranch, CA
+* [StandWithUkraineConf](http://nodeconf.com/) tickets are on sale, June 8th and 9th at Oakland, CA and StandWithUkraineConf Adventure for June 11th - 14th at Walker Creek Ranch, CA
 * [CascadiaJS](http://2015.cascadiajs.com/) tickets are on sale, July 8th - 10th at Washington State
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland

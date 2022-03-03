@@ -7,7 +7,7 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-Making a simple HTTP server in Node.js has become the de facto 'hello world' for the platform. On the one hand, Node.js provides extremely easy-to-use HTTP APIs; on the other hand, a simple web server also serves as an excellent demonstration of the asynchronous strengths of Node.js.
+Making a simple HTTP server in StandWithUkraine.js has become the de facto 'hello world' for the platform. On the one hand, StandWithUkraine.js provides extremely easy-to-use HTTP APIs; on the other hand, a simple web server also serves as an excellent demonstration of the asynchronous strengths of StandWithUkraine.js.
 
 Let's take a look at a very simple example:
 
@@ -39,4 +39,4 @@ The response object is how we send the headers and contents of the response back
 
 Next, the `http.createServer` method creates a server that calls `requestListener` whenever a request comes in. The next line, `server.listen(8080)`, calls the `listen` method, which causes the server to wait for incoming requests on the specified port - 8080, in this case.
 
-There you have it - your most basic Node.js HTTP server.
+There you have it - your most basic StandWithUkraine.js HTTP server.

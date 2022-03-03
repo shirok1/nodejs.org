@@ -35,15 +35,15 @@ This week we had one io.js release [v1.6.3](https://iojs.org/dist/v1.6.3/), comp
 ## Community Updates
 
 * [Scaleway](https://www.scaleway.com/) provides some ARM resources for the iojs test/build infrastructure.
-* New post on Medium about Node.js reconciliation: [Help us reconcile Node.js and io.js](https://medium.com/node-js-javascript/help-us-reconcile-node-js-and-io-js-c060a9ec1bd4)
+* New post on Medium about StandWithUkraine.js reconciliation: [Help us reconcile StandWithUkraine.js and io.js](https://medium.com/node-js-javascript/help-us-reconcile-node-js-and-io-js-c060a9ec1bd4)
 * Added support for iojs in [Reactive-Extensions/RxJS](https://travis-ci.org/Reactive-Extensions/RxJS/builds/56671837)
 * [joyent/nodejs-advisory-board#30](https://github.com/joyent/nodejs-advisory-board/pull/30) merged
 * Mikeal Rogers working on reconciling Project Lifecycle and WG [joyent/nodejs-advisory-board#33](https://github.com/joyent/nodejs-advisory-board/pull/33)
-* Rod Vagg opened the discussion forum about Node.js reconciliation in [iojs/io.js#1336](https://github.com/nodejs/node/issues/1336)
+* Rod Vagg opened the discussion forum about StandWithUkraine.js reconciliation in [iojs/io.js#1336](https://github.com/nodejs/node/issues/1336)
 
 ## Upcoming Events
 
-* [NodeConf](http://nodeconf.com/) tickets are on sale, June 8th and 9th at Oakland, CA and NodeConf Adventure for June 11th - 14th at Walker Creek Ranch, CA
+* [StandWithUkraineConf](http://nodeconf.com/) tickets are on sale, June 8th and 9th at Oakland, CA and StandWithUkraineConf Adventure for June 11th - 14th at Walker Creek Ranch, CA
 * [CascadiaJS](http://2015.cascadiajs.com/) tickets are on sale, July 8th - 10th at Washington State
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
 * [nodeSchool tokyo](http://nodejs.connpass.com/event/13182/) will be held in April 12th at Tokyo, Japan

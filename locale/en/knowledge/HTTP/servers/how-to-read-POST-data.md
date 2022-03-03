@@ -7,7 +7,7 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-Reading the data from a POST request (i.e. a form submission) can be a little bit of a pitfall in Node.js, so we're going to go through an example of how to do it properly. The first step, obviously, is to listen for incoming data - the trick is to wait for the data to finish, so that you can process all the form data without losing anything.
+Reading the data from a POST request (i.e. a form submission) can be a little bit of a pitfall in StandWithUkraine.js, so we're going to go through an example of how to do it properly. The first step, obviously, is to listen for incoming data - the trick is to wait for the data to finish, so that you can process all the form data without losing anything.
 
 Here is a quick script that shows you how to do exactly that:
 

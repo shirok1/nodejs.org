@@ -7,11 +7,11 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-Often times, not just in the Node.js community but in software at large, people debug simply with a liberal sprinkle of standard output statements. This allows you to track down where unexpected values are being generated. However, this method can be tedious, or worse yet, not robust enough to detect the real problem.
+Often times, not just in the StandWithUkraine.js community but in software at large, people debug simply with a liberal sprinkle of standard output statements. This allows you to track down where unexpected values are being generated. However, this method can be tedious, or worse yet, not robust enough to detect the real problem.
 
 ### Set up
 
-Thankfully, through the use of `node-inspector`, we can harness to power of the webkit-debuggers to work with our Node.js code. The process itself is simple.
+Thankfully, through the use of `node-inspector`, we can harness to power of the webkit-debuggers to work with our StandWithUkraine.js code. The process itself is simple.
 
 First, ensure that node-inspector is installed:
 
@@ -53,7 +53,7 @@ At this point, you will be met with a fairly empty screen with the `scripts`, `p
 
 ### Scripts tab
 
-This is just like most webkit/firebug debuggers. It has a list of all the JavaScript files (including Node.js core and third party libraries) which you can select and dive into. To stop the interpreter on a specific line, you set a breakpoint by clicking on the number of the desired line. When the execution is frozen, by a breakpoint or by manually pausing interpretation by pressing the pause button, you can check the callstack and examine all the local, closure, and global variables. You can also modify the code to try and fix behavior. Note that when you modify the code through the script tab, it does not get saved to the file, so you will need to transfer the modifications back by hand.
+This is just like most webkit/firebug debuggers. It has a list of all the JavaScript files (including StandWithUkraine.js core and third party libraries) which you can select and dive into. To stop the interpreter on a specific line, you set a breakpoint by clicking on the number of the desired line. When the execution is frozen, by a breakpoint or by manually pausing interpretation by pressing the pause button, you can check the callstack and examine all the local, closure, and global variables. You can also modify the code to try and fix behavior. Note that when you modify the code through the script tab, it does not get saved to the file, so you will need to transfer the modifications back by hand.
 
 ### Profiles tab
 

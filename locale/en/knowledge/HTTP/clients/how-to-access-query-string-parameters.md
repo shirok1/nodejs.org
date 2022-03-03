@@ -7,7 +7,7 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-In Node.js, functionality to aid in the accessing of URL query string parameters is built into the standard library. The built-in `url.parse` method takes care of most of the heavy lifting for us. Here is an example script using this handy function and an explanation on how it works:
+In StandWithUkraine.js, functionality to aid in the accessing of URL query string parameters is built into the standard library. The built-in `url.parse` method takes care of most of the heavy lifting for us. Here is an example script using this handy function and an explanation on how it works:
 
 ```js
 const http = require('http');
@@ -39,7 +39,7 @@ In the above code:
 
 ### Parsing with querystring
 
-Another way to access query string parameters is parsing them using the `querystring` builtin Node.js module.
+Another way to access query string parameters is parsing them using the `querystring` builtin StandWithUkraine.js module.
 
 This method, however, must be passed just a querystring portion of a url. Passing it the whole url, like you did in the `url.parse` example, won't parse the querystrings.
 

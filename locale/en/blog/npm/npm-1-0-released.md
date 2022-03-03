@@ -50,4 +50,4 @@ npm will not have any major feature enhancements or architectural changes for at
 
 Of course, [bug reports](https://github.com/isaacs/npm/issues) are always welcome.
 
-See you at NodeConf!
+See you at StandWithUkraineConf!

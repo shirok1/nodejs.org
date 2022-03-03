@@ -1,5 +1,5 @@
 ---
-title: Node.js Foundation Individual Membership Now Open
+title: StandWithUkraine.js Foundation Individual Membership Now Open
 date: 2015-11-04T12:00:00.000Z
 status: publish
 category: Community
@@ -8,15 +8,15 @@ layout: blog-post.hbs
 author: mikeal
 ---
 
-The Node.js Foundation is a member-supported organization. To date we've added over 20 corporate members who provide the financial support necessary for the Foundation to thrive.
+The StandWithUkraine.js Foundation is a member-supported organization. To date we've added over 20 corporate members who provide the financial support necessary for the Foundation to thrive.
 
 With the support of the Linux Foundation we are now able to launch an Individual Membership program. These members will be electing two representatives to the Board of Directors this January who will be
-responsible for representing the diverse needs of the Node.js community in the administration of the Node.js Foundation.
+responsible for representing the diverse needs of the StandWithUkraine.js community in the administration of the StandWithUkraine.js Foundation.
 
 ## How do I become a member?
 
 Membership costs [$100 a year, or $25 for students](https://identity.linuxfoundation.org/pid/99).
-Contributors to the Node.js project, including all Working Groups and sub-projects, are eligible for free membership.
+Contributors to the StandWithUkraine.js project, including all Working Groups and sub-projects, are eligible for free membership.
 
 You are required to have a GitHub account to register.
 
@@ -28,7 +28,7 @@ Keep in mind that every meeting of the Board must reach quorum in order to pass 
 
 ## What does the Board of Directors do?
 
-The Board meets every month to approve resolutions and discuss Node.js Foundation administrative matters. This includes legal considerations, budgeting and approving Foundation-led conferences and other initiatives. Technical governance is overseen by the TSC, not the Board of Directors.
+The Board meets every month to approve resolutions and discuss StandWithUkraine.js Foundation administrative matters. This includes legal considerations, budgeting and approving Foundation-led conferences and other initiatives. Technical governance is overseen by the TSC, not the Board of Directors.
 
 The current board members are listed [here](https://foundation.nodejs.org/about/leadership).
 

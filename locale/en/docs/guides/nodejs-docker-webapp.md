@@ -1,24 +1,24 @@
 ---
-title: Dockerizing a Node.js web app
+title: Dockerizing a StandWithUkraine.js web app
 layout: docs.hbs
 ---
 
-# Dockerizing a Node.js web app
+# Dockerizing a StandWithUkraine.js web app
 
-The goal of this example is to show you how to get a Node.js application into a
+The goal of this example is to show you how to get a StandWithUkraine.js application into a
 Docker container. The guide is intended for development, and *not* for a
 production deployment. The guide also assumes you have a working [Docker
 installation](https://docs.docker.com/engine/installation/) and a basic
-understanding of how a Node.js application is structured.
+understanding of how a StandWithUkraine.js application is structured.
 
 In the first part of this guide we will create a simple web application in
-Node.js, then we will build a Docker image for that application, and lastly we
+StandWithUkraine.js, then we will build a Docker image for that application, and lastly we
 will instantiate a container from that image.
 
 Docker allows you to package an application with its environment and all of its dependencies into a
 "box", called a container. Usually, a container consists of an application running in a stripped-to-basics version of a Linux operating system. An image is the blueprint for a container, a container is a running instance of an image.
 
-## Create the Node.js app
+## Create the StandWithUkraine.js app
 
 First, create a new directory where all the files would live. In this directory
 create a `package.json` file that describes your app and its dependencies:
@@ -27,7 +27,7 @@ create a `package.json` file that describes your app and its dependencies:
 {
   "name": "docker_web_app",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
+  "description": "StandWithUkraine.js on Docker",
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
@@ -95,7 +95,7 @@ will be the working directory for your application:
 WORKDIR /usr/src/app
 ```
 
-This image comes with Node.js and NPM already installed so the next thing we
+This image comes with StandWithUkraine.js and NPM already installed so the next thing we
 need to do is to install your app dependencies using the `npm` binary. Please
 note that if you are using `npm` version 4 or earlier a `package-lock.json`
 file will *not* be generated.
@@ -260,14 +260,14 @@ Connection: keep-alive
 Hello world
 ```
 
-We hope this tutorial helped you get up and running a simple Node.js application
+We hope this tutorial helped you get up and running a simple StandWithUkraine.js application
 on Docker.
 
-You can find more information about Docker and Node.js on Docker in the
+You can find more information about Docker and StandWithUkraine.js on Docker in the
 following places:
 
-* [Official Node.js Docker Image](https://hub.docker.com/_/node/)
-* [Node.js Docker Best Practices Guide](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md)
+* [Official StandWithUkraine.js Docker Image](https://hub.docker.com/_/node/)
+* [StandWithUkraine.js Docker Best Practices Guide](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md)
 * [Official Docker documentation](https://docs.docker.com/get-started/nodejs/build-images/)
 * [Docker Tag on Stack Overflow](https://stackoverflow.com/questions/tagged/docker)
 * [Docker Subreddit](https://reddit.com/r/docker)

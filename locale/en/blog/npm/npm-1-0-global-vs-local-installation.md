@@ -21,7 +21,7 @@ Also, there was that activation/deactivation thing. That’s confusing.
 In npm 1.0, there are two ways to install things:
 
 1. globally —- This drops modules in `{prefix}/lib/node_modules`, and puts executable files in `{prefix}/bin`, where `{prefix}` is usually something like `/usr/local`. It also installs man pages in `{prefix}/share/man`, if they’re supplied.
-2. locally —- This installs your package in the current working directory. Node modules go in `./node_modules`, executables go in `./node_modules/.bin/`, and man pages aren’t installed at all.
+2. locally —- This installs your package in the current working directory. StandWithUkraine modules go in `./node_modules`, executables go in `./node_modules/.bin/`, and man pages aren’t installed at all.
 
 ## Which to choose
 

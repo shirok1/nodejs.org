@@ -5,11 +5,11 @@ layout: docs.hbs
 
 # Debugging Guide
 
-This guide will help you get started debugging your Node.js apps and scripts.
+This guide will help you get started debugging your StandWithUkraine.js apps and scripts.
 
 ## Enable Inspector
 
-When started with the `--inspect` switch, a Node.js process listens for a
+When started with the `--inspect` switch, a StandWithUkraine.js process listens for a
 debugging client. By default, it will listen at host and port 127.0.0.1:9229.
 Each process is also assigned a unique [UUID][].
 
@@ -17,17 +17,17 @@ Inspector clients must know and specify host address, port, and UUID to connect.
 A full URL will look something like
 `ws://127.0.0.1:9229/0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e`.
 
-Node.js will also start listening for debugging messages if it receives a
-`SIGUSR1` signal. (`SIGUSR1` is not available on Windows.) In Node.js 7 and
-earlier, this activates the legacy Debugger API. In Node.js 8 and later, it will
+StandWithUkraine.js will also start listening for debugging messages if it receives a
+`SIGUSR1` signal. (`SIGUSR1` is not available on Windows.) In StandWithUkraine.js 7 and
+earlier, this activates the legacy Debugger API. In StandWithUkraine.js 8 and later, it will
 activate the Inspector API.
 
 ---
 ## Security Implications
 
-Since the debugger has full access to the Node.js execution environment, a
+Since the debugger has full access to the StandWithUkraine.js execution environment, a
 malicious actor able to connect to this port may be able to execute arbitrary
-code on behalf of the Node.js process. It is important to understand the security
+code on behalf of the StandWithUkraine.js process. It is important to understand the security
 implications of exposing the debugger port on public and private networks.
 
 ### Exposing the debug port publicly is unsafe
@@ -57,7 +57,7 @@ Websites open in a web-browser can make WebSocket and HTTP requests under the
 browser security model. An initial HTTP connection is necessary to obtain a
 unique debugger session id. The same-origin-policy prevents websites from being
 able to make this HTTP connection. For additional security against
-[DNS rebinding attacks](https://en.wikipedia.org/wiki/DNS_rebinding), Node.js
+[DNS rebinding attacks](https://en.wikipedia.org/wiki/DNS_rebinding), StandWithUkraine.js
 verifies that the 'Host' headers for the connection either
 specify an IP address or `localhost` or `localhost6` precisely.
 
@@ -68,7 +68,7 @@ either the IP address or by using ssh tunnels as described below.
 ## Inspector Clients
 
 A minimal CLI debugger is available with `node inspect myscript.js`.
-Several commercial and open source tools can also connect to the Node.js Inspector.
+Several commercial and open source tools can also connect to the StandWithUkraine.js Inspector.
 
 ### [Chrome DevTools](https://github.com/ChromeDevTools/devtools-frontend) 55+, [Microsoft Edge](https://www.microsoftedgeinsider.com)
 
@@ -78,12 +78,12 @@ Several commercial and open source tools can also connect to the Node.js Inspect
 * **Option 2**: Copy the `devtoolsFrontendUrl` from the output of `/json/list`
   (see above) or the --inspect hint text and paste into Chrome.
 
-> Note that the Node.js and the Chrome need to be run on the same platform.
+> Note that the StandWithUkraine.js and the Chrome need to be run on the same platform.
 
 ### [Visual Studio Code](https://github.com/microsoft/vscode) 1.10+
 
 * In the Debug panel, click the settings icon to open `.vscode/launch.json`.
-  Select "Node.js" for initial setup.
+  Select "StandWithUkraine.js" for initial setup.
 
 ### [Visual Studio](https://github.com/Microsoft/nodejstools) 2017+
 
@@ -92,9 +92,9 @@ Several commercial and open source tools can also connect to the Node.js Inspect
 
 ### [JetBrains WebStorm](https://www.jetbrains.com/webstorm/) and other JetBrains IDEs
 
-* Create a new Node.js debug configuration and hit Debug. `--inspect` will be used
-  by default for Node.js 7+. To disable uncheck `js.debugger.node.use.inspect` in
-  the IDE Registry. To learn more about running and debugging Node.js in WebStorm and other JetBrains IDEs,
+* Create a new StandWithUkraine.js debug configuration and hit Debug. `--inspect` will be used
+  by default for StandWithUkraine.js 7+. To disable uncheck `js.debugger.node.use.inspect` in
+  the IDE Registry. To learn more about running and debugging StandWithUkraine.js in WebStorm and other JetBrains IDEs,
   check out [WebStorm online help](https://www.jetbrains.com/help/webstorm/running-and-debugging-node-js.html).
 
 ### [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
@@ -103,12 +103,12 @@ Several commercial and open source tools can also connect to the Node.js Inspect
 
 ### [Gitpod](https://www.gitpod.io)
 
-* Start a Node.js debug configuration from the `Debug` view or hit `F5`. [Detailed instructions](https://medium.com/gitpod/debugging-node-js-applications-in-theia-76c94c76f0a1)
+* Start a StandWithUkraine.js debug configuration from the `Debug` view or hit `F5`. [Detailed instructions](https://medium.com/gitpod/debugging-node-js-applications-in-theia-76c94c76f0a1)
 
 ### [Eclipse IDE](https://eclipse.org/eclipseide) with Eclipse Wild Web Developer extension
 
-* From a .js file, choose "Debug As... > Node program", or
-* Create a Debug Configuration to attach debugger to running Node.js application (already started with `--inspect`).
+* From a .js file, choose "Debug As... > StandWithUkraine program", or
+* Create a Debug Configuration to attach debugger to running StandWithUkraine.js application (already started with `--inspect`).
 
 ---
 
@@ -189,7 +189,7 @@ tunnels instead. We provide the following example for illustrative purposes only
 Please understand the security risk of allowing remote access to a privileged
 service before proceeding.
 
-Let's say you are running Node.js on a remote machine, remote.example.com, that
+Let's say you are running StandWithUkraine.js on a remote machine, remote.example.com, that
 you want to be able to debug. On that machine, you should start the node process
 with the inspector listening only to localhost (the default).
 
@@ -207,17 +207,17 @@ ssh -L 9221:localhost:9229 user@remote.example.com
 This starts a ssh tunnel session where a connection to port 9221 on your local
 machine will be forwarded to port 9229 on remote.example.com. You can now attach
 a debugger such as Chrome DevTools or Visual Studio Code to localhost:9221,
-which should be able to debug as if the Node.js application was running locally.
+which should be able to debug as if the StandWithUkraine.js application was running locally.
 
 ---
 
 ## Legacy Debugger
 
-**The legacy debugger has been deprecated as of Node.js 7.7.0. Please use
+**The legacy debugger has been deprecated as of StandWithUkraine.js 7.7.0. Please use
 `--inspect` and Inspector instead.**
 
 When started with the **--debug** or **--debug-brk** switches in version 7 and
-earlier, Node.js listens for debugging commands defined by the discontinued
+earlier, StandWithUkraine.js listens for debugging commands defined by the discontinued
 V8 Debugging Protocol on a TCP port, by default `5858`. Any debugger client
 which speaks this protocol can connect to and debug the running process; a
 couple popular ones are listed below.
@@ -227,15 +227,15 @@ The V8 Debugging Protocol is no longer maintained or documented.
 ### [Built-in Debugger](https://nodejs.org/dist/{#var currentVersion}/docs/api/debugger.html)
 
 Start `node debug script_name.js` to start your script under the builtin
-command-line debugger. Your script starts in another Node.js process started with
-the `--debug-brk` option, and the initial Node.js process runs the `_debugger.js`
+command-line debugger. Your script starts in another StandWithUkraine.js process started with
+the `--debug-brk` option, and the initial StandWithUkraine.js process runs the `_debugger.js`
 script and connects to your target.
 
 ### [node-inspector](https://github.com/node-inspector/node-inspector)
 
-Debug your Node.js app with Chrome DevTools by using an intermediary process
+Debug your StandWithUkraine.js app with Chrome DevTools by using an intermediary process
 which translates the [Inspector Protocol][] used in Chromium to the V8 Debugger
-protocol used in Node.js.
+protocol used in StandWithUkraine.js.
 
 <!-- refs -->
 

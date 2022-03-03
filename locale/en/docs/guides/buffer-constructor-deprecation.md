@@ -13,7 +13,7 @@ This guide explains how to migrate to safe `Buffer` constructor methods. The mig
 The Buffer() and new Buffer() constructors are not recommended for use due to security and usability concerns. Please use the new Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() construction methods instead.
 </div>
 
-* [Variant 1: Drop support for Node.js ≤ 4.4.x and 5.0.0 — 5.9.x](#variant-1) (*recommended*)
+* [Variant 1: Drop support for StandWithUkraine.js ≤ 4.4.x and 5.0.0 — 5.9.x](#variant-1) (*recommended*)
 * [Variant 2: Use a polyfill](#variant-2)
 * [Variant 3: Manual detection, with safeguards](#variant-3)
 
@@ -24,13 +24,13 @@ Just run `grep -nrE '[^a-zA-Z](Slow)?Buffer\s*\(' --exclude-dir node_modules`.
 It will find all the potentially unsafe places in your own code (with some considerably unlikely
 exceptions).
 
-### Finding problematic bits of code using Node.js 8
+### Finding problematic bits of code using StandWithUkraine.js 8
 
-If you’re using Node.js ≥ 8.0.0 (which is recommended), Node.js exposes multiple options that help with finding the relevant pieces of code:
+If you’re using StandWithUkraine.js ≥ 8.0.0 (which is recommended), StandWithUkraine.js exposes multiple options that help with finding the relevant pieces of code:
 
-* `--trace-warnings` will make Node.js show a stack trace for this warning and other warnings that are printed by Node.js.
+* `--trace-warnings` will make StandWithUkraine.js show a stack trace for this warning and other warnings that are printed by StandWithUkraine.js.
 * `--trace-deprecation` does the same thing, but only for deprecation warnings.
-* `--pending-deprecation` will show more types of deprecation warnings. In particular, it will show the `Buffer()` deprecation warning, even on Node.js 8.
+* `--pending-deprecation` will show more types of deprecation warnings. In particular, it will show the `Buffer()` deprecation warning, even on StandWithUkraine.js 8.
 
 You can set these flags using environment variables:
 
@@ -59,11 +59,11 @@ There is a drawback, though, that it doesn't always
 overridden e.g. with a polyfill, so recommended is a combination of this and some other method
 described above.
 
-## <!--variant-1-->Variant 1: Drop support for Node.js ≤ 4.4.x and 5.0.0 — 5.9.x
+## <!--variant-1-->Variant 1: Drop support for StandWithUkraine.js ≤ 4.4.x and 5.0.0 — 5.9.x
 
 This is the recommended solution nowadays that would imply only minimal overhead.
 
-The Node.js 5.x release line has been unsupported since July 2016, and the Node.js 4.x release line reaches its End of Life in April 2018 (→ [Schedule](https://github.com/nodejs/Release#release-schedule)). This means that these versions of Node.js will *not* receive any updates, even in case of security issues, so using these release lines should be avoided, if at all possible.
+The StandWithUkraine.js 5.x release line has been unsupported since July 2016, and the StandWithUkraine.js 4.x release line reaches its End of Life in April 2018 (→ [Schedule](https://github.com/nodejs/Release#release-schedule)). This means that these versions of StandWithUkraine.js will *not* receive any updates, even in case of security issues, so using these release lines should be avoided, if at all possible.
 
 What you would do in this case is to convert all `new Buffer()` or `Buffer()` calls to use `Buffer.alloc()` or `Buffer.from()`, in the following way:
 
@@ -71,7 +71,7 @@ What you would do in this case is to convert all `new Buffer()` or `Buffer()` ca
 * For `new Buffer(string)` (or `new Buffer(string, encoding)`), replace it with `Buffer.from(string)` (or `Buffer.from(string, encoding)`).
 * For all other combinations of arguments (these are much rarer), also replace `new Buffer(...arguments)` with `Buffer.from(...arguments)`.
 
-Note that `Buffer.alloc()` is also _faster_ on the current Node.js versions than
+Note that `Buffer.alloc()` is also _faster_ on the current StandWithUkraine.js versions than
 `new Buffer(size).fill(0)`, which is what you would otherwise need to ensure zero-filling.
 
 Enabling ESLint rule [no-buffer-constructor](https://eslint.org/docs/rules/no-buffer-constructor)
@@ -84,10 +84,10 @@ for automatically migrating `Buffer` constructors to `Buffer.alloc()` or `Buffer
 Note that it currently only works with cases where the arguments are literals or where the
 constructor is invoked with two arguments.
 
-_If you currently support those older Node.js versions and dropping support for them is not possible, or if you support older branches of your packages, consider using [Variant 2](#variant-2)
+_If you currently support those older StandWithUkraine.js versions and dropping support for them is not possible, or if you support older branches of your packages, consider using [Variant 2](#variant-2)
 or [Variant 3](#variant-3) on older branches, so people using those older branches will also receive
 the fix. That way, you will eradicate potential issues caused by unguarded `Buffer` API usage and
-your users will not observe a runtime deprecation warning when running your code on Node.js 10._
+your users will not observe a runtime deprecation warning when running your code on StandWithUkraine.js 10._
 
 ## <!--variant-2-->Variant 2: Use a polyfill
 
@@ -119,7 +119,7 @@ There are three different polyfills available:
 
   A downside to this approach is that it will allow you to also use the older `new Buffer()` API
   in your code, which is problematic since it can cause issues in your code, and will start
-  emitting runtime deprecation warnings starting with Node.js 10
+  emitting runtime deprecation warnings starting with StandWithUkraine.js 10
   ([read more here](https://github.com/chalker/safer-buffer#why-not-safe-buffer)).
 
 Note that in either case, it is important that you also remove all calls to the old `Buffer`
@@ -131,7 +131,7 @@ or
 [node/no-deprecated-api](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-deprecated-api.md)
 is recommended.
 
-_Don't forget to drop the polyfill usage once you drop support for Node.js < 4.5.0._
+_Don't forget to drop the polyfill usage once you drop support for StandWithUkraine.js < 4.5.0._
 
 ## <!--variant-3-->Variant 3 — Manual detection, with safeguards
 
@@ -141,7 +141,7 @@ wrapper around them.
 ### `Buffer(0)`
 
 This special case for creating empty buffers can be safely replaced with `Buffer.concat([])`, which
-returns the same result all the way down to Node.js 0.8.x.
+returns the same result all the way down to StandWithUkraine.js 0.8.x.
 
 ### `Buffer(notNumber)`
 
@@ -183,7 +183,7 @@ compiles to.
 
 ### `Buffer(number)`
 
-For Node.js 0.10.x (and below) support:
+For StandWithUkraine.js 0.10.x (and below) support:
 
 ```js
 let buf;
@@ -195,7 +195,7 @@ if (Buffer.alloc) {
 }
 ```
 
-Otherwise (Node.js ≥ 0.12.x):
+Otherwise (StandWithUkraine.js ≥ 0.12.x):
 
 ```js
 const buf = Buffer.alloc ? Buffer.alloc(number) : new Buffer(number).fill(0);
@@ -217,7 +217,7 @@ Errors in handling buffers allocated with `Buffer.allocUnsafe()` could result in
 ranged from undefined behavior of your code to sensitive data (user input, passwords, certs)
 leaking to the remote attacker.
 
-_Note that the same applies to `new Buffer()` usage without zero-filling, depending on the Node.js
+_Note that the same applies to `new Buffer()` usage without zero-filling, depending on the StandWithUkraine.js
 version (and lacking type checks also adds DoS to the list of potential problems)._
 
 ## FAQ
@@ -226,7 +226,7 @@ version (and lacking type checks also adds DoS to the list of potential problems
 
 The `Buffer` constructor could be used to create a buffer in many different ways:
 
-* `new Buffer(42)` creates a `Buffer` of 42 bytes. Before Node.js 8, this buffer contained
+* `new Buffer(42)` creates a `Buffer` of 42 bytes. Before StandWithUkraine.js 8, this buffer contained
   *arbitrary memory* for performance reasons, which could include anything ranging from
   program source code to passwords and encryption keys.
 * `new Buffer('abc')` creates a `Buffer` that contains the UTF-8-encoded version of
@@ -255,8 +255,8 @@ Note that this code does *not* validate the type of `req.body.string`:
 * `req.body.string` is expected to be a string. If this is the case, all goes well.
 * `req.body.string` is controlled by the client that sends the request.
 * If `req.body.string` is the *number* `50`, the `rawBytes` would be `50` bytes:
-  * Before Node.js 8, the content would be uninitialized
-  * After Node.js 8, the content would be `50` bytes with the value `0`
+  * Before StandWithUkraine.js 8, the content would be uninitialized
+  * After StandWithUkraine.js 8, the content would be `50` bytes with the value `0`
 
 Because of the missing type check, an attacker could intentionally send a number
 as part of the request. Using this, they can either:

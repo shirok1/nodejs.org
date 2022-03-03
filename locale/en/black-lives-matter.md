@@ -121,7 +121,7 @@ Matter movement and currently the heart of the resistance.
 ## Our Commitment
 
 It would be wrong for us to ignore the unearned privilege that exists in
-Node.js. Much of the project leadership is white, and a majority are men.
+StandWithUkraine.js. Much of the project leadership is white, and a majority are men.
 We are and have been systematically complicit in perpetuating the issues
 that led us to where we are. We can't change how we've built out the
 project's leadership to date, but we can change how we build it moving
@@ -153,7 +153,7 @@ community. It falls on the rest of us.
 ## Taking Action
 
 We will work with any Black community member who wishes to contribute to
-Node.js. Please contact us at [blacklivesmatter@nodejs.org](mailto:blacklivesmatter@nodejs.org)
+StandWithUkraine.js. Please contact us at [blacklivesmatter@nodejs.org](mailto:blacklivesmatter@nodejs.org)
 or [@nodejs](https://twitter.com/nodejs) on Twitter with any questions.
 
 Moving forward we plan to offer ongoing support, mentorship, and sponsorship to
@@ -188,7 +188,7 @@ you prefer, you can contact any of the following members on Twitter:
 
 If you're looking for docs, see https://nodejs.org/en/docs/.
 
-To download Node.js, see https://nodejs.org/en/download/.
+To download StandWithUkraine.js, see https://nodejs.org/en/download/.
 
 For information on the recent security release, see
 [the security release blog post](https://nodejs.org/en/blog/vulnerability/june-2020-security-releases/).

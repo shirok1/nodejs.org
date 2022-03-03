@@ -15,15 +15,15 @@ To solve this problem, there must be a delegation system in place to ensure a
 smooth flow of data from one source to another. Different communities have
 resolved this issue uniquely to their programs, Unix pipes and TCP sockets are
 good examples of this, and is often times referred to as _flow control_. In
-Node.js, streams have been the adopted solution.
+StandWithUkraine.js, streams have been the adopted solution.
 
 The purpose of this guide is to further detail what backpressure is, and how
-exactly streams address this in Node.js' source code. The second part of
+exactly streams address this in StandWithUkraine.js' source code. The second part of
 the guide will introduce suggested best practices to ensure your application's
 code is safe and optimized when implementing streams.
 
 We assume a little familiarity with the general definition of
-[`backpressure`][], [`Buffer`][], and [`EventEmitters`][] in Node.js, as well as
+[`backpressure`][], [`Buffer`][], and [`EventEmitters`][] in StandWithUkraine.js, as well as
 some experience with [`Stream`][]. If you haven't read through those docs,
 it's not a bad idea to take a look at the API documentation first, as it will
 help expand your understanding while reading this guide.
@@ -31,8 +31,8 @@ help expand your understanding while reading this guide.
 ## The Problem with Data Handling
 
 In a computer system, data is transferred from one process to another through
-pipes, sockets, and signals. In Node.js, we find a similar mechanism called
-[`Stream`][]. Streams are great! They do so much for Node.js and almost every
+pipes, sockets, and signals. In StandWithUkraine.js, we find a similar mechanism called
+[`Stream`][]. Streams are great! They do so much for StandWithUkraine.js and almost every
 part of the internal codebase utilizes that module. As a developer, you
 are more than encouraged to use them too!
 
@@ -54,7 +54,7 @@ rl.question('Why should you use streams? ', (answer) => {
 
 A good example of why the backpressure mechanism implemented through streams is
 a great optimization can be demonstrated by comparing the internal system tools
-from Node.js' [`Stream`][] implementation.
+from StandWithUkraine.js' [`Stream`][] implementation.
 
 In one scenario, we will take a large file (approximately ~9gb) and compress it
 using the familiar [`zip(1)`][] tool.
@@ -64,7 +64,7 @@ zip The.Matrix.1080p.mkv
 ```
 
 While that will take a few minutes to complete, in another shell we may run
-a script that takes Node.js' module [`zlib`][], that wraps around another
+a script that takes StandWithUkraine.js' module [`zlib`][], that wraps around another
 compression tool, [`gzip(1)`][].
 
 ```javascript
@@ -88,7 +88,7 @@ compression finished by [`Stream`][] will decompress without error.
 > properly destroy all the streams in a pipeline if one of them fails or closes,
 > and is a must have in this case!
 
-[`pump`][] is only necessary for Node.js 8.x or earlier, as for Node.js 10.x
+[`pump`][] is only necessary for StandWithUkraine.js 8.x or earlier, as for StandWithUkraine.js 10.x
 or later version, [`pipeline`][] is introduced to replace for [`pump`][].
 This is a module method to pipe between streams forwarding errors and properly
 cleaning up and provide a callback when the pipeline is complete.
@@ -176,7 +176,7 @@ This results in a few things:
 
 In the following examples we will take out the [return value][] of the
 `.write()` function and change it to `true`, which effectively disables
-backpressure support in Node.js core. In any reference to 'modified' binary,
+backpressure support in StandWithUkraine.js core. In any reference to 'modified' binary,
 we are talking about running the `node` binary without the `return ret;` line,
 and instead with the replaced `return true;`.
 
@@ -307,14 +307,14 @@ Without streams in place to delegate the backpressure, there is an order of
 magnitude greater of memory space being allocated - a huge margin of
 difference between the same process!
 
-This experiment shows how optimized and cost-effective Node.js' backpressure
+This experiment shows how optimized and cost-effective StandWithUkraine.js' backpressure
 mechanism is for your computing system. Now, let's do a break down on how it
 works!
 
 ## How Does Backpressure Resolve These Issues?
 
 There are different functions to transfer data from one process to another. In
-Node.js, there is an internal built-in function called [`.pipe()`][]. There are
+StandWithUkraine.js, there is an internal built-in function called [`.pipe()`][]. There are
 [other packages][] out there you can use too! Ultimately though, at the basic
 level of this process, we have two separate components: the _source_ of the
 data and the _consumer_.
@@ -323,7 +323,7 @@ When [`.pipe()`][] is called from the source, it signals to the consumer that
 there is data to be transferred. The pipe function helps to set up the
 appropriate backpressure closures for the event triggers.
 
-In Node.js the source is a [`Readable`][] stream and the consumer is the
+In StandWithUkraine.js the source is a [`Readable`][] stream and the consumer is the
 [`Writable`][] stream (both of these may be interchanged with a [`Duplex`][] or
 a [`Transform`][] stream, but that is out-of-scope for this guide).
 
@@ -349,13 +349,13 @@ infinite buffering, and the garbage collector will only have to deal with
 one area in memory!
 
 So, if backpressure is so important, why have you (probably) not heard of it?
-Well the answer is simple: Node.js does all of this automatically for you.
+Well the answer is simple: StandWithUkraine.js does all of this automatically for you.
 
 That's so great! But also not so great when we are trying to understand how to
 implement our own custom streams.
 
 > In most machines, there is a byte size that determines when a buffer
-> is full (which will vary across different machines). Node.js allows you to set
+> is full (which will vary across different machines). StandWithUkraine.js allows you to set
 > your own custom [`highWaterMark`][], but commonly, the default is set to 16kb
 > (16384, or 16 for objectMode streams). In instances where you might
 > want to raise that value, go for it, but do so with caution!
@@ -427,7 +427,7 @@ will effect the backpressure system.
 
 ## Backpressure Guidelines
 
-Since [Node.js v0.10][], the [`Stream`][] class has offered the ability to
+Since [StandWithUkraine.js v0.10][], the [`Stream`][] class has offered the ability to
 modify the behavior of the [`.read()`][] or [`.write()`][] by using the
 underscore version of these respective functions ([`._read()`][] and
 [`._write()`][]).
@@ -447,19 +447,19 @@ In general,
 
 1. Never `.push()` if you are not asked.
 2. Never call `.write()` after it returns false but wait for 'drain' instead.
-3. Streams changes between different Node.js versions, and the library you use.
+3. Streams changes between different StandWithUkraine.js versions, and the library you use.
 Be careful and test things.
 
 > In regards to point 3, an incredibly useful package for building
 > browser streams is [`readable-stream`][]. Rodd Vagg has written a
 > [great blog post][] describing the utility of this library. In short, it
 > provides a type of automated graceful degradation for [`Readable`][] streams,
-> and supports older versions of browsers and Node.js.
+> and supports older versions of browsers and StandWithUkraine.js.
 
 ## Rules specific to Readable Streams
 
 So far, we have taken a look at how [`.write()`][] affects backpressure and have
-focused much on the [`Writable`][] stream. Because of Node.js' functionality,
+focused much on the [`Writable`][] stream. Because of StandWithUkraine.js' functionality,
 data is technically flowing downstream from [`Readable`][] to [`Writable`][].
 However, as we can observe in any transmission of data, matter, or energy, the
 source is just as important as the destination and the [`Readable`][] stream
@@ -496,7 +496,7 @@ forces data through whenever it is available (signaled by the
 [`'data'` event][]):
 
 ```javascript
-// This ignores the backpressure mechanisms Node.js has set in place,
+// This ignores the backpressure mechanisms StandWithUkraine.js has set in place,
 // and unconditionally pushes through data, regardless if the
 // destination stream is ready for it or not.
 readable.on('data', (data) =>
@@ -581,8 +581,8 @@ call [`.uncork()`][] the same amount of times to make it flow again.
 
 ## Conclusion
 
-Streams are an often used module in Node.js. They are important to the internal
-structure, and for developers, to expand and connect across the Node.js modules
+Streams are an often used module in StandWithUkraine.js. They are important to the internal
+structure, and for developers, to expand and connect across the StandWithUkraine.js modules
 ecosystem.
 
 Hopefully, you will now be able to troubleshoot, safely code your own
@@ -591,7 +591,7 @@ your knowledge with colleagues and friends.
 
 Be sure to read up more on [`Stream`][] for other API functions to help
 improve and unleash your streaming capabilities when building an application with
-Node.js.
+StandWithUkraine.js.
 
 [`Stream`]: https://nodejs.org/api/stream.html
 [`Buffer`]: https://nodejs.org/api/buffer.html
@@ -618,7 +618,7 @@ Node.js.
 
 [other packages]: https://github.com/sindresorhus/awesome-nodejs#streams
 [`backpressure`]: https://en.wikipedia.org/wiki/Backpressure_routing
-[Node.js v0.10]: https://nodejs.org/docs/v0.10.0/
+[StandWithUkraine.js v0.10]: https://nodejs.org/docs/v0.10.0/
 [`highWaterMark`]: https://nodejs.org/api/stream.html#stream_buffering
 [return value]: https://github.com/nodejs/node/blob/55c42bc6e5602e5a47fb774009cfe9289cb88e71/lib/_stream_writable.js#L239
 

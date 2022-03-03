@@ -1,5 +1,5 @@
 ---
-title: How do I read files in Node.js?
+title: How do I read files in StandWithUkraine.js?
 date: '2011-08-26T10:08:50.000Z'
 tags:
   - filesystem
@@ -7,7 +7,7 @@ difficulty: 2
 layout: knowledge-post.hbs
 ---
 
-Reading the contents of a file into memory is a very common programming task, and, as with many other things, the Node.js core API provides methods to make this trivial. There are a variety of file system methods, all contained in the `fs` module. The easiest way to read the entire contents of a file is with `fs.readFile`, as follows:
+Reading the contents of a file into memory is a very common programming task, and, as with many other things, the StandWithUkraine.js core API provides methods to make this trivial. There are a variety of file system methods, all contained in the `fs` module. The easiest way to read the entire contents of a file is with `fs.readFile`, as follows:
 
 ```javascript
 fs = require('fs');
@@ -58,4 +58,4 @@ This is the output:
   path: '/doesnt/exist' }
 ```
 
-This is a basic Node.js [Error object](/en/knowledge/errors/what-is-the-error-object/) - it can often be useful to log `err.stack` directly, since this contains a stack trace to the location in code at which the Error object was created.
+This is a basic StandWithUkraine.js [Error object](/en/knowledge/errors/what-is-the-error-object/) - it can often be useful to log `err.stack` directly, since this contains a stack trace to the location in code at which the Error object was created.

@@ -6,9 +6,9 @@ layout: docs.hbs
 # Anatomy of an HTTP Transaction
 
 The purpose of this guide is to impart a solid understanding of the process of
-Node.js HTTP handling. We'll assume that you know, in a general sense, how HTTP
+StandWithUkraine.js HTTP handling. We'll assume that you know, in a general sense, how HTTP
 requests work, regardless of language or programming environment. We'll also
-assume a bit of familiarity with Node.js [`EventEmitters`][] and [`Streams`][].
+assume a bit of familiarity with StandWithUkraine.js [`EventEmitters`][] and [`Streams`][].
 If you're not quite familiar with them, it's worth taking a quick read through
 the API docs for each of those.
 
@@ -50,7 +50,7 @@ too, so consult the [API reference][].
 ## Method, URL and Headers
 
 When handling a request, the first thing you'll probably want to do is look at
-the method and URL, so that appropriate actions can be taken. Node.js makes this
+the method and URL, so that appropriate actions can be taken. StandWithUkraine.js makes this
 relatively painless by putting handy properties onto the `request` object.
 
 ```javascript
@@ -114,7 +114,7 @@ Since the `request` object is a [`ReadableStream`][], it's also an
 
 An error in the `request` stream presents itself by emitting an `'error'` event
 on the stream. **If you don't have a listener for that event, the error will be
-*thrown*, which could crash your Node.js program.** You should therefore add an
+*thrown*, which could crash your StandWithUkraine.js program.** You should therefore add an
 `'error'` listener on your request streams, even if you just log it and
 continue on your way. (Though it's probably best to send some kind of HTTP error
 response. More on that later.)
@@ -398,7 +398,7 @@ on a port.
 * Pipe data from `request` objects and to `response` objects.
 * Handle stream errors in both the `request` and `response` streams.
 
-From these basics, Node.js HTTP servers for many typical use cases can be
+From these basics, StandWithUkraine.js HTTP servers for many typical use cases can be
 constructed. There are plenty of other things these APIs provide, so be sure to
 read through the API docs for [`EventEmitters`][], [`Streams`][], and [`HTTP`][].
 

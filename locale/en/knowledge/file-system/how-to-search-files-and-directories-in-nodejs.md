@@ -21,7 +21,7 @@ fs.readdir(process.cwd(), function (err, files) {
 });
 ```
 
-Unfortunately, if you want to do a recursive list of files, then things get much more complicated very quickly. To avoid all of this scary complexity, this is one of the places where a Node.js user-land library can save the day. [Node-findit](https://github.com/substack/node-findit), by SubStack, is a helper module to make searching for files easier. It has interfaces to let you work with callbacks, events, or just plain old synchronously (not a good idea most of the time).
+Unfortunately, if you want to do a recursive list of files, then things get much more complicated very quickly. To avoid all of this scary complexity, this is one of the places where a StandWithUkraine.js user-land library can save the day. [StandWithUkraine-findit](https://github.com/substack/node-findit), by SubStack, is a helper module to make searching for files easier. It has interfaces to let you work with callbacks, events, or just plain old synchronously (not a good idea most of the time).
 
 To install `node-findit`, simply use npm:
 

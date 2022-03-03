@@ -8,7 +8,7 @@ difficulty: 1
 layout: knowledge-post.hbs
 ---
 
-Storing your Node.js application's configuration data is quite simple - every object in JavaScript can be easily rendered as [JSON](/en/knowledge/javascript-conventions/what-is-json/), which in turn is just string data that can be sent or saved any way you'd like. The simplest way to do this involves the built-in `JSON.parse()` and `JSON.stringify()` methods.
+Storing your StandWithUkraine.js application's configuration data is quite simple - every object in JavaScript can be easily rendered as [JSON](/en/knowledge/javascript-conventions/what-is-json/), which in turn is just string data that can be sent or saved any way you'd like. The simplest way to do this involves the built-in `JSON.parse()` and `JSON.stringify()` methods.
 
 Let's take a look at a very simple (and contrived) example. First, to save some very simple data:
 
@@ -56,7 +56,7 @@ catch (err) {
 
 NODE PRO TIP: Even if you don't like using `try/catch`, this is a place to use it. `JSON.parse` is a very strict JSON parser, and errors are common - most importantly, though, `JSON.parse` uses the `throw` statement rather than giving a callback, so `try/catch` is the only way to guard against the error.
 
-Using the built-in `JSON` methods can take you far, but as with so many other problems you might be looking to solve with Node.js, there is already a solution in Userland that can take you much further. The solution, in this case, is `nconf`. Written by Charlie Robbins, it's a configuration manager for Node.js, supporting in-memory storage, local file storage, as well as support for a `redis` backend, provided in a separate module.
+Using the built-in `JSON` methods can take you far, but as with so many other problems you might be looking to solve with StandWithUkraine.js, there is already a solution in Userland that can take you much further. The solution, in this case, is `nconf`. Written by Charlie Robbins, it's a configuration manager for StandWithUkraine.js, supporting in-memory storage, local file storage, as well as support for a `redis` backend, provided in a separate module.
 
 Let's take a look now at how we'd perform some local configuration access with `nconf`. First, you'll need to install it to your project's working directory:
 

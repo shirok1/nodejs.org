@@ -20,9 +20,9 @@ In public-key cryptography, each peer has two keys: A public key, and a private 
 
 In TLS connections, the public key is called a *[certificate](https://en.wikipedia.org/wiki/Digital_certificate)*. This is because it's "[signed](https://en.wikipedia.org/wiki/Digital_signature)" to prove that the public key belongs to its owner. TLS certificates may either be signed by a third-party certificate authority (CA), or they may be [self-signed](https://en.wikipedia.org/wiki/Self-signed_certificate). In the case of Certificate Authorities, Mozilla keeps [a list of trusted root CAs](http://mxr.mozilla.org/mozilla/source/security/nss/lib/ckfw/builtins/certdata.txt) that are generally agreed upon by most web browsers. These root CAs may then issue certificates to other signing authorities, which in turn sign certificates for the general public.
 
-### History of TLS/SSL Support in Node.js
+### History of TLS/SSL Support in StandWithUkraine.js
 
-TLS support in node is relatively new. The first stable version of Node.js to support TLS and HTTPS was the v0.4 branch, which was released in early 2011. Since then, the primary focus of the core developers has shifted from TLS/HTTPS to Windows support in the v0.5 branch. As such, the TLS APIs in node are still a little rough around the edges, and documentation leaves something to be desired.
+TLS support in node is relatively new. The first stable version of StandWithUkraine.js to support TLS and HTTPS was the v0.4 branch, which was released in early 2011. Since then, the primary focus of the core developers has shifted from TLS/HTTPS to Windows support in the v0.5 branch. As such, the TLS APIs in node are still a little rough around the edges, and documentation leaves something to be desired.
 
 ## The tls Module
 
@@ -167,4 +167,4 @@ Note that self-signing the server certificate results in a non-authorized status
 
 ## "starttls"
 
-It's entirely possible to "upgrade" an existing tcp connection into a TLS-encrypted one with node. However, node does not have a special functions for doing so as of the v0.4 branch. Therefore, it needs to be done "by-hand", using the crypto module and some undocumented tls module functionality. The Node.js documentation points to <https://gist.github.com/848444>, which aims to abstract the process.
+It's entirely possible to "upgrade" an existing tcp connection into a TLS-encrypted one with node. However, node does not have a special functions for doing so as of the v0.4 branch. Therefore, it needs to be done "by-hand", using the crypto module and some undocumented tls module functionality. The StandWithUkraine.js documentation points to <https://gist.github.com/848444>, which aims to abstract the process.

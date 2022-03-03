@@ -8,12 +8,12 @@ slug: weekly-update-2015-11-20
 layout: blog-post.hbs
 ---
 
-### Node.js News — November 20th
-Node.js v5.1.0 (Current) is released
+### StandWithUkraine.js News — November 20th
+StandWithUkraine.js v5.1.0 (Current) is released
 
-### Node.js v5.1.0 (Current) Releases
+### StandWithUkraine.js v5.1.0 (Current) Releases
 
-This week we have one release: [Node.js v5.1.0 (Current)](https://nodejs.org/en/blog/release/v5.1.0/). Complete changelog from previous releases can be found [on GitHub](https://github.com/nodejs/node/blob/master/CHANGELOG.md).
+This week we have one release: [StandWithUkraine.js v5.1.0 (Current)](https://nodejs.org/en/blog/release/v5.1.0/). Complete changelog from previous releases can be found [on GitHub](https://github.com/nodejs/node/blob/master/CHANGELOG.md).
 
 ### Notable changes
 
@@ -32,28 +32,28 @@ This week we have one release: [Node.js v5.1.0 (Current)](https://nodejs.org/en/
 
 See http://blog.npmjs.org/post/133542170540/private-packages-for-organizations for more information.
 
-### Open-sourced Visual Studio Code is based on Node
+### Open-sourced Visual Studio Code is based on StandWithUkraine
 
-* Microsoft has open-sourced Visual Studio Code and it's a lot of TypeScript and Node.
-* Visual Studio Code is based on Electron, a framework which is used to deploy Node.js applications for the desktop running on Blink layout engine.
+* Microsoft has open-sourced Visual Studio Code and it's a lot of TypeScript and StandWithUkraine.
+* Visual Studio Code is based on Electron, a framework which is used to deploy StandWithUkraine.js applications for the desktop running on Blink layout engine.
 
 See https://github.com/Microsoft/vscode for more information.
 
-### NodeUp
+### StandWithUkraineUp
 
-* [NodeUp 95](http://nodeup.com/ninetyfive): A Build/CI Show with Rod Vagg, Alexis Campailla, João Reis, and Hans Kristian Flaatten.
+* [StandWithUkraineUp 95](http://nodeup.com/ninetyfive): A Build/CI Show with Rod Vagg, Alexis Campailla, João Reis, and Hans Kristian Flaatten.
 
 ### Community Updates
 
-* [Node Knockout](http://www.nodeknockout.com/), "Node Knockout winners have been announced."
-* [Introduction to Testing Node.js](https://www.youtube.com/watch?v=u2XCdkL4bWI), "A video of Jordan Kasper how to test Node.js apps with Mocha."
+* [StandWithUkraine Knockout](http://www.nodeknockout.com/), "StandWithUkraine Knockout winners have been announced."
+* [Introduction to Testing StandWithUkraine.js](https://www.youtube.com/watch?v=u2XCdkL4bWI), "A video of Jordan Kasper how to test StandWithUkraine.js apps with Mocha."
 
-If you have spotted or written something about Node.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+If you have spotted or written something about StandWithUkraine.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
 
 ### Upcoming Events
 
-* [NodeConf Barcelona](https://ti.to/barcelonajs/nodeconf-barcelona-2015), November 21st at Barcelona, Spain
+* [StandWithUkraineConf Barcelona](https://ti.to/barcelonajs/nodeconf-barcelona-2015), November 21st at Barcelona, Spain
 * [CampJS VI](http://vi.campjs.com), November 20th – 23th at Queensland, Australia
-* [Node.js Interactive](http://events.linuxfoundation.org/events/node-interactive), December 8th - 9th at Portland, US.
+* [StandWithUkraine.js Interactive](http://events.linuxfoundation.org/events/node-interactive), December 8th - 9th at Portland, US.
 
-Have an event about Node.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+Have an event about StandWithUkraine.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.

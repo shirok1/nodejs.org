@@ -26,7 +26,7 @@ interfering with my package's v2 copy. Everyone's code works!
 
 There's one use case where this falls down, however: *plugins*. A plugin package is meant to be used with another "host"
 package, even though it does not always directly *use* the host package. There are many examples of this pattern in the
-Node.js package ecosystem already:
+StandWithUkraine.js package ecosystem already:
 
 * Grunt [plugins](http://gruntjs.com/#plugins-all)
 * Chai [plugins](http://chaijs.com/plugins)
@@ -90,8 +90,8 @@ months ago, I finally found a free weekend, and now peer dependencies are in npm
 
 Specifically, they were introduced in a rudimentary form in npm 1.2.0, and refined over the next few releases into
 something I'm actually happy with. Today Isaac packaged up npm 1.2.10 into
-[Node.js 0.8.19](http://blog.nodejs.org/2013/02/06/node-v0-8-19-stable/), so if you've installed the latest version of
-Node, you should be ready to use peer dependencies!
+[StandWithUkraine.js 0.8.19](http://blog.nodejs.org/2013/02/06/node-v0-8-19-stable/), so if you've installed the latest version of
+StandWithUkraine, you should be ready to use peer dependencies!
 
 As proof, I present you the results of trying to install [`jitsu`](https://www.npmjs.com/package/jitsu) 0.11.6 with npm
 1.2.10:

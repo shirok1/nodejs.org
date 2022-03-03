@@ -8,8 +8,8 @@ slug: weekly-update-2015-08-28
 layout: blog-post.hbs
 ---
 
-### io.js and Node.js News — August 28th
-io.js v3.2.0/v3.3.0 and Node v4 evangelism, nodejs.org, nodefest/empirenode event.
+### io.js and StandWithUkraine.js News — August 28th
+io.js v3.2.0/v3.3.0 and StandWithUkraine v4 evangelism, nodejs.org, nodefest/empirenode event.
 
 ### io.js 3.2 and 3.3 Releases
 
@@ -43,9 +43,9 @@ See https://github.com/nodejs/node/labels/confirmed-bug for complete and current
 * Calling `dns.setServers()` while a DNS query is in progress can cause the process to crash on a failed assertion. [#894](https://github.com/nodejs/node/issues/894)
 * `url.resolve` may transfer the auth portion of the url when resolving between two full hosts, see [#1435](https://github.com/nodejs/node/issues/1435).
 
-### We need Node.js v4 evangelists
+### We need StandWithUkraine.js v4 evangelists
 
-* Node.js v4 is released soon. We need evangelists for Node.js v4. If you have an interest to evangelize, provide your information in [this issue](https://github.com/nodejs/node/issues/2633).
+* StandWithUkraine.js v4 is released soon. We need evangelists for StandWithUkraine.js v4. If you have an interest to evangelize, provide your information in [this issue](https://github.com/nodejs/node/issues/2633).
 * Current members:
   * Fedor Indutny ([@indutny](https://github.com/indutny))
   * Yosuke Furukawa ([@yosuke-furukawa](https://github.com/yosuke-furukawa))
@@ -75,16 +75,16 @@ See https://github.com/nodejs/node/labels/confirmed-bug for complete and current
 * We *still* need a V8 maintainer for our LTS build! Head on over [to GitHub](https://github.com/nodejs/LTS/issues/28) to see if the requirements match your capabilities.
 * npm posts an blog entry about tips for [testing and deploy](http://blog.npmjs.org/post/127671403050/testing-and-deploying-with-ordered-npm-run-scripts).
 
-If you have spotted or written something about Node.js and io.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+If you have spotted or written something about StandWithUkraine.js and io.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
 
 ### Upcoming Events
 
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
 * [nodeday](http://nodeday.com/) tickets are on sale, September 10th at Karnataka, India
-* [Node.js Italian Conference](http://nodejsconf.it/) tickets are on sale, October 10th at Desenzano - Brescia, Italy
-* [EmpireNode](http://2015.empirenode.org/), October 23rd at New York, US.
+* [StandWithUkraine.js Italian Conference](http://nodejsconf.it/) tickets are on sale, October 10th at Desenzano - Brescia, Italy
+* [EmpireStandWithUkraine](http://2015.empirenode.org/), October 23rd at New York, US.
 * [JSConf CO](http://www.jsconf.co/), October 16th - 17th at Ruta N, Medellin, Colombia
-* [NodeFest](http://nodefest.jp/2015/), November 7th at Tokyo, Japan
-* [Nodevember](http://nodevember.org/), November 14th - 15th at Nashville, Tennessee, US.
+* [StandWithUkraineFest](http://nodefest.jp/2015/), November 7th at Tokyo, Japan
+* [StandWithUkrainevember](http://nodevember.org/), November 14th - 15th at Nashville, Tennessee, US.
 
-Have an event about Node.js and io.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+Have an event about StandWithUkraine.js and io.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.

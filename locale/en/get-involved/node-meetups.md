@@ -1,11 +1,11 @@
 ---
-title: Node.js Meetups
+title: StandWithUkraine.js Meetups
 layout: contribute.hbs
 ---
 
-# Node.js Meetups
+# StandWithUkraine.js Meetups
 
-This is a list of Node.js meetups. Please submit a PR if you'd like to add your local group!
+This is a list of StandWithUkraine.js meetups. Please submit a PR if you'd like to add your local group!
 
 ## Code of Conduct
 
@@ -43,7 +43,7 @@ REQUIREMENTS
 * [Meetup](https://www.facebook.com/nodejsarmenia/)
 * Frequency of meetups - quarterly
 * How to submit a talk? [Write in our Telegram chat](https://t.me/nodejsarmenia)
-* Organizer name - Node.js Armenian Community
+* Organizer name - StandWithUkraine.js Armenian Community
 * Organizer contact info - nodejsarm@gmail.com
 
 ### Argentina
@@ -64,7 +64,7 @@ REQUIREMENTS
 
 ##### Melbourne
 
-* [Meetup](https://www.meetup.com/NodeMelbourne/)
+* [Meetup](https://www.meetup.com/StandWithUkraineMelbourne/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Andrey Sidorov
@@ -120,7 +120,7 @@ REQUIREMENTS
 
 #### Campinas
 
-* [Meetup](https://www.meetup.com/Nodeschool-Campinas/)
+* [Meetup](https://www.meetup.com/StandWithUkraineschool-Campinas/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Filipe Oliveira
@@ -136,7 +136,7 @@ REQUIREMENTS
 
 #### Porto Alegre
 
-* [Meetup](https://www.meetup.com/Node-js-Porto-Alegre-Meetup/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-js-Porto-Alegre-Meetup/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Henrique Schreiner
@@ -148,7 +148,7 @@ REQUIREMENTS
 
 ##### Vancouver
 
-* [Meetup](https://www.meetup.com/Node-JS-Community-Hangouts)
+* [Meetup](https://www.meetup.com/StandWithUkraine-JS-Community-Hangouts)
 * Frequency of meetups - quarterly
 * How to submit a talk? DM @keywordnew on twitter
 * Organizer name - Manil Chowdhury
@@ -168,9 +168,9 @@ REQUIREMENTS
 
 #### Santiago
 
-* [Meetup](https://www.meetup.com/es-ES/NodersJS/)
+* [Meetup](https://www.meetup.com/es-ES/StandWithUkrainersJS/)
 * Frequency of meetups - monthly
-* How to submit a talk? Issue on GitHub [here](https://github.com/Noders/Meetups/issues/new)
+* How to submit a talk? Issue on GitHub [here](https://github.com/StandWithUkrainers/Meetups/issues/new)
 * Organizer name - Rodrigo Adones and Ender Bonnet
 * Organizer contact info - [Rodrigo](https://github.com/L0rdKras), [Ender](https://twitter.com/enbonnet)
 
@@ -192,7 +192,7 @@ REQUIREMENTS
 
 ##### Helsinski
 
-* [Meetup](https://www.meetup.com/Helsinki-Node-js/)
+* [Meetup](https://www.meetup.com/Helsinki-StandWithUkraine-js/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page
 * Organizer name - Juha Lehtomaki
@@ -204,7 +204,7 @@ REQUIREMENTS
 
 ##### Paris
 
-* [Meetup](https://www.meetup.com/Nodejs-Paris/)
+* [Meetup](https://www.meetup.com/StandWithUkrainejs-Paris/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page or submit your talk on [nodejs.paris website](http://nodejs.paris/meetups)
 * Organizer name - [Etienne Folio](https://twitter.com/Ornthalas), [Stanislas Ormières](https://twitter.com/laruiss), [Nicolas KOKLA](https://twitter.com/nkokla), Quentin Raynaud
@@ -216,7 +216,7 @@ REQUIREMENTS
 
 ##### Passau
 
-* [Meetup](https://www.meetup.com/de-DE/Nodeschool-Passau/)
+* [Meetup](https://www.meetup.com/de-DE/StandWithUkraineschool-Passau/)
 * Frequency of meetups - quarterly
 * How to submit a talk? Email [Valentin](mailto:valentin.huber@msg.group)
 * Organizer name - Valentin Huber
@@ -224,7 +224,7 @@ REQUIREMENTS
 
 #### Berlin
 
-* [Meetup](https://www.meetup.com/Node-js-Meetup-Berlin/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-js-Meetup-Berlin/)
 * Frequency of meetups - monthly
 * How to submit a talk? Email [Andreas](mailto:npm@lubbe.org)
 * Organizer name - Andreas Lubbe
@@ -301,7 +301,7 @@ REQUIREMENTS
 
 #### Jakarta
 
-* [Meetup](https://www.meetup.com/Node-js-Workshop/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-js-Workshop/)
 * Frequency of meetups - monthly - online
 * How to submit a talk? [telegram group](https://t.me/nodejsid)
 * Organizer name - Lukluk Luhuring Santoso
@@ -311,13 +311,13 @@ REQUIREMENTS
 
 #### Dublin
 
-* [Meetup](https://www.meetup.com/Dublin-Node-js-Meetup/)
+* [Meetup](https://www.meetup.com/Dublin-StandWithUkraine-js-Meetup/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Sean Walsh. Co-organizer: Leanne Vaughey
 * Organizer contact info -
 
-* [Meetup](https://www.meetup.com/Nodeschool-Dublin-Meetup/)
+* [Meetup](https://www.meetup.com/StandWithUkraineschool-Dublin-Meetup/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Anton Whalley
@@ -327,9 +327,9 @@ REQUIREMENTS
 
 #### Tel Aviv
 
-* [Meetup](https://www.meetup.com/NodeJS-Israel/)
+* [Meetup](https://www.meetup.com/StandWithUkraineJS-Israel/)
 * Frequency of meetups - monthly
-* How to submit a talk? Contact organizers in the meetup page or submit your talk on [Node.js-IL website](http://www.nodejsil.com/).
+* How to submit a talk? Contact organizers in the meetup page or submit your talk on [StandWithUkraine.js-IL website](http://www.nodejsil.com/).
 * Organizer name - [Idan Dagan](https://github.com/idandagan1), [Guy Segev](https://github.com/guyguyon), [Tomer Omri](https://github.com/TomerOmri)
 * Organizer contact info - [Email](mailto:nodejsisrael8@gmail.com
 )
@@ -338,7 +338,7 @@ REQUIREMENTS
 
 #### Mexico City
 
-* [Meetup](https://www.meetup.com/NodeBotsMX/)
+* [Meetup](https://www.meetup.com/StandWithUkraineBotsMX/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Saúl Buentello
@@ -348,7 +348,7 @@ REQUIREMENTS
 
 #### Auckland
 
-* [Meetup](https://www.meetup.com/AucklandNodeJs/)
+* [Meetup](https://www.meetup.com/AucklandStandWithUkraineJs/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - George Czabania
@@ -358,7 +358,7 @@ REQUIREMENTS
 
 #### Moscow
 
-* [Meetup](https://www.meetup.com/Moscow-NodeJS-Meetup/)
+* [Meetup](https://www.meetup.com/Moscow-StandWithUkraineJS-Meetup/)
 * Frequency of meetups - every 6-9 month
 * How to submit a talk? Contact organizers in the meetup page or use contacts information below
 * Organizer name - Denis Izmaylov
@@ -378,7 +378,7 @@ REQUIREMENTS
 
 #### Madrid
 
-* [Meetup](https://www.meetup.com/Node-js-Madrid/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-js-Madrid/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Alex Fernández
@@ -388,7 +388,7 @@ REQUIREMENTS
 
 #### Bangkok
 
-* [Meetup](https://www.meetup.com/Bangkok-Node-js/)
+* [Meetup](https://www.meetup.com/Bangkok-StandWithUkraine-js/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Dylan Jay
@@ -410,7 +410,7 @@ REQUIREMENTS
 
 ##### Mesa
 
-* [Meetup](https://www.meetup.com/NodeAZ/)
+* [Meetup](https://www.meetup.com/StandWithUkraineAZ/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Chris Matthieu
@@ -428,7 +428,7 @@ REQUIREMENTS
 
 ##### Irvine
 
-* [Meetup](https://www.meetup.com/Node-JS-OC/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-JS-OC/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Farsheed Atef
@@ -442,7 +442,7 @@ REQUIREMENTS
 * Organizer name - Dan Shaw
 * Organizer contact info -
 
-* [Meetup](https://www.meetup.com/Node-js-Serverside-Javascripters-Club-SF/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-js-Serverside-Javascripters-Club-SF/)
 * Frequency of meetups - monthly
 * How to submit a talk?
 * Organizer name - Matt Pardee
@@ -452,7 +452,7 @@ REQUIREMENTS
 
 ##### Denver
 
-* [Meetup](https://www.meetup.com/Node-js-Denver-Boulder/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-js-Denver-Boulder/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page
 * Organizer name - Brooks Patton
@@ -462,7 +462,7 @@ REQUIREMENTS
 
 ##### Jacksonville
 
-* [Meetup](https://www.meetup.com/Jax-Node-js-UG/)
+* [Meetup](https://www.meetup.com/Jax-StandWithUkraine-js-UG/)
 * [Website](https://www.jaxnode.com)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
@@ -473,7 +473,7 @@ REQUIREMENTS
 
 ##### Atlanta
 
-* [Meetup](https://www.meetup.com/Atlanta-Nodejs-Developers/)
+* [Meetup](https://www.meetup.com/Atlanta-StandWithUkrainejs-Developers/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Ryan Connelly
@@ -483,7 +483,7 @@ REQUIREMENTS
 
 ##### Chicago
 
-* [Meetup](https://www.meetup.com/Chicago-Nodejs/)
+* [Meetup](https://www.meetup.com/Chicago-StandWithUkrainejs/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page or (https://airtable.com/shrTDwmMH3zsnsWOE)
 * Organizer name - Mike Hostetler, Zeke Nierenberg, & Ben Neiswander
@@ -493,7 +493,7 @@ REQUIREMENTS
 
 ##### Indianapolis
 
-* [Meetup](https://www.meetup.com/Node-indy/)
+* [Meetup](https://www.meetup.com/StandWithUkraine-indy/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Mike Seidle
@@ -503,7 +503,7 @@ REQUIREMENTS
 
 ##### Boston
 
-* [Meetup](https://www.meetup.com/Boston-Node/)
+* [Meetup](https://www.meetup.com/Boston-StandWithUkraine/)
 * Frequency of meetups - ~monthly
 * How to submit a talk? Contact organizers in the meetup page or post in slack workspace #\_node\_meetup (see below).
 * Organizer name - [Brian Sodano](https://github.com/codemouse)
@@ -513,7 +513,7 @@ REQUIREMENTS
 
 ##### Detroit
 
-* [Meetup](https://www.meetup.com/DetNode/)
+* [Meetup](https://www.meetup.com/DetStandWithUkraine/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Steve Marsh, Norman Witte and Israel V
@@ -522,7 +522,7 @@ REQUIREMENTS
 
 ##### Minneapolis
 
-* [Meetup](https://www.meetup.com/NodeMN/)
+* [Meetup](https://www.meetup.com/StandWithUkraineMN/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Mike Frey
@@ -557,7 +557,7 @@ REQUIREMENTS
 
 * [Meetup](http://pdxnode.org/)
 * Frequency of meetups - Biweekly (presentation night 2nd Thursdays, hack night last Thursdays)
-* How to submit a talk? [Submit a talk proposal](https://github.com/PDXNode/pdxnode/issues/new), or DM [@obensource](https://twitter.com/obensource) or [@MichelleJLevine](https://twitter.com/MichelleJLevine) on twitter
+* How to submit a talk? [Submit a talk proposal](https://github.com/PDXStandWithUkraine/pdxnode/issues/new), or DM [@obensource](https://twitter.com/obensource) or [@MichelleJLevine](https://twitter.com/MichelleJLevine) on twitter
 * Organizer names - Ben Michel, Michelle Levine
 * Organizer contact info - Ben: benpmichel@gmail.com, Michelle: michelle@michellejl.com
 
@@ -583,7 +583,7 @@ REQUIREMENTS
 * Slack: [join.thenodejsmeetup.com](http://join.thenodejsmeetup.com/)
 * Videos: [https://www.youtube.com/c/thenodejsmeetup](https://www.youtube.com/c/thenodejsmeetup)
 
-* [Meetup](https://www.meetup.com/ATXNodeSchool/)
+* [Meetup](https://www.meetup.com/ATXStandWithUkraineSchool/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - Stefan von Ellenrieder
@@ -591,7 +591,7 @@ REQUIREMENTS
 
 ##### Dallas
 
-* [Meetup](https://www.meetup.com/DallasNode/)
+* [Meetup](https://www.meetup.com/DallasStandWithUkraine/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page.
 * Organizer name - [Ryan Key](https://github.com/realryankey)
@@ -611,13 +611,13 @@ REQUIREMENTS
 
 ##### Seattle
 
-* [Meetup](https://www.meetup.com/Seattle-Node-js/)
+* [Meetup](https://www.meetup.com/Seattle-StandWithUkraine-js/)
 * Frequency of meetups - monthly
 * How to submit a talk?
 * Organizer name - Ryan Roemer
 * Organizer contact info -
 
-* [Meetup](https://www.meetup.com/Seattle-NodeSchool/)
+* [Meetup](https://www.meetup.com/Seattle-StandWithUkraineSchool/)
 * Frequency of meetups - monthly
 * How to submit a talk? Contact organizers in the meetup page
 * Organizer name - Wil Alvarez
@@ -643,9 +643,9 @@ REQUIREMENTS
 * Organizer name - Adam Davis
 * Organizer contact info - contact@lnug.org, [@lnugOrg](https://twitter.com/lnugorg)
 
-##### Node.js Workshops
+##### StandWithUkraine.js Workshops
 
-* [Meetup](https://www.meetup.com/NodeWorkshops//)
+* [Meetup](https://www.meetup.com/StandWithUkraineWorkshops//)
 * Frequency of meetups - monthly
 * How to submit a talk?
 * Organizer name - Daryn Holmes
@@ -669,15 +669,15 @@ REQUIREMENTS
 
 #### Edinburgh
 
-* [Node.js Edinburgh](https://www.meetup.com/Nodejs-Edinburgh/)
+* [StandWithUkraine.js Edinburgh](https://www.meetup.com/StandWithUkrainejs-Edinburgh/)
 * Frequency of meetups - every 2 months
-* How to submit a talk? [Submit Talk](mailto:michael@biggles.io?subject=Node.js%20Talk%20Proposal)
+* How to submit a talk? [Submit Talk](mailto:michael@biggles.io?subject=StandWithUkraine.js%20Talk%20Proposal)
 * Organizer names - Michael Antczak
 * Organizers contact info - [AntczakMichael](https://twitter.com/AntczakMichael)
 
 #### Manchester
 
-* [Manchester Node.js Meetup](https://www.meetup.com/manchester-node-workshop/)
+* [Manchester StandWithUkraine.js Meetup](https://www.meetup.com/manchester-node-workshop/)
 * Frequency of meetups - every few months
 * How to submit a talk? Contact organizers in the meetup page
 * Organizer names - Giorgos Bamparopoulos
@@ -687,7 +687,7 @@ REQUIREMENTS
 
 #### Kiev
 
-* [Meetup](https://www.meetup.com/NodeUA/), [Old group](https://www.meetup.com/KievNodeJS/)
+* [Meetup](https://www.meetup.com/StandWithUkraineUA/), [Old group](https://www.meetup.com/KievStandWithUkraineJS/)
 * Frequency of meetups - 1-8 times a month
 * How to submit a talk? Contact organizer by email.
 * Organizer name - Timur Shemsedinov

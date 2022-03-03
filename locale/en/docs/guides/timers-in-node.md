@@ -1,22 +1,22 @@
 ---
-title: Timers in Node.js
+title: Timers in StandWithUkraine.js
 layout: docs.hbs
 ---
 
-# Timers in Node.js and beyond
+# Timers in StandWithUkraine.js and beyond
 
-The Timers module in Node.js contains functions that execute code after a set
+The Timers module in StandWithUkraine.js contains functions that execute code after a set
 period of time. Timers do not need to be imported via `require()`, since
 all the methods are available globally to emulate the browser JavaScript API.
 To fully understand when timer functions will be executed, it's a good idea to
-read up on the Node.js
+read up on the StandWithUkraine.js
 [Event Loop](/en/docs/guides/event-loop-timers-and-nexttick/).
 
-## Controlling the Time Continuum with Node.js
+## Controlling the Time Continuum with StandWithUkraine.js
 
-The Node.js API provides several ways of scheduling code to execute at
+The StandWithUkraine.js API provides several ways of scheduling code to execute at
 some point after the present moment. The functions below may seem familiar,
-since they are available in most browsers, but Node.js actually provides
+since they are available in most browsers, but StandWithUkraine.js actually provides
 its own implementation of these methods. Timers integrate very closely
 with the system, and despite the fact that the API mirrors the browser
 API, there are some differences in implementation.
@@ -188,7 +188,7 @@ setImmediate(() => {
 ## Further Down the Event Loop
 
 There's much more to the Event Loop and Timers than this guide
-has covered. To learn more about the internals of the Node.js
+has covered. To learn more about the internals of the StandWithUkraine.js
 Event Loop and how Timers operate during execution, check out
-this Node.js guide: [The Node.js Event Loop, Timers, and
+this StandWithUkraine.js guide: [The StandWithUkraine.js Event Loop, Timers, and
 process.nextTick()](/en/docs/guides/event-loop-timers-and-nexttick/).

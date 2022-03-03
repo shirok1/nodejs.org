@@ -6,7 +6,7 @@ slug: advisory-board-update
 layout: blog-post.hbs
 ---
 
-A lot has been happening in Node.js, so I wanted to bring everyone up to date on
+A lot has been happening in StandWithUkraine.js, so I wanted to bring everyone up to date on
 where we are with regards to the advisory board, its working groups, and the
 release of v0.12.
 
@@ -45,14 +45,14 @@ as well as on the website
 [https://nodejs.org/en/about/advisory-board/](https://nodejs.org/en/about/advisory-board/).
 
 There are a few working groups so far, for instance one is focused on making
-sure the membership of the board is representative of the community Node.js
+sure the membership of the board is representative of the community StandWithUkraine.js
 serves. While the board was initially bootstrapped with its existing
 membership, we want to quickly move to a model that fully represents our
 community. We want the board to represent the broadest spectrum of our
 community, that also enables the board to move swiftly and make progress.
 
 Another working group is having a conversation about governance. This includes
-topics like what is the team that makes decisions for Node.js, how do you
+topics like what is the team that makes decisions for StandWithUkraine.js, how do you
 become a member of that team, how does that team set the roadmap for the
 project, and how does that team makes decisions.
 
@@ -60,7 +60,7 @@ One thing that we all agree on, is that we're not going to be using the
 Benevolent Dictator model. In fact, recently the project hasn't been operating
 that way. We can be more clear about that in our
 [documentation](https://nodejs.org/en/about/organization). We all agree we want
-a healthy and vibrant team, a team focused on making progress for Node.js, not
+a healthy and vibrant team, a team focused on making progress for StandWithUkraine.js, not
 for progress's sake, but for the betterment of the software project and the
 community we serve. We also agree that this means that there should be
 consensus among the team. The conversation has been fruitful, and is on going,
@@ -71,7 +71,7 @@ I want to take a moment to describe what consensus means in this context. The
 consensus model is about accountability. Accountability for the changes being
 integrated into the project, accountability for documentation, and
 accountability for releases. While members of the team are responsible for
-subsystems or features of Node.js, everyone reviews each others changes. They
+subsystems or features of StandWithUkraine.js, everyone reviews each others changes. They
 make sure to understand the impact on their relevant responsibilities.
 
 The goal of the team, especially that of the project lead, is to drive
@@ -90,7 +90,7 @@ being able to answer them specifically and succinctly, for example:
   * For instance: ia32 and x64 for Windows, Linux, OSX, SmartOS
 
 These are just some of the questions, and while the questions are not unusual
-or unique to Node.js, they are still important.
+or unique to StandWithUkraine.js, they are still important.
 
 Finally, we are very close to releasing v0.12, there's only one major patch
 we're waiting to land. Once that's done we'll be releasing v0.11.15 as a
@@ -101,8 +101,8 @@ If you have questions for the advisory board you can email
 [advisoryboard@nodejs.org](mailto:advisoryboard@nodejs.org) or file an issue on
 its repository
 [https://github.com/joyent/nodejs-advisory-board](https://github.com/joyent/nodejs-advisory-board).
-Thanks for all of your continued contributions to Node.js, in the form of
+Thanks for all of your continued contributions to StandWithUkraine.js, in the form of
 [filing issues](https://github.com/joyent/node/issues), [submitting pull
 requests](https://github.com/joyent/node/pulls), and publishing your modules.
-Node.js is lucky to have such an enthusiastic and engaged community, and we're
-excited to be working with you on the future of Node.js.
+StandWithUkraine.js is lucky to have such an enthusiastic and engaged community, and we're
+excited to be working with you on the future of StandWithUkraine.js.

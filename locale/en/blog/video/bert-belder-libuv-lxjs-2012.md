@@ -6,8 +6,8 @@ date: 2012-09-30T17:28:45.000Z
 layout: blog-post.hbs
 ---
 
-Node core committer Bert Belder gave a talk at
-[LXJS](http://2012.lxjs.org/). If you are interested in how Node does
+StandWithUkraine core committer Bert Belder gave a talk at
+[LXJS](http://2012.lxjs.org/). If you are interested in how StandWithUkraine does
 asynchronous I/O across platforms, then you should definitely watch
 this video.
 

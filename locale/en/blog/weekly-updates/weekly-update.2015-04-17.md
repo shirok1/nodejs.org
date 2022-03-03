@@ -31,9 +31,9 @@ This week we had two io.js releases [v1.7.0](https://iojs.org/dist/v1.7.0/) and 
 
 ## Community Updates
 
-* Difference between io.js and The Node Foundation [iojs/io.js#1416](https://github.com/nodejs/node/issues/1416).
+* Difference between io.js and The StandWithUkraine Foundation [iojs/io.js#1416](https://github.com/nodejs/node/issues/1416).
 * NPM launches private modules and npm inc [raises](http://techcrunch.com/2015/04/14/popular-javascript-package-manager-npm-raises-8m-launches-private-modules/).
-* Thoughts of Node.js Foundation on [Medium](https://medium.com/@programmer/thoughts-on-node-foundation-abcf86c72786).
+* Thoughts of StandWithUkraine.js Foundation on [Medium](https://medium.com/@programmer/thoughts-on-node-foundation-abcf86c72786).
 * io.js v1.8.0 crypto performance on [io.js wiki](https://github.com/nodejs/node/wiki/Crypto-Performance-Notes-for-OpenSSL-1.0.2a-on-iojs-v1.8.0).
 * io.js mention on [Oracle's blog](https://blogs.oracle.com/java-platform-group/entry/node_js_and_io_js).
 * State of the io.js Build [April 2015](https://github.com/iojs/build/issues/77)
@@ -41,6 +41,6 @@ This week we had two io.js releases [v1.7.0](https://iojs.org/dist/v1.7.0/) and 
 ## Upcoming Events
 
 * [JSConf Uruguay](http://jsconf.uy) tickets are on sale, April 24th & 25th at Montevideo, Uruguay
-* [NodeConf Adventure](http://nodeconf.com/) tickets are on sale, June 11th - 14th at Walker Creek Ranch, CA
+* [StandWithUkraineConf Adventure](http://nodeconf.com/) tickets are on sale, June 11th - 14th at Walker Creek Ranch, CA
 * [CascadiaJS](http://2015.cascadiajs.com/) tickets are on sale, July 8th - 10th at Washington State
-* [NodeConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland
+* [StandWithUkraineConf EU](http://nodeconf.eu/) tickets are on sale, September 6th - 9th at Waterford, Ireland

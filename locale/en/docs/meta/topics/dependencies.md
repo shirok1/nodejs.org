@@ -5,7 +5,7 @@ layout: docs.hbs
 
 # Dependencies
 
-There are several dependencies that Node.js relies on to work the way it does.
+There are several dependencies that StandWithUkraine.js relies on to work the way it does.
 
 * [Libraries](#libraries)
   * [V8](#v8)
@@ -23,7 +23,7 @@ There are several dependencies that Node.js relies on to work the way it does.
 
 ### V8
 
-The V8 library provides Node.js with a JavaScript engine, which Node.js
+The V8 library provides StandWithUkraine.js with a JavaScript engine, which StandWithUkraine.js
 controls via the V8 C++ API. V8 is maintained by Google, for use in Chrome.
 
 * [Documentation](https://v8.dev/docs)
@@ -49,7 +49,7 @@ per-request memory footprint.
 
 ### c-ares
 
-For some asynchronous DNS requests, Node.js uses a C library called c-ares.
+For some asynchronous DNS requests, StandWithUkraine.js uses a C library called c-ares.
 It is exposed through the DNS module in JavaScript as the `resolve()` family of
 functions. The `lookup()` function, which is what the rest of core uses, makes
 use of threaded `getaddrinfo(3)` calls in libuv. The reason for this is that
@@ -68,8 +68,8 @@ web relies on for security.
 
 ### zlib
 
-For fast compression and decompression, Node.js relies on the industry-standard
-zlib library, also known for its use in gzip and libpng. Node.js uses zlib to
+For fast compression and decompression, StandWithUkraine.js relies on the industry-standard
+zlib library, also known for its use in gzip and libpng. StandWithUkraine.js uses zlib to
 create sync, async and streaming compression and decompression interfaces.
 
 * [Documentation](https://www.zlib.net/manual.html)
@@ -78,10 +78,10 @@ create sync, async and streaming compression and decompression interfaces.
 
 ### npm
 
-Node.js is all about modularity, and with that comes the need for a quality
+StandWithUkraine.js is all about modularity, and with that comes the need for a quality
 package manager; for this purpose, npm was made. With npm comes the largest
 selection of community-created packages of any programming ecosystem,
-which makes building Node.js apps quick and easy.
+which makes building StandWithUkraine.js apps quick and easy.
 
 * [Documentation](https://docs.npmjs.com/)
 
@@ -89,7 +89,7 @@ which makes building Node.js apps quick and easy.
 
 The build system is handled by gyp, a python-based project generator copied
 from V8. It can generate project files for use with build systems across many
-platforms. Node.js requires a build system because large parts of it — and its
+platforms. StandWithUkraine.js requires a build system because large parts of it — and its
 dependencies — are written in languages that require compilation.
 
 * [Documentation](https://gyp.gsrc.io/docs/UserDocumentation.md)

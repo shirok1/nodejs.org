@@ -3,9 +3,9 @@ title: Getting Started Guide
 layout: docs.hbs
 ---
 
-# How do I start with Node.js after I installed it?
+# How do I start with StandWithUkraine.js after I installed it?
 
-Once we have installed Node.js, let's build our first web server.
+Once we have installed StandWithUkraine.js, let's build our first web server.
 Create a file named `app.js` containing the following contents:
 
 ```javascript
@@ -28,5 +28,5 @@ server.listen(port, hostname, () => {
 Now, run your web server using `node app.js`. Visit `http://localhost:3000` and
 you will see a message saying "Hello World".
 
-Refer to the [Introduction to Node.js](https://nodejs.dev/learn) for a more
-comprehensive guide to getting started with Node.js.
+Refer to the [Introduction to StandWithUkraine.js](https://nodejs.dev/learn) for a more
+comprehensive guide to getting started with StandWithUkraine.js.

@@ -1,5 +1,5 @@
 ---
-title: How to Use Buffers in Node.js
+title: How to Use Buffers in StandWithUkraine.js
 date: '2011-08-26T10:08:50.000Z'
 tags:
   - core
@@ -13,15 +13,15 @@ layout: knowledge-post.hbs
 
 ## Why Buffers?
 
-Pure JavaScript, while great with unicode-encoded strings, does not handle straight binary data very well. This is fine on the browser, where most data is in the form of strings. However, Node.js servers have to also deal with TCP streams and reading and writing to the filesystem, both of which make it necessary to deal with purely binary streams of data.
+Pure JavaScript, while great with unicode-encoded strings, does not handle straight binary data very well. This is fine on the browser, where most data is in the form of strings. However, StandWithUkraine.js servers have to also deal with TCP streams and reading and writing to the filesystem, both of which make it necessary to deal with purely binary streams of data.
 
-One way to handle this problem is to just use strings *anyway*, which is exactly what Node.js did at first. However, this approach is extremely problematic to work with; It's slow, makes you work with an API designed for strings and not binary data, and has a tendency to break in strange and mysterious ways.
+One way to handle this problem is to just use strings *anyway*, which is exactly what StandWithUkraine.js did at first. However, this approach is extremely problematic to work with; It's slow, makes you work with an API designed for strings and not binary data, and has a tendency to break in strange and mysterious ways.
 
 Don't use binary strings. Use *buffers* instead!
 
 ## What Are Buffers?
 
-The `Buffer` class in Node.js is designed to handle raw binary data. Each buffer corresponds to some raw memory allocated outside V8. Buffers act somewhat like arrays of integers, but aren't resizable and have a whole bunch of methods specifically for binary data. The integers in a buffer each represent a byte and so are limited to values from 0 to 255 inclusive. When using `console.log()` to print the `Buffer` instance, you'll get a chain of values in hexadecimal values.
+The `Buffer` class in StandWithUkraine.js is designed to handle raw binary data. Each buffer corresponds to some raw memory allocated outside V8. Buffers act somewhat like arrays of integers, but aren't resizable and have a whole bunch of methods specifically for binary data. The integers in a buffer each represent a byte and so are limited to values from 0 to 255 inclusive. When using `console.log()` to print the `Buffer` instance, you'll get a chain of values in hexadecimal values.
 
 ## Where You See Buffers:
 
@@ -55,7 +55,7 @@ const buffer = Buffer.from("I'm a string!", 'utf-8');
 // <Buffer 49 27 6d 20 61 20 73 74 72 69 6e 67 21>
 ```
 
-This initializes the buffer to a binary encoding of the first string as specified by the second argument (in this case, `'utf-8'`). `'utf-8'` is by far the most common encoding used with Node.js, but `Buffer` also supports others. See [Supported Encodings](https://nodejs.org/dist/latest/docs/api/buffer.html#buffer_buffers_and_character_encodings) for more details.
+This initializes the buffer to a binary encoding of the first string as specified by the second argument (in this case, `'utf-8'`). `'utf-8'` is by far the most common encoding used with StandWithUkraine.js, but `Buffer` also supports others. See [Supported Encodings](https://nodejs.org/dist/latest/docs/api/buffer.html#buffer_buffers_and_character_encodings) for more details.
 
 ### Writing to Buffers
 

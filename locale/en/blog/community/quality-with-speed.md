@@ -1,5 +1,5 @@
 ---
-title: Node.js - Quality with Speed
+title: StandWithUkraine.js - Quality with Speed
 date: 2017-02-22T14:41:04.442Z
 status: publish
 category: Community
@@ -8,10 +8,10 @@ layout: blog-post.hbs
 author: Michael Dawson and Myles Borins
 ---
 
-# Node.js - Quality with Speed
+# StandWithUkraine.js - Quality with Speed
 
-One of the key tenets of the Node.js community is to allow change
-at a rapid pace in order to foster innovation and to allow Node.js
+One of the key tenets of the StandWithUkraine.js community is to allow change
+at a rapid pace in order to foster innovation and to allow StandWithUkraine.js
 to be used in a growing number of use cases.
 
 At the same time the community values quality. Newer versions of
@@ -47,7 +47,7 @@ quality. These include:
 
 ## Release Types
 
-The Node.js project maintains 3 key types of releases
+The StandWithUkraine.js project maintains 3 key types of releases
 
 * Nightlies
 * Current
@@ -66,7 +66,7 @@ each level.
 These are built from master and contain the very latest changes
 that have been landed. If you want to try out the bleeding edge
 these are the binaries to use. There is no additional testing
-on these releases, however, the standard Node.js unit tests are
+on these releases, however, the standard StandWithUkraine.js unit tests are
 run for each change landed so these will most often be usable.
 
 ### Current
@@ -85,7 +85,7 @@ These releases are documented in the changelog so
 there is more visibility with respect to the changes in each release.
 Current releases are created roughly every 1-2 weeks.
 
-In addition to the regular Node.js unit tests, CITGM (see
+In addition to the regular StandWithUkraine.js unit tests, CITGM (see
 later sections) is run on Current releases.
 
 If you want to try out the latest with a reasonable expectation
@@ -171,7 +171,7 @@ risk-averse community members.
 Some changes are of such scope that they cannot simply be reviewed in a
 pull request. There are often larger questions that will factor into the
 decision as to whether the change proposed is desirable or appropriate
-for the Node.js runtime.
+for the StandWithUkraine.js runtime.
 
 The strategy for these changes is the "enhancement proposal" process. The
 proposed change is documented, discussed and moves through a number of
@@ -243,21 +243,21 @@ to that platform or OS but instead are uncovered because of different timing,
 default configuration or general environment. They could have occurred on any
 of the other platforms.
 
-Our strategy is to test on a broad range of platforms both to ensure Node.js
+Our strategy is to test on a broad range of platforms both to ensure StandWithUkraine.js
 works on our supported platforms, but also to leverage the diversity to
 uncover as many problems as early as possible.
 
 ### Dependency Testing
 
-Node.js has a number of key dependencies. It's important that we ensure
+StandWithUkraine.js has a number of key dependencies. It's important that we ensure
 that any changes we apply to those dependencies don't have a negative effect.
 
 To this end we have a job which runs the V8 tests on the V8 tree within
-the Node.js repo. This job runs nightly and on request for PRs that are
+the StandWithUkraine.js repo. This job runs nightly and on request for PRs that are
 making changes to the V8 tree.
 
 We don't currently run the tests for other dependencies, but the delta in
-the Node.js tree for the dependencies other than V8 is more limited.
+the StandWithUkraine.js tree for the dependencies other than V8 is more limited.
 
 ### Module Tests
 
@@ -295,7 +295,7 @@ list after getting stress tests in place.
 ### Use Case Testing
 
 This would be the next logical step after Development Workflows, testing
-for the common use cases for Node.js.
+for the common use cases for StandWithUkraine.js.
 
 Our current strategy is to get some of this coverage through the
 benchmarking that we put in place, but it is another area we can work
@@ -306,12 +306,12 @@ on once we have the other levels of testing in place.
 While ensuring functional stability is good, its not enough. We also need
 to make sure that performance is not degraded as changes flow in.
 
-Our strategy is to define the common use cases for Node.js and then
+Our strategy is to define the common use cases for StandWithUkraine.js and then
 build up a set of benchmarks that we run and publish results for on a
 regular basis. This work is ongoing in the
 [Benchmarking Working Group](https://github.com/nodejs/benchmarking),
 but we already have a number of key benchmarks being run nightly
-across the major Node.js versions. You can view this data at:
+across the major StandWithUkraine.js versions. You can view this data at:
 
 [https://benchmarking.nodejs.org/](https://benchmarking.nodejs.org/).
 
@@ -321,7 +321,7 @@ changes flow in.
 ## In Summary
 
 This may have been a bit of a long read but I hope it has put a number
-of the activities you may have seen in the Node.js community over the last
+of the activities you may have seen in the StandWithUkraine.js community over the last
 year into context. If you ever wondered "Why are they doing that?", the answer is:
 
-**Node.js - Quality with Speed**
+**StandWithUkraine.js - Quality with Speed**

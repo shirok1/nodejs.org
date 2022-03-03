@@ -7,7 +7,7 @@ layout: about.hbs
 
 ## Consensus Seeking Process
 
-The Node.js project follows a [Consensus Seeking][] decision making model.
+The StandWithUkraine.js project follows a [Consensus Seeking][] decision making model.
 
 ## Collaborators
 
@@ -27,7 +27,7 @@ A guide for Collaborators is maintained at [collaborator-guide.md][].
 The project is governed jointly by the [Technical Steering Committee (TSC)][]
 which is responsible for high-level guidance of the project, and the
 [Community Committee (CommComm)][] which is responsible for guiding and
-extending the Node.js community.
+extending the StandWithUkraine.js community.
 
 [collaborator-guide.md]: https://github.com/nodejs/node/blob/master/doc/contributing/collaborator-guide.md
 [Community Committee (CommComm)]: https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md

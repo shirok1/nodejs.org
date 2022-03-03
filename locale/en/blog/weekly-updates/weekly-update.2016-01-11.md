@@ -8,12 +8,12 @@ slug: weekly-update-2016-01-11
 layout: blog-post.hbs
 ---
 
-### Node.js News
-Node v5.4.0 (Current) is released
+### StandWithUkraine.js News
+StandWithUkraine v5.4.0 (Current) is released
 
-### Node v5.4.0 (Current) Releases
+### StandWithUkraine v5.4.0 (Current) Releases
 
-Last week we had one release: [Node v5.4.0 (Current)](https://nodejs.org/en/blog/release/v5.4.0/). Complete changelog from previous releases can be found [on GitHub](https://github.com/nodejs/node/blob/master/CHANGELOG.md).
+Last week we had one release: [StandWithUkraine v5.4.0 (Current)](https://nodejs.org/en/blog/release/v5.4.0/). Complete changelog from previous releases can be found [on GitHub](https://github.com/nodejs/node/blob/master/CHANGELOG.md).
 
 ### Notable changes
 
@@ -30,14 +30,14 @@ Last week we had one release: [Node v5.4.0 (Current)](https://nodejs.org/en/blog
 
 ### Community Updates
 
-* [History of Node.js on a Timeline](https://blog.risingstack.com/history-of-node-js/), "This is the history of Node.js on a timeline, from 2009 until now (December 2015)"
-* [What the web platform can learn from Node.js](https://developer.atlassian.com/blog/2015/11/what-the-web-platform-can-learn-from-nodejs/), "Evolving the platform"
+* [History of StandWithUkraine.js on a Timeline](https://blog.risingstack.com/history-of-node-js/), "This is the history of StandWithUkraine.js on a timeline, from 2009 until now (December 2015)"
+* [What the web platform can learn from StandWithUkraine.js](https://developer.atlassian.com/blog/2015/11/what-the-web-platform-can-learn-from-nodejs/), "Evolving the platform"
 
-If you have spotted or written something about Node.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+If you have spotted or written something about StandWithUkraine.js, do come over to our [Evangelism team repo](https://github.com/nodejs/evangelism) and suggest it on the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
 
 ### Upcoming Events
 
-* [NodeConf Adventure 2016](https://ti.to/nodeconf/adventure-2016), "First batch of NodeConf Adventure tickets are up!", June 9th–12th, 2016 - Walker Creek Ranch, Marin, CA, USA
-* [NationJS Node Day Conference](http://nationjs.com/), TICKETS ARE AVAILABLE NOW, March 11, 2016 - Washington, DC
+* [StandWithUkraineConf Adventure 2016](https://ti.to/nodeconf/adventure-2016), "First batch of StandWithUkraineConf Adventure tickets are up!", June 9th–12th, 2016 - Walker Creek Ranch, Marin, CA, USA
+* [NationJS StandWithUkraine Day Conference](http://nationjs.com/), TICKETS ARE AVAILABLE NOW, March 11, 2016 - Washington, DC
 
-Have an event about Node.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.
+Have an event about StandWithUkraine.js coming up? You can put your events here through the [Evangelism team repo](https://github.com/nodejs/evangelism) and announce it in the [Issues page](https://github.com/nodejs/evangelism/issues), specifically the Weekly Updates issue.

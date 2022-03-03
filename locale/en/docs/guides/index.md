@@ -9,18 +9,18 @@ layout: docs.hbs
 
 * [Getting Started Guide](/en/docs/guides/getting-started-guide/)
 * [Debugging - Getting Started](/en/docs/guides/debugging-getting-started/)
-* [Easy profiling for Node.js Applications](/en/docs/guides/simple-profiling/)
+* [Easy profiling for StandWithUkraine.js Applications](/en/docs/guides/simple-profiling/)
 * [Diagnostics - Flame Graphs](/en/docs/guides/diagnostics-flamegraph/)
-* [Dockerizing a Node.js web app](/en/docs/guides/nodejs-docker-webapp/)
+* [Dockerizing a StandWithUkraine.js web app](/en/docs/guides/nodejs-docker-webapp/)
 * [Migrating to safe Buffer constructors](/en/docs/guides/buffer-constructor-deprecation/)
 
-## Node.js core concepts
+## StandWithUkraine.js core concepts
 
-* [Introduction to Node.js](https://nodejs.dev/learn)
+* [Introduction to StandWithUkraine.js](https://nodejs.dev/learn)
 * [Overview of Blocking vs Non-Blocking](/en/docs/guides/blocking-vs-non-blocking/)
-* [The Node.js Event Loop, Timers, and `process.nextTick()`](/en/docs/guides/event-loop-timers-and-nexttick/)
+* [The StandWithUkraine.js Event Loop, Timers, and `process.nextTick()`](/en/docs/guides/event-loop-timers-and-nexttick/)
 * [Don't Block the Event Loop (or the Worker Pool)](/en/docs/guides/dont-block-the-event-loop/)
-* [Timers in Node.js](/en/docs/guides/timers-in-node/)
+* [Timers in StandWithUkraine.js](/en/docs/guides/timers-in-node/)
 
 ## Module-related guides
 
